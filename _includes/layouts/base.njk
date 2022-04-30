@@ -1,0 +1,49 @@
+---
+title: Kaeforest
+description: Blog &amp; portfolio of Kae.
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href={ page.url }/>
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
+    {# All them metas. #}
+    <meta property="og:title" content={ title or renderData.title or metadata.title }/>
+    <meta property="og:description" content={description or renderData.description} />
+    <meta property="og:url" content={ page.url } />
+    <meta property="og:image" content="/static/logo.png" />
+    <meta property="og:type" content="article" />
+    {# Linking all our fonts locally bc Germany compliance. Also to prevent tracking users. #}
+    <link rel="stylesheet" href="/static/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Regular.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Medium.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Bold.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Bold.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Fira_Sans/*" />
+    <link rel="stylesheet" href="/static/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf"/>
+    <link rel="stylesheet" href="/static/fonts/Raleway/Raleway-VariableFont_wght.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Ropa_Sans/RopaSans-Regular.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Ropa_Sans/RopaSans-Italic.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf"/>
+    <link rel="stylesheet" href="/static/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf"/>
+    <link rel="stylesheet" href="/css/index.css"/>
+    <title>{{ title }}</title>
+    {# 
+    Now for our stylsheets! As minified CSS!
+    {% set css %}
+    {% include '/css/index.styl' %}
+    {% endset %}
+    <style>
+      {{css | postcss | safe}}
+    </style>
+    #}
+  </head>
+  <body>
+    {% include 'header.njk' %}
+    {{ content | safe }}
+  </body>
+</html>

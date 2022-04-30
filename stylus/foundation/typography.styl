@@ -1,0 +1,52 @@
+h1
+h2
+h3
+h4
+h5
+h6
+p
+  margin 0.75rem 0
+  font-weight 400
+
+// Cute hack I found for scaling header tags programatically~
+for i in (1..6)
+  h{i}
+    text_scale_size (7 - i)
+
+small
+  text_scale_size -1
+
+a
+  links(rose)
+  color rose
+  text-decoration none
+
+  body.dark &
+    color primary_color_dark
+
+  &:hover
+    text-decoration underline
+
+  &[href]
+  links(rose)
+    &:visited
+      color charcoal
+
+
+
+
+hr
+  border-color rgba(0, 0, 0, 0.1)
+
+p:last-child {
+  margin-bottom: 0;
+}
+p,
+.tmpl-post li,
+img {
+  max-width: 37.5em; /* 600px /16 */
+}
+p,
+.tmpl-post li {
+  line-height: 1.45;
+}
