@@ -4,36 +4,43 @@
   "description": "dumb bitch shit",
   "license": "ISC",
   "prettier": "prettier-config-xo",
+  "module": "node",
   "repository": {
     "type": "git",
     "url": "git://gitlab.com/kaelta/kaeforest.git"
   },
   "author": {
     "name": "kaelta",
-    "email": "kaelta@kae.love",
-    "url": "https://cxss.love/"
+    "email": "kaelta@mothra.love",
+    "url": "https://mothra.love/"
   },
   "scripts": {
     "watch:stylus": "stylus -w -o _site/css ./stylus/",
     "build:stylus": "stylus -c -o _site/css ./stylus/",
     "watch:eleventy": "eleventy --serve",
-    "build:eleventy": "npm-run-all build:*",
+    "build:eleventy": "eleventy",
     "start": "npm-run-all build:stylus --parallel watch:*",
-    "build": "npm-run-all build:*",
-    "debug": "DEBUG=* eleventy"
+    "build": "npm-run-all build:* --parallel",
+    "debug": "DEBUG=* eleventy",
+    "lint": "xo --fix"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "autoprefixer": "^10.4.5",
+    "cssnano": "^5.1.7",
     "eslint": "^8.12.0",
     "eslint-config-xo": "^0.40.0",
+    "gulp": "^4.0.2",
+    "gulp-stylus": "^2.7.1",
     "luxon": "^2.3.1",
     "markdown-it": "^12.3.2",
-    "markdown-it-anchor": "^8.4.1",
+    "markdown-it-anchor": "^8.6.2",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.12",
+    "postcss": "^8.4.13",
+    "poststylus": "^1.0.1",
     "prettier": "^2.6.1",
     "prettier-config-xo": "^2.0.0",
     "stylus": "^0.57.0",

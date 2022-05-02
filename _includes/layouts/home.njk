@@ -1,7 +1,12 @@
 ---
 layout: layouts/base.njk
+tags:
+  - pages
 ---
 
-<div class="home">
-  {{ content | safe }}
-</div>
+<main class="flex">
+  {% include 'sidebar.njk' %}
+  <main class="home">
+    {{ content | safe }}
+  </main>
+</main>

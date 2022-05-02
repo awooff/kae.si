@@ -1,5 +1,17 @@
-{% if updated_at %}
-<span class="post-date">updated at: {{ updated_at }}</span>
-{% endif %}
+---
+layout: layouts/base.njk
+tags: post
+---
 
-<article>{{ content }}</article>
+{% include 'header.njk' %}
+<main class="flex">
+  <main class="home">
+    <article>
+      {{ content | safe }}
+    </article>
+    {%- if updated_at -%}
+      <span class="post-date">updated at: {{ updated_at }}</span>
+    {%- endif -%}
+  </main>
+</main>
+

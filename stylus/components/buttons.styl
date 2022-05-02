@@ -1,5 +1,12 @@
-button(accent)
+-button(accent)
   color accent
   background-color accent
   border-radius 6px
   box-shadow 2px
+
+button
+  -button(grullo)
+  &.success
+    -button(charcoal)
+  &.fail
+    -button(rose)

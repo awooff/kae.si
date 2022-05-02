@@ -1,0 +1,13 @@
+<div class="sidebar">
+  <i class="icon">
+    <a href="/"><img src="/static/img/logo.jpg"/></a>
+  </i>
+  <p>{{description}}</p>
+  <p> 🦌️ 💜 🖤 🎶 🎸 </p>
+  <hr/>
+  <ul class="links">
+    {%- for link in collections.pages -%}
+      <li{% if page.url == post.url %} aria-current="page"{% endif %}><a href={{link.url}}>{{link.data.title}}</a></li>
+    {%- endfor -%}
+  </ul>
+</div>

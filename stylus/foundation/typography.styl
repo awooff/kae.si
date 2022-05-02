@@ -5,6 +5,7 @@ h4
 h5
 h6
 p
+  font-family 'Source Code Pro', sans-serif 
   margin 0.75rem 0
   font-weight 400
 
@@ -20,27 +21,30 @@ a
   links(rose)
   color rose
   text-decoration none
-
   body.dark &
     color primary_color_dark
-
   &:hover
     text-decoration underline
-
+    color sky
   &[href]
   links(rose)
     &:visited
       color charcoal
 
+li
+  line-height 1.2
+  word-spacing 2px
+  &:before
+    content ' ⦿ '
 
-
+p
+  font-family text_font
+  &:last-child
+    margin-bottom 0
 
 hr
-  border-color rgba(0, 0, 0, 0.1)
+  border-color rgba(245, 229, 229, 0.575)
 
-p:last-child {
-  margin-bottom: 0;
-}
 p,
 .tmpl-post li,
 img {

@@ -1,0 +1,43 @@
+-spacing(scale) {
+  margin-top 1.65 * scale
+  margin-bottom 1.65 * scale
+  padding-top 1.65 * scale
+  padding-bottom 1.65 * scale
+}
+
+.sidebar {
+  @media only screen and (max-width breakpoints.md) {
+    align-items center
+    justify-content center
+  }
+  text-align center
+  height 100%
+  order 1
+  .entry {
+    padding 8px
+    font-size 24px
+    display block
+  }
+  .links {
+    li {
+      -spacing(2)
+      margin .65rem
+      padding 0.2em
+      border-bottom 1px grullo solid
+      text-align left
+      &>a[href] {
+        text-align justify
+        color sky
+      }
+    }
+  }
+}
+.icon {
+  img {
+    @media only screen and (max-width breakpoints.md) {
+      border-radius 320px / 100vw
+    }
+    border-radius 320px
+    width max(12vw, 280px)
+  }
+}

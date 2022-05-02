@@ -1,9 +1,12 @@
 /* Base dark theme
   mixin pulled from ./abstracts/_colors.styl */
 
-body, html, :root {
-  background-color fogra39
+body,
+html,
+:root {
+  background-color background-primary
   color text-primary
+  font-family default_font
 }
 
 * {
@@ -11,6 +14,12 @@ body, html, :root {
 }
 
 main {
+  @media only screen and (max-width: breakpoints.md) {
+    flex-direction column-reverse
+  }
+  display flex
+  flex-direction row
+  order 2 // Should be positioned next to the sidebar, on the right
   padding 1rem
   &:first-child {
     margin-top 0
