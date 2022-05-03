@@ -1,13 +1,20 @@
+{% block sidebar %}
 <div class="sidebar">
-  <i class="icon">
-    <a href="/"><img src="/static/img/logo.jpg"/></a>
-  </i>
-  <p>{{description}}</p>
-  <p> 🦌️ 💜 🖤 🎶 🎸 </p>
-  <hr/>
-  <ul class="links">
-    {%- for link in collections.pages -%}
-      <li{% if page.url == post.url %} aria-current="page"{% endif %}><a href={{link.url}}>{{link.data.title}}</a></li>
-    {%- endfor -%}
-  </ul>
+  {% block sidebar_title %}
+    <i class="icon">
+      <a href="/"><img src="/static/img/logo.jpg"/></a>
+    </i>
+    <p>{{description}}</p>
+    <p> 🦌️ 💜 🖤 🎶 🎸 </p>
+    <hr/>
+  {% endblock sidebar_title %}
+  {% block sidebar_links %}
+    <ul class="links">
+      {%- for link in collections.nav %}
+        <li{% if page.url == post.url %} aria-current="page"{% endif %}><a href={{link.url}}>{{link.data.title}}</a></li>
+      {%- endfor -%}
+      <li{% if page.url == post.url %} aria-current="page"{% endif %}><a href="/pages/page-list">Page list</a></li>
+    </ul>
+  {% endblock sidebar_links %}
 </div>
+{% endblock %}

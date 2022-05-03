@@ -4,9 +4,15 @@
 body,
 html,
 :root {
-  background-color background-primary
-  color text-primary
-  font-family default_font
+  @media (prefers-color-scheme dark) {
+    background-color background-primary
+    color text-primary
+  }
+  @media (prefers-color-scheme light) {
+    background-color #fafafa
+    color fogra29
+  }
+  font-family Fira Mono, monospace
 }
 
 * {

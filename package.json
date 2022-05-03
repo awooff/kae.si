@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
+    "@barba/core": "^2.9.7",
     "postcss-instagram": "^1.0.0",
     "postcss-uncss": "^0.17.0",
     "uncss": "^0.17.3"

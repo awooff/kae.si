@@ -24,7 +24,7 @@ const handler = async event => {
       statusCode: 200,
       body: html
     };
-  } catch(err) {
+  } catch (err) {
     return {
       statusCode: 500,
       body: JSON.stringify({error: err.message}),
@@ -103,13 +103,14 @@ module.exports = evc => {
   });
 
   evc.addNunjucksShortcode('tech', () => {
-    
+
   });
 
-  let markdownLibrary = markdownIt({
+  const markdownLibrary = markdownIt({
     html: true,
     breaks: true,
-    linkify: true
+    linkify: true,
+    typographer: true,
   }).use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: 'after',
@@ -120,6 +121,8 @@ module.exports = evc => {
     slugify: evc.getFilter('slug'),
   });
   evc.setLibrary('md', markdownLibrary);
+  evc.addFilter('markdown', content => markdownLibrary.render(content));
+  evc.addPairedShortcode('markdown', content => md.render(content));
 
   // Override Browsersync defaults (used only with --serve)
   evc.setBrowserSyncConfig({

@@ -1,7 +1,13 @@
 /* Vendor styles & stuff. Make sure reset is at the top to get rid of default styles */
 @require 'vendor/reset.styl'
 @require 'vendor/prism-okaidia.styl'
-@require 'vendor/prism-base16-monokai.dark.styl'
+// Changing colorschemes for syntax highlighting
+// Light
+@media (prefers-color-scheme light)
+  @require 'vendor/prism-duotone-light.styl'
+// Dark
+@media (prefers-color-scheme dark)
+  @require 'vendor/prism-base16-monokai.dark.styl'
 
 /* Colors */
 @require 'abstracts/_variables.styl'
@@ -19,6 +25,7 @@
 @require 'components/buttons.styl'
 @require 'components/posts.styl'
 @require 'components/sidebar.styl'
+@require 'components/footer.styl'
 
 /* Layout components & the like */
 @require 'layouts/container.styl'

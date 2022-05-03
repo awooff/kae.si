@@ -8,7 +8,7 @@ description: About the wonderful Kae
 
 19 yr old full-stack web developer working with JAMstack & MERN stack with 2 years experience.
 
-For a brief resumé, please visit [this link.](/static/resume.pdf)
+For a brief resumé, please visit [this link.](/static/content/resume.pdf)
 
 ## Personal
 

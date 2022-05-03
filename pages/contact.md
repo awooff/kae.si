@@ -1,5 +1,4 @@
 ---
-layout: layouts/home.njk
 title: Contact
 description: Where to find us
 ---
@@ -8,9 +7,11 @@ description: Where to find us
 
 `curl https://kaeforest.surge.sh/static/content/pubkey.asc`
 
-Then either contact us via [our confidential email](<mailto:kaelta.cass@disr.it>)
-or [our professional email](<mailto:bowen.cass17@gmail.com>)
+Then either contact us via [our confidential email](mailto:kaelta.cass@disr.it)
+or [our professional email](mailto:bowen.cass17@gmail.com)
 
 ## Socials
 
-- [Twitter](<https://twitter.com/@kaelta_>)
+- [Twitter - @kaelta_](<https://twitter.com/@kaelta_>)
+- [Mastodon - @kae](<@kae@solarpunks.social>)
+- [GitLab - @kaelta](<https://gitlab.com/kaelta>)

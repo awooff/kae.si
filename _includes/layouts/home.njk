@@ -1,7 +1,5 @@
 ---
 layout: layouts/base.njk
-tags:
-  - pages
 ---
 
 <main class="flex">
@@ -10,3 +8,10 @@ tags:
     {{ content | safe }}
   </main>
 </main>
+
+<script src="node_modules/@barba/core"></script>
+<script>
+  barba.init({
+      /* */
+  });
+</script>

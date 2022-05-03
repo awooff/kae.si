@@ -2,14 +2,10 @@
 layout: layouts/home.njk
 ---
 
-# Hi  Ihihihi
+# Hi, this is Kaelta.
 
-sfskdlfj
-him df
-lsjdf
+See my work on my [bandcamp](<https://xhaart.bandcamp.com>)
+Or my programming & web development on my [gitlab](<https://gitlab.com/kaelta>)
 
-| **Im in love!** | with tha | coco |
-| --------------- | -------- | ---- |
-|    and me       |  apollo  |  god |
-|    and me       |  apollo  |  god |
-|    and me       |  apollo  |  god |
+![hihi :>](/static/img/juuzo.jpg)
+

@@ -5,7 +5,7 @@ h4
 h5
 h6
 p
-  font-family 'Source Code Pro', sans-serif 
+  font-family 'Source Code Pro', sans-serif
   margin 0.75rem 0
   font-weight 400
 
@@ -16,6 +16,11 @@ for i in (1..6)
 
 small
   text_scale_size -1
+
+pre
+  white-space wrap
+  overflow hidden
+  text-overflow ellipsis
 
 a
   links(rose)
@@ -30,6 +35,43 @@ a
   links(rose)
     &:visited
       color charcoal
+
+p>code
+  border 1px grullo dashed
+  font-style italic
+
+strong
+  font-weight 600
+
+// https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+-blockquote-theme()
+  @media (prefers-color-scheme light)
+    background #f9f9f9
+    color fogra39
+  @media (prefers-color-scheme dark)
+    background background-primary
+    color text_primary
+
+blockquote
+  -blockquote-theme()
+  background #f9f9f9
+  border-left 10px solid #ccc
+  margin 1.5em 10px
+  padding 0.5em 10px
+  quotes "\201C""\201D""\2018""\2019"
+  p
+    font-style italic
+    display inline
+  &:before
+    color #ccc
+    content open-quote
+    font-size 4em
+    line-height 0.1em
+    margin-right 0.25em
+    vertical-align -0.4em
+
+em
+  font-style italic
 
 li
   line-height 1.2

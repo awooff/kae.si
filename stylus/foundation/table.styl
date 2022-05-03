@@ -1,9 +1,9 @@
 -table-value($exponent) 
-  padding-right 1em
+  padding $exponent
   margin 1em / $exponent 0
 
 -theme($accent)
-  color $accent
+  // color $accent
   border-color darken($accent, 0.2)
 
 table
@@ -12,11 +12,12 @@ table
   border-spacing 0.5rem
   border-collapse collapse
   td
-    -table-value(0.2)
+    -table-value(1.2em)
+    color white
     for iter in (0..6)
       &:nth-child({iter})
         -theme(fogra29)
-        background hsl(iter * 2.5, iter * 6.6, 50%)
+        // background hsl(iter * 2.5, iter * 6.6, 50%)
   tr
     padding 0.2em
     border-color grullo

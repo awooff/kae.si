@@ -1,5 +1,4 @@
 ---
-layout: layouts/home.njk
 title: Cover Letter
 description: Generic cover letter
 ---
