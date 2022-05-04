@@ -1,5 +1,7 @@
-# ${1:$TM_FILENAME_BASE}
+---
+title: ${1:$TM_FILENAME_BASE}
+description: ${2:Description}
+tags: ${3:Tags}
+---
 
-${2: Content}
-
-Created on :: ${YYYY}:${MM}:${DD}
+${4:Content!}

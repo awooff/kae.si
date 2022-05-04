@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
+    "node-fetch": "^3.2.4",
     "postcss-instagram": "^1.0.0",
     "postcss-uncss": "^0.17.0",
     "uncss": "^0.17.3"

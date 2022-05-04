@@ -13,5 +13,6 @@ or [our professional email](mailto:bowen.cass17@gmail.com)
 ## Socials
 
 - [Twitter - @kaelta_](<https://twitter.com/@kaelta_>)
-- [Mastodon - @kae](<@kae@solarpunks.social>)
+- [Mastodon - @kae](<https://solarpunks.social/@kae>)
 - [GitLab - @kaelta](<https://gitlab.com/kaelta>)
+- [Write.as - @namothra](<https://write.as/namothra>)
