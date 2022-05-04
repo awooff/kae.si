@@ -4,10 +4,12 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
 const postcssInstagram = require('postcss-instagram');
 const postcssUncss = require('postcss-uncss');
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const markdownIt = require('markdown-it');
 const markdownItEmoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor');
+const markdownItReplaceLink = require('markdown-it-replace-link');
+
 const fs = require('fs');
 
 const handler = async event => {
@@ -47,6 +49,16 @@ module.exports = evc => {
       benchmark: true,
     },
     warningFileSize: 400 * 1000,
+  });
+
+  /* Foambubble wiki links */
+  evc.addTransform('wiki-links', (content, outputPath) => {
+    if (outputPath && outputPath.endsWith('.html')) {
+      // We remove outer brackets from links
+      let output = content.replace(/(\[+(\<a(.*?)\<\/a\>)\]+)/g, "$2");
+      return output;
+    }
+    return content;
   });
 
   // Return the smallest number argument
@@ -118,7 +130,25 @@ module.exports = evc => {
     breaks: true,
     linkify: true,
     typographer: true,
-  }).use(markdownItAnchor, {
+    replaceLink: (link, env) => {
+      const isRelativePattern = /^(?!http|\/).*/;
+      const lastSegmentPattern = /[^\/]+(?=\/$|$)/i;
+      const isRelative = isRelativePattern.test(link);
+
+      if (isRelative) {
+        const hasLastSegment = lastSegmentPattern.exec(env.page.url);
+        // If it's nested, replace the last segment
+        if (hasLastSegment && env.page.url) {
+          return env.page.url.replace(lastSegmentPattern, link);
+        }
+        // If it's at root, just add the beginning slash
+        return env.page.url + link;
+      }
+
+      return link;
+    },
+  })
+  .use(markdownItAnchor, {
     permalink: markdownItAnchor.permalink.ariaHidden({
       placement: 'after',
       class: 'direct-link',
@@ -126,7 +156,10 @@ module.exports = evc => {
       level: [1,2,3,4],
     }),
     slugify: evc.getFilter('slug'),
-  }).use(markdownItEmoji); // Use our emoji lib too~
+  })
+  .use(markdownItEmoji) // Our deer emojis **must** work!
+  .use(markdownItReplaceLink);
+
   evc.setLibrary('md', markdownLibrary)
   evc.addFilter('markdown', content => markdownLibrary.render(content));
   evc.addPairedShortcode('markdown', content => md.render(content));

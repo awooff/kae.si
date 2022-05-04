@@ -1,3 +1,12 @@
+[build]
+  publish = "_site"
+
 [[edge_functions]]
 function = "eleventy_edge"
 path = "/*"
+
+[[redirects]]
+  from = "/404/bubbles/*"
+  to = "/bubbles/:splat"
+  status = 301
+  force = true
