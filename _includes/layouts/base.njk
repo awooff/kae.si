@@ -12,9 +12,9 @@ description: Blog & portfolio of our Kae.
     <link rel="canonical" href={page.url}/>
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
 
-    <title>{{ title or metadata.title }}</title>
+    <title>{{ title or metadata.title | safe }}</title>
     {# All them metas. #}
-    <meta name="description" content="{{ description or metadata.description }}">
+    <meta name="description" content="{{ description or metadata.description | safe }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
     <meta property="og:title" content={ title or renderData.title  }/>
