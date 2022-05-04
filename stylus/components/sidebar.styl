@@ -25,7 +25,8 @@
   text-align center
   height 100%
   order 1
-  margin 2rem
+  margin-left 1rem
+  margin-right 1rem
   .entry {
     padding 8px
     font-size 24px
@@ -44,16 +45,24 @@
       &>a[href] {
         text-align justify
         color sky
+        -ease-transition(color)
+        @media (prefers-color-scheme light) {
+          color charcoal
+        }
+        &:hover {
+          color midbluegreen
+        }
       }
     }
   }
-}
-.icon {
-  img {
-    @media only screen and (max-width breakpoints.md) {
-      border-radius 320px / 100vw
+  .icon {
+    img {
+      @media only screen and (max-width breakpoints.md) {
+        border-radius 320px / 100vw
+      }
+      border-radius 320px
+      width max(12vw, 280px)
     }
-    border-radius 320px
-    width max(12vw, 280px)
   }
 }
+

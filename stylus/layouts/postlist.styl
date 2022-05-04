@@ -22,6 +22,9 @@
 .postlist-item:before {
   font-size 0.8125em /* 13px /16 */
   color charcoal
+  @media (prefers-color-scheme dark) {
+    color blush
+  }
 }
 .postlist-date {
   word-spacing -0.5px
@@ -39,6 +42,7 @@
 .tmpl-home .postlist-link {
   font-size 1.1875em /* 19px /16 */
   font-weight 700
+  -ease-transition(color)
 }
 
 /* Tags */
@@ -53,18 +57,30 @@
   margin-top 0.5em /* 6px /12 */
   margin-bottom 0.5em /* 6px /12 */
   color charcoal
-  border 1px solid var(--gray)
+  border 1px solid
+  border-color charcoal 
   border-radius 0.25em /* 3px /12 */
   text-decoration none
   line-height 1.8
+  text-decoration none
+  @media (prefers-color-scheme dark) {
+    color sky
+    border-color blush
+  }
 }
+
 a[href].post-tag,
 a[href].post-tag:visited {
+  background-color none
+  -ease-transition(background-color)
   color inherit
 }
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color rose
+  background-color melon
+  @media (prefers-color-scheme dark) {
+    background-color rose
+  }
 }
 .postlist-item > .post-tag {
   align-self center

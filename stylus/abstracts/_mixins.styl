@@ -3,3 +3,10 @@ text_scale_size(exponent)
 
   @media screen and (min-width breakpoints.sm)
     font-size (round(desktop_text_scale ** exponent * 1000) / 1000)
+
+-ease-transition($property)
+  transition $property .2s ease-out 
+  -webkit-transition $property .2s ease-out
+  -moz-transition $property .2s ease-out
+  -o-transition $property .2s ease-out
+  transition $property .2s ease-out
