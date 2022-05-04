@@ -1,19 +1,40 @@
-@media (prefers-color-scheme dark)
-  footer_top_color = blush
-
-@media (prefers-color-scheme light)
-  footer_top_color = grullo
-
 footer
   border-top 1px grullo solid
-  display flex
-  flex-direction row
+  display inline-flex
+  flex-direction column
   margin .6em
+  justify-content space-evenly
+  @media only screen and (max-width breakpoints.sm)
+    flex-direction column
   > p
     line-height 1.2
     padding-left .2em
-    padding-right .2em
+    padding-right .6em
   hr
     padding-top 6px
-    margin .6em
-
+    margin-top .6em
+  img
+    width 12%
+    object-fit cover
+    padding .6rem
+  .top
+    display flex
+    flex-direction row
+  .content
+    @media only screen and (max-width breakpoints.sm)
+      flex-direction column
+    flex-direction row
+    margin .6rem
+  .site_info
+    display flex
+    margin .6rem
+    align-items center
+    justify-content space-evenly
+    &__inner
+      justify-content space-evenly
+    .row
+      display flex
+      flex-direction row
+    .column
+      display flex
+      flex-direction column

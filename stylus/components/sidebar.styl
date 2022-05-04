@@ -8,11 +8,24 @@
 .sidebar {
   @media only screen and (max-width breakpoints.md) {
     align-items center
+    flex-direction row
     justify-content center
+    img {
+      width 44%
+    }
+    li {
+      border-bottom none
+    }
   }
+  @media only screen and (max-width breakpoints.sm) {
+    flex-direction column
+  }
+  display flex
+  flex-direction column
   text-align center
   height 100%
   order 1
+  margin 2rem
   .entry {
     padding 8px
     font-size 24px
@@ -25,6 +38,9 @@
       padding 0.2em
       border-bottom 1px grullo solid
       text-align left
+      @media only screen and (max-width breakpoints.md) {
+        border-bottom none
+      }
       &>a[href] {
         text-align justify
         color sky

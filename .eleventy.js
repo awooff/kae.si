@@ -4,7 +4,9 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
 const postcssInstagram = require('postcss-instagram');
 const postcssUncss = require('postcss-uncss');
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require('markdown-it');
+const markdownItEmoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor');
 const fs = require('fs');
 
@@ -38,6 +40,7 @@ module.exports = evc => {
   /* Add our plugins. */
   evc.addPlugin(syntaxHighlight);
   evc.addPlugin(pluginRss);
+  evc.addPlugin(eleventyNavigationPlugin);
   evc.addPlugin(directoryOutputPlugin, {
     columns: {
       filesize: true,
@@ -83,10 +86,14 @@ module.exports = evc => {
   };
   evc.addFilter('filterTagList', filterTagList);
 
-  /* Add our collections here */
-  evc.addCollection('post', collectionApi => {
-    // Get unsorted items
-    return collectionApi.getAllSorted().reverse();
+  /* Create an array of all these tags */
+  evc.addCollection('tagList', collection => {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return filterTagList([...tagSet]);
   });
 
   /* Add minified PostCSS & other plugins! */
@@ -119,8 +126,8 @@ module.exports = evc => {
       level: [1,2,3,4],
     }),
     slugify: evc.getFilter('slug'),
-  });
-  evc.setLibrary('md', markdownLibrary);
+  }).use(markdownItEmoji); // Use our emoji lib too~
+  evc.setLibrary('md', markdownLibrary)
   evc.addFilter('markdown', content => markdownLibrary.render(content));
   evc.addPairedShortcode('markdown', content => md.render(content));
 

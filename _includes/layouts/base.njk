@@ -9,31 +9,24 @@ description: Blog & portfolio of our Kae.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={ page.url }/>
+    <link rel="canonical" href={page.url}/>
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
     {# All them metas. #}
-    <meta property="og:title" content={ title or renderData.title or metadata.title }/>
+    <meta property="og:title" content={title or renderData.title or metadata.title}/>
     <meta property="og:description" content={description or renderData.description} />
     <meta property="og:url" content={ page.url } />
-    <meta property="og:image" content="/static/logo.png" />
+    <meta property="og:image" content="/static/img/logo.gif" />
     <meta property="og:type" content="article" />
+    {# Now for twitter. #}
+    <meta name="twitter:title" content={page.title or renderData.title or metadata.title}/>
+    <meta name="twitter:description" content={description or renderData.description or metadata.description}/>
+    <meta name="twitter:image" content="/static/img/sigil.gif">
+    <meta name="twitter:card" content="summary_large_image">
+
     {# Linking all our fonts locally bc Germany compliance. Also to prevent tracking users. #}
-    <link rel="stylesheet" href="/static/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Regular.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Medium.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Bold.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Fira_Mono/FiraMono-Italic.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Fira_Sans/FiraMono-BoldItalic.ttf" />
-    <link rel="stylesheet" href="/static/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf"/>
-    <link rel="stylesheet" href="/static/fonts/Raleway/Raleway-VariableFont_wght.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Ropa_Sans/RopaSans-Regular.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Ropa_Sans/RopaSans-Italic.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Iosevka/iosevka-bold.ttf"/>
-    <link rel="stylesheet" href="/static/fonts/Iosevka/iosevka-bolditalic.ttf"/>
-    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <meta name="theme-color" content="#a04668"/>
     <link rel="stylesheet" href="/css/index.css"/>
+
     <title>{{ title }}</title>
     {# 
     Now for our stylsheets! As minified CSS!
@@ -45,6 +38,35 @@ description: Blog & portfolio of our Kae.
     </style>
     #}
   </head>
+
+  {# load barba (UMD version) #}
+  <script src="https://unpkg.com/@barba/core"></script>
+
+  <script
+    crossorigin="anonymous"
+    src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"
+  ></script>
+  {# load gsap animation library (minified version) #}
+  <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+
+  {# init barba with a simple opacity transition #}
+  <script type="text/javascript">
+    barba.init({
+      transitions: [{
+        name: 'opacity-transition',
+        leave(data) {
+          return gsap.to(data.current.container, {
+            opacity: 0
+          });
+        },
+        enter(data) {
+          return gsap.from(data.next.container, {
+            opacity: 0
+          });
+        }
+      }]
+    });
+  </script>
   <body>
     {{ content | safe }}
   </body>

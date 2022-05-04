@@ -1,37 +1,19 @@
 ---
 layout: layouts/base.njk
-tags: post
 templateClass: tmpl-post
 ---
 
 {% include 'header.njk' %}
 <main class="flex">
-  <div>
+  <article>
     <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
     {%- for tag in tags | filterTagList -%}
     {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {%- endfor %}
-    <article>
-      <section>
+    <section>
       {{ content | markdown | safe }}
-      </section>
-    </article>
-  </div>
-  {%- if collections.posts %}
-    {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-    {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-    {%- if nextPost or previousPost %}
-      <hr>
-      <ul>
-        {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-        {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-      </ul>
-      {%- endif %}
-    {%- endif %}
-  {%- if updated_at %}
-    <span class="post-date">updated at: {{ updated_at }}</span>
-  {%- endif %}
+    </section>
+  </article>
 </main>
-
 {% include 'footer.njk' %}

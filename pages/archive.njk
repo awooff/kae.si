@@ -1,6 +1,10 @@
 ---
 title: Archive
 description: Archive of kaeposts & ramblings.
+eleventyNavigation:
+  key: Archive
+  order: 2
 ---
 
+{% set postlist = collections.posts %}
 {% include 'postlist.njk' %}
