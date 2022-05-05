@@ -5,14 +5,19 @@ h4
 h5
 h6
 p
-a
 li
 td
   font-family display_font
+  font-size calc(.4vh / .2)
   -moz-font-feature-settings 'liga', 0
-  margin 0.25rem 0
+  line-height 1.6
+  letter-spacing 2.6
+  margin .45rem auto .45rem 0
 
-// Cute hack I found for scaling header tags programatically~
+p
+  margin .85rem 0
+
+// Cute hack we found for scaling header tags programatically~
 for i in (1..6)
   h{i}
     text_scale_size (7 - i)
@@ -33,13 +38,7 @@ a
   font-family mono_font
   font-weight thin
   text-decoration none
-  transition color 0.4s ease-out 
-  -webkit-transition color .2s ease-out
-  -moz-transition color .2s ease-out
-  -o-transition color .2s ease-out
-  transition color .2s ease-out
-  body.dark &
-    color primary_color_dark
+  -ease-transition(color)
   &:hover
     text-decoration underline
     color sky
@@ -89,7 +88,18 @@ li
   line-height 1.2
   word-spacing 2px
   &:before
+    color dimgray
     content ' ⦿ '
+
+ol>li
+  list-style-type upper-roman
+  list-style-position inside
+  &>li
+    list-style-type lower-roman
+    &>li
+      list-style-type lower-alpha
+  &:before
+    content none
 
 hr
   display block
@@ -118,3 +128,9 @@ small
   font-family display_font
   font-display small-caps
   line-height 1.2
+
+article>section a
+  &:before
+    content "[["
+  &:after
+    content "]]"

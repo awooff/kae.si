@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Delusion",
+    "date": "2022-04-18",
+    "motifs": ["diamonds", "eyes", "loneliness"],
+    "url": "/static/content/art/2022-04-18.JPG"
+  },
+  {
+    "name": "Arrivadeci",
+    "date": "2022-03-28",
+    "motifs": ["diamonds", "eyes", "loneliness"],
+    "url": "/static/content/art/2022-03-28.JPG"
+  },
+  {
+    "name": "Some Sunset or smth",
+    "date": "2018-07-14",
+    "motifs": ["lonelines"],
+    "url": "/static/content/art/2018-07-14.JPG"
+  }
+]
+  

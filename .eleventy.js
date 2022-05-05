@@ -55,7 +55,7 @@ module.exports = evc => {
   evc.addTransform('wiki-links', (content, outputPath) => {
     if (outputPath && outputPath.endsWith('.html')) {
       // We remove outer brackets from links
-      let output = content.replace(/(\[+(\<a(.*?)\<\/a\>)\]+)/g, "$2");
+      const output = content.replace(/(\[+(\<a(.*?)\<\/a\>)\]+)/g, '$2');
       return output;
     }
     return content;

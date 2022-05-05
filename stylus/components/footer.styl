@@ -17,6 +17,9 @@ footer
     width 12%
     object-fit cover
     padding .6rem
+    @media only screen and (max-width breakpoints.sm)
+      overflow hidden
+      display none
   .top
     display flex
     flex-direction row
@@ -24,17 +27,24 @@ footer
     @media only screen and (max-width breakpoints.sm)
       flex-direction column
     flex-direction row
-    margin .6rem
+    margin .8rem
   .site_info
     display flex
-    margin .6rem
+    margin .8rem
     align-items center
     justify-content space-evenly
     &__inner
       justify-content space-evenly
+    .links
+      display flex
+      flex-direction column
+      &>a
+        padding .2rem
     .row
       display flex
       flex-direction row
     .column
+      margin-right 12px
+      margin-left 12px
       display flex
       flex-direction column
