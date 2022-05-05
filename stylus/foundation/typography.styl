@@ -7,12 +7,25 @@ h6
 p
 li
 td
+tr
+th
   font-family display_font
-  font-size calc(.4vh / .2)
+  font-size clamp(.28vh, .2, 1.8rem)
   -moz-font-feature-settings 'liga', 0
   line-height 1.6
   letter-spacing 2.6
   margin .45rem auto .45rem 0
+
+span
+pre
+code
+h1
+h2
+h3
+h4
+h5
+h6
+  font-size calc(.25vh / .2)
 
 p
   margin .85rem 0
@@ -114,11 +127,10 @@ hr
   border-width 1px
   margin 1em 0
 
-p,
-.tmpl-post li,
 img {
   max-width: 37.5em; /* 600px /16 */
 }
+
 p,
 .tmpl-post li {
   line-height: 1.45;

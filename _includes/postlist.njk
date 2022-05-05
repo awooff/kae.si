@@ -1,12 +1,16 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ (postlistCounter or postlist.length) + 1 }}">
-{%- for post in postlist | reverse -%}
-  <li class="postlist-item{%- if post.url == url %} postlist-item-active{%- endif %}">
-    <a href="{{post.url | url}}" class="postlist-link">{%- if post.data.title %}{{post.data.title}}{%- else %}<code>{{post.url}}</code>{%- endif %}</a>
-    <time class="postlist-date" datetime="{{post.date | htmlDateString}}">{{ post.date | readableDate }}</time>
-    {%- for tag in post.data.tags | filterTagList %}
-      {%- set tagUrl %}/tags/{{tag | slug}}/{%- endset %}
-      <a href="{{tagUrl | url}}" class="post-tag">{{tag}}</a>
-    {%- endfor %}
-  </li>
-{%- endfor %}
+<ol reversed class="card-grid" style="counter-reset: start-from {{ (postlistCounter or postlist.length) + 1 }}">
+  {% for post in postlist | reverse %}
+    <div class="card">
+      <h3 class="card__title"><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+      <p class="card__date">{{ post.date | readableDate }}</p>
+      <p class="card__description">{{ post.data.description }}</p>
+      <p class="card__subtitle">Tags:</p>
+      <div class="card__tags">
+        {%- for tag in post.data.tags | filterTagList %}
+          {%- set tagUrl %}/tags/{{tag | slug}}/{%- endset %}
+          <a href="{{tagUrl | url}}" class="post-tag">{{tag}}</a>
+        {%- endfor %}
+      </div>
+    </div>
+  {% endfor %}
 </ol>

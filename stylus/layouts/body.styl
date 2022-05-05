@@ -19,11 +19,14 @@ html,
 }
 
 main {
-  @media only screen and (max-width: breakpoints.md) {
-    flex-direction column
+  @media only screen and (max-width breakpoints.lg) {
+    flex-direction row
   }
-  @media only screen and (max-width: breakpoints.sm) {
-    flex-direction column-reverse
+  @media only screen and (max-width breakpoints.md) {
+    flex-direction row
+  }
+  @media only screen and (max-width breakpoints.sm) {
+    flex-direction column
   }
   display flex
   flex-direction row
