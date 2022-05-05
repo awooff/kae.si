@@ -17,14 +17,18 @@ description: Blog & portfolio of our Kae.
     <meta name="description" content="{{ description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
-    <meta property="og:title" content={{ title or renderData.title  }}/>
-    <meta property="og:description" content={{ description or renderData.description }} />
-    <meta property="og:url" content={{ page.url }} />
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ title }}">
+    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ title }}">
+
+    <meta property="og:title" content="{{ title or renderData.title  }}"/>
+    <meta property="og:description" content="{{ description or renderData.description }}"/>
+    <meta property="og:url" content="{{ page.url }}" />
     <meta property="og:image" content="/static/img/sigil.gif" />
     <meta property="og:type" content="article" />
+
     {# Now for twitter. #}
-    <meta name="twitter:title" content={{ title or renderData.title }}/>
-    <meta name="twitter:description" content={{ description or renderData.description }}/>
+    <meta name="twitter:title" content="{{ title or renderData.title }}"/>
+    <meta name="twitter:description" content="{{ description or renderData.description }}"/>
     <meta name="twitter:image" content="/static/img/sigil.gif">
     <meta name="twitter:card" content="summary_large_image">
 
