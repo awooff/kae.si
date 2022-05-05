@@ -9,22 +9,22 @@ description: Blog & portfolio of our Kae.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={page.url}/>
+    <link rel="canonical" href={{ page.url }}/>
     <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
 
-    <title>{{ title or metadata.title | safe }}</title>
+    <title>{{ title }}</title>
     {# All them metas. #}
-    <meta name="description" content="{{ description or metadata.description | safe }}">
+    <meta name="description" content="{{ description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
 
-    <meta property="og:title" content={ title or renderData.title  }/>
-    <meta property="og:description" content={ description or renderData.description } />
-    <meta property="og:url" content={ page.url } />
+    <meta property="og:title" content={{ title or renderData.title  }}/>
+    <meta property="og:description" content={{ description or renderData.description }} />
+    <meta property="og:url" content={{ page.url }} />
     <meta property="og:image" content="/static/img/sigil.gif" />
     <meta property="og:type" content="article" />
     {# Now for twitter. #}
-    <meta name="twitter:title" content={ title or renderData.title }/>
-    <meta name="twitter:description" content={ description or renderData.description }/>
+    <meta name="twitter:title" content={{ title or renderData.title }}/>
+    <meta name="twitter:description" content={{ description or renderData.description }}/>
     <meta name="twitter:image" content="/static/img/sigil.gif">
     <meta name="twitter:card" content="summary_large_image">
 
