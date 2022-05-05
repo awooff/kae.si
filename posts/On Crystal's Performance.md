@@ -63,6 +63,7 @@ Though, this is where we run into a bit of a problem, and where our opinion on w
 ## Code generation algorithms
 
 The idea behind code generation isn't simply just the production of some lower level machine/assembly code, but also the application of low-level optimizations, while retaining the __exact__ same message & output of the original intended program, while remaining as efficient on hardware resources as possible. These optimizations can be as something as smol as removing needless variable assignments - i.e:
+
 {% raw %}
 
 ```crystal
@@ -89,6 +90,8 @@ The idea behind it is to offhand the calculation of as many assigned variables a
 
 Just as a quick example, this is really easily done with something like;
 
+{% raw %}
+
 ```crystal
 def is_even(x)
   x % 2 == 0
@@ -100,6 +103,8 @@ def is_even(x)
   (x & 1) == 1
 end
 ```
+
+{% endraw %}
 
 From our research, we have gathered the Crystal compiler heavily suffers from two main issues: the target platform of the generator, and its evaluation order.
 
