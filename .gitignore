@@ -1,5 +1,6 @@
-node_modules
-_site
+node_modules/
+_site/
+package-lock.json
 
 # Netlify generated stuff
 .netlify/

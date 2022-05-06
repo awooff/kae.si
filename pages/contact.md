@@ -7,8 +7,7 @@ description: Where to find us
 
 `curl https://kaeforest.surge.sh/static/content/key.asc`
 
-Then either contact us via [our confidential email](mailto:kaelta.cass@disr.it)
-or [our professional email](mailto:bowen.cass17@gmail.com)
+Then either contact us via <a href="mailto:kaelta.cass@disr.it">our confidential email</a> or <a href="mailto:bowen.cass17@gmail.com">our professional email</a>
 
 ## Socials
 

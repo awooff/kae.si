@@ -10,22 +10,10 @@ td
 tr
 th
   font-family display_font
-  font-size clamp(.28vh, .2, 1.8rem)
-  -moz-font-feature-settings 'liga', 0
+  font-size text_scale_size(3)
   line-height 1.6
   letter-spacing 2.6
   margin .45rem auto .45rem 0
-
-span
-pre
-code
-h1
-h2
-h3
-h4
-h5
-h6
-  font-size calc(.25vh / .2)
 
 p
   margin .85rem 0
@@ -36,7 +24,7 @@ for i in (1..6)
     text_scale_size (7 - i)
 
 small
-  text_scale_size -1
+  text_scale_size(-1)
 
 pre
   white-space wrap
@@ -141,8 +129,12 @@ small
   font-display small-caps
   line-height 1.2
 
-article>section>p>a
-  &:before
-    content "[["
-  &:after
-    content "]]"
+article>section>p
+  font-family sans_font
+  letter-spacing 1.6
+  line-height 1.6
+  >a
+    &:before
+      content "[["
+    &:after
+      content "]]"
