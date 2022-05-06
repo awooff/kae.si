@@ -5,3 +5,7 @@ package-lock.json
 # Netlify generated stuff
 .netlify/
 netlift/edge_functions/_generated
+
+# Secret stuff
+.env*
+!.env.example
