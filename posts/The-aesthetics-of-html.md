@@ -1,6 +1,7 @@
 ---
 title: The aesthetics of Html / Nunjucks
 description: Learning to love Html (and stylus too)
+date: '2022-04-28'
 tags:
   - programming
   - tech
