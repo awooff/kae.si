@@ -11,8 +11,8 @@
   },
   "author": {
     "name": "kaelta",
-    "email": "kaelta@mothra.love",
-    "url": "https://mothra.love/"
+    "email": "kaelta@kae.si",
+    "url": "https://kae.si/"
   },
   "scripts": {
     "watch:stylus": "stylus -w -o _site/css ./stylus/",
@@ -45,9 +45,6 @@
   "dependencies": {
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "axios": "^0.27.2",
-    "dotenv": "^16.0.0",
-    "postcss-instagram": "^1.0.0",
-    "postcss-uncss": "^0.17.0",
-    "uncss": "^0.17.3"
+    "dotenv": "^16.0.0"
   }
 }
