@@ -1,0 +1,4 @@
+Sitemap: https://kae.si/sitemap.xml
+
+User-agent: *
+Disallow:

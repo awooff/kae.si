@@ -1,0 +1,18 @@
+{
+    "title": "Kaeforest",
+    "description": "Blog & portfolio of our Kae.",
+    "url": "https://kae.si",
+    "language": "en",
+    "author": {
+        "name": "Kaelta",
+        "email": "kaelta.cass@disr.it"
+    },
+    "feed": {
+        "subtitle": "Thoughts & ramblings of Kae",
+        "url": "https://kae.si/feed/feed.json"
+    },
+    "jsonfeed": {
+        "path": "/feed/feed.json",
+        "url": "https://kae.si/feed/feed.json"
+    }
+}

@@ -2,9 +2,8 @@ const {DateTime: DT} = require('luxon');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
-const postcssInstagram = require('postcss-instagram');
-const postcssUncss = require('postcss-uncss');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
+const Image = require('@11ty/eleventy-img');
 const markdownIt = require('markdown-it');
 const markdownItEmoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor');
@@ -38,6 +37,29 @@ const handler = async event => {
 
 exports.handler = handler;
 
+// Create a shortcode for `sharp` optimized images.
+async function imageShortcode(src, alt, sizes) {
+  const metadata = await Image(src, {
+    widths: [300, 600],
+    formats: ['avif', 'jpeg'],
+    sharpOptions: {
+      animated: true,
+    },
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: 'lazy',
+    decoding: 'async',
+  };
+
+  // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes, {
+    whitespaceMode: 'inline',
+  });
+}
+
 module.exports = evc => {
   /* Add our plugins. */
   evc.addPlugin(syntaxHighlight);
@@ -60,6 +82,9 @@ module.exports = evc => {
     }
     return content;
   });
+
+
+  evc.addNunjucksAsyncShortcode('image', imageShortcode);
 
   // Return the smallest number argument
   evc.addFilter('min', (...numbers) => {
@@ -108,23 +133,6 @@ module.exports = evc => {
     return filterTagList([...tagSet]);
   });
 
-  /* Add minified PostCSS & other plugins! */
-  evc.addNunjucksAsyncFilter('postcss', (cssCode, done) => {
-    postCss([
-      postcssInstagram, /* https://github.com/azat-io/postcss-instagram */
-      postcssUncss, /* https://github.com/uncss/postcss-uncss */
-    ])
-    .process(cssCode)
-    .then(
-      r => done(null, r.css),
-      e => done(e, null)
-    );
-  });
-
-  evc.addNunjucksShortcode('tech', () => {
-
-  });
-
   const markdownLibrary = markdownIt({
     html: true,
     breaks: true,
@@ -166,6 +174,8 @@ module.exports = evc => {
 
   // Override Browsersync defaults (used only with --serve)
   evc.setBrowserSyncConfig({
+    ui: false,
+    ghostMode: false,
     callbacks: {
       ready: function(err, browserSync) {
         const content_404 = fs.readFileSync('_site/404.html');
@@ -178,8 +188,6 @@ module.exports = evc => {
         });
       },
     },
-    ui: false,
-    ghostMode: false
   });
 
   /* And now our passthru copies! */
