@@ -9,12 +9,12 @@ layout: layouts/home.njk
 See my work on my [bandcamp](<https://xhaart.bandcamp.com>)
 Or my programming & web development on my [gitlab](<https://gitlab.com/kaelta>)
 
-{# ![hihi :>](/static/img/juuzo.jpg) #}
+{# ![hihi :>](./img/juuzo.jpg) #}
 
 ## Friends
 
 {% for friend in friends %}
-<a href={{friend.url}}>{{friend.name}}</a> :purple_heart:
+<a href={{friend.url}}>{{friend.name}}</a>
 {% endfor %}
 
 You <3

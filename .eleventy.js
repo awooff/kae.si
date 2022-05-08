@@ -38,10 +38,18 @@ const handler = async event => {
 exports.handler = handler;
 
 // Create a shortcode for `sharp` optimized images.
-async function imageShortcode(src, alt, sizes) {
-  const metadata = await Image(src, {
-    widths: [300, 600],
+async function imageShortcode(src, alt, sizes="(min-width: 1024px) 100vw, 50vw") {
+  console.log(`Generating image(s) from:  ${src}`);
+  let metadata = await Image(src, {
+    widths: [300, 600, 900],
     formats: ['avif', 'jpeg'],
+    urlPath: '/static/img/',
+    outputPath: './_site/static/img',
+    filenameFormat: (id, src, width, format, options) => {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+      return `${name}-${width}w.${format}`;
+    },
     sharpOptions: {
       animated: true,
     },
@@ -54,6 +62,7 @@ async function imageShortcode(src, alt, sizes) {
     decoding: 'async',
   };
 
+  metadata = Image.statsSync(src, options)
   // You bet we throw an error on missing alt in `imageAttributes` (alt="" works okay)
   return Image.generateHTML(metadata, imageAttributes, {
     whitespaceMode: 'inline',
