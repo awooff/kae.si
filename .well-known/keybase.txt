@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kaelta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kae.si
+  * I am kaelta (https://keybase.io/kaelta) on keybase.
+  * I have a public key ASCr9FLceQ1RU5oeYYZ4eq1NPkWTJ6gQHGeP1JdHaZWUFgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120abf452dc790d51539a1e6186787aad4d3e459327a8101c678fd49747699594160a",
+      "host": "keybase.io",
+      "kid": "0120abf452dc790d51539a1e6186787aad4d3e459327a8101c678fd49747699594160a",
+      "uid": "84c3112f813d132cab6865200d7bd419",
+      "username": "kaelta"
+    },
+    "merkle_root": {
+      "ctime": 1652749362,
+      "hash": "006d667d730067b4e29fcb13e7069908476dea6751463cdea7d283f71a295159fe9bb8a530bbd2016cf397566b6c2d9a94b2dee6c37e41463f3724833ae14a10",
+      "hash_meta": "a22566f6ac5dafbf8c4cc5e63956d0ca4e5b936ca21e03d6fbc8a1c99892906a",
+      "seqno": 22499741
+    },
+    "service": {
+      "entropy": "SrVzsln0pkWK8oe18XqjYPOv",
+      "hostname": "kae.si",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.2"
+  },
+  "ctime": 1652749395,
+  "expire_in": 504576000,
+  "prev": "ea8f3a078f4c182a3f78eed7e266115f603647ac81c21f85cdeb4aced4b722c0",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgq/RS3HkNUVOaHmGGeHqtTT5FkyeoEBxnj9SXR2mVlBYKp3BheWxvYWTESpcCFsQg6o86B49MGCo/eO7X4mYRX2A2R6yBwh+FzetKztS3IsDEIPzuFF/7h3sfXscidK2dUnu7/pXOel5lU7sEWARrEHuBAgHCo3NpZ8RA2DWXDxf7Q8A6E9wsrK0RqTJFIQfLC0NoYWNVv611aanQHiinscRLn6ZhTflwpqmd5cIp8YfEaeq1V95t4CFRBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHV6PENIch8GMVHcZ78LYk47KZSXk6VQ/zUC9FMXsVpBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kaelta
+
+==================================================================
