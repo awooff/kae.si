@@ -1,0 +1,33 @@
+---
+title: Art
+description: Gallery of Kae's sketches
+eleventyNavigation:
+  key: Art
+  order: 3
+---
+
+{# Going to want some page-specific styles for ordering the images next to one another. #}
+<style lang="stylus">
+  .art__section {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<div class="art__section">
+  {% set totalPieces = art %}
+  <h2> Page is a WIP. </h2>
+  <h4> Currently there are {{art | length}} pieces by Kae. </h4>
+  {% for piece in art | reverse %}
+    <figure class="flex art__container">
+      <img class="art__image" src="{{piece.url}}" alt="{{piece.description}}"/>
+      <figcaption> 
+        <cite><p>{{piece.influence}}</p></cite> 
+        <details>
+          <summary>{{piece.name}}</summary>
+          <p>{{piece.description | safe }}</p>
+        </details>
+      </figcaption>
+    </figure>
+  {% endfor %}
+</div>
