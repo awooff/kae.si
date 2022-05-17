@@ -203,6 +203,7 @@ module.exports = evc => {
   evc.addPassthroughCopy('static/content');
   evc.addPassthroughCopy('static/img');
   evc.addPassthroughCopy('static/fonts');
+  evc.addPassthroughCopy('.well-known');
 
   return {
     markdownTemplateEngine: 'njk',
