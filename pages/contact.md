@@ -1,20 +1,22 @@
 ---
 title: Contact
 description: Where to find us
+order: 4
 ---
 
 ## Email
 
 `curl https://kae.si/static/content/key.asc`
 
-Then either contact us via <a href="mailto:kaelta.cass@disr.it">our confidential email</a> or <a href="mailto:bowen.cass17@gmail.com">our professional email</a>
+Then either contact us via <a href="mailto:{{site.author.email}}">our confidential email</a> or <a href="mailto:bowen.cass17@gmail.com">our professional email</a>
 
 ## Socials
 
-- [Twitter - @kaelta_](<https://twitter.com/@kaelta_>)
-- [Mastodon - @kae](<https://solarpunks.social/@kae>)
-- [GitLab - @kaelta](<https://gitlab.com/kaelta>)
-- [Write.as - @namothra](<https://write.as/namothra>)
+{% for link in links %}
+
+<a href="{{link.url}}"> {{link.name}} - {{link.user}} </a>
+
+{% endfor %}
 
 ## Discord / IRC
 

@@ -1,1 +1,22 @@
-{}
+[
+    {
+        "name": "Twitter",
+        "user": "@kaelta_",
+        "url": "https://twitter.com/@kaelta_"
+    },
+    {
+        "name": "Mastodon",
+        "user": "@kae",
+        "url": "https://solarpunks.social/@kae"
+    },
+    {
+        "name": "GitLab",
+        "user": "@kaelta_",
+        "url": "https://gitlab.com/kaelta"
+    },
+    {
+        "name": "Write.as",
+        "user": "@namothra",
+        "url": "https://write.as/namothra"
+    }
+]
