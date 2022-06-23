@@ -1,6 +1,7 @@
 const {DateTime: DT} = require('luxon');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const {EleventyServerlessBundlerPlugin} = require('@11ty/eleventy');
 const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const Image = require('@11ty/eleventy-img');
@@ -35,7 +36,8 @@ const handler = async event => {
   }
 };
 
-exports.handler = handler;
+const {builder} = require('@netlify/functions');
+exports.handler = builder(handler);
 
 // Create a shortcode for `sharp` optimized images.
 async function imageShortcode(src, alt, sizes="(min-width: 1024px) 100vw, 50vw") {
@@ -80,6 +82,10 @@ module.exports = evc => {
       benchmark: true,
     },
     warningFileSize: 400 * 1000,
+  });
+  evc.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: 'art', // The serverless function name from your permalink object
+    functionsDir: './netlify/functions/',
   });
 
   /* Foambubble wiki links */

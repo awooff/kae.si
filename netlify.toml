@@ -1,12 +1,19 @@
 [build]
-  publish = "_site"
+publish = "_site"
 
 [[edge_functions]]
 function = "eleventy_edge"
 path = "/*"
 
 [[redirects]]
-  from = "/404/bubbles/*"
-  to = "/bubbles/:splat"
-  status = 301
-  force = true
+from = "/art/:id/"
+to = "/.netlify/functions/possum"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "possum"
+
+[[redirects]]
+from = "/404/bubbles/*"
+to = "/bubbles/:splat"
+status = 301
+force = true

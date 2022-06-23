@@ -1,0 +1,46 @@
+---
+pagination:
+  data: collections.art
+  size: 1
+  alias: art
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+    - tags
+  addAllPagesToCollections: true
+eleventyComputed:
+  title: {{ art.title }}
+permalink: /tags/{{art}}/
+---
+
+{# Going to want some page-specific styles for ordering the images next to one another. #}
+<style lang="stylus" scoped>
+  .art__section {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<div class="art__section">
+  <h2> Page is a WIP. </h2>
+    <figure class="flex art__container">
+      <img class="art__image" src="{{piece.url}}" alt="{{piece.description | truncate(258)}}"/>
+      <figcaption> 
+        <cite><p>{{piece.influence}}</p></cite> 
+        <details>
+          {% block details %}
+          <summary>
+            <span>
+              <p>{{piece.name}}</p>
+              <p>{{piece.date}}</p>
+            </span>
+          </summary>
+          <p>{{piece.description | safe }}</p>
+          {% endblock details %}
+        </details>
+      </figcaption>
+    </figure>
+</div>

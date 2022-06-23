@@ -1,13 +1,11 @@
 ---
-title: Art
+title: Gallery
 description: Gallery of Kae's sketches
-eleventyNavigation:
-  key: Art
-  order: 2
+permalink: /art/
 ---
 
 {# Going to want some page-specific styles for ordering the images next to one another. #}
-<style lang="stylus" scoped>
+<style lang="css" scoped>
   .art__section {
     display: flex;
     flex-direction: column;
@@ -30,6 +28,7 @@ eleventyNavigation:
               <p>{{piece.date}}</p>
             </span>
           </summary>
+          <span class="row">{%- for motif in art.motifs %} <i>{{motif}}</i> {%- endfor %}</span>
           <p>{{piece.description | safe }}</p>
           {% endblock details %}
         </details>

@@ -46,6 +46,9 @@
     flex-direction row
     .links {
       margin auto
+      display flex
+      flex-direction row
+      border 2px grullo
       li {
         -spacing(2)
         @media only screen and (max-width breakpoints.md) {
@@ -67,6 +70,9 @@
           &:hover {
             color midbluegreen
           }
+        }
+        &:before {
+          content ""
         }
       }
     }
