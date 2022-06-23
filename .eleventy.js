@@ -214,6 +214,7 @@ module.exports = evc => {
   evc.addPassthroughCopy('static/img');
   evc.addPassthroughCopy('static/fonts');
   evc.addPassthroughCopy('static/icons');
+  evc.addPassthroughCopy('static/media');
   evc.addPassthroughCopy('.well-known');
 
   return {
