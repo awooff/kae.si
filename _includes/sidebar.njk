@@ -13,7 +13,7 @@
       {% for link in collections.nav %}
         <li{% if page.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href={{link.url}}>{{link.data.title}}</a></li>
       {% endfor %}
-      <li{% if page.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Page list</a></li>
+      <li{% if page.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Pages</a></li>
     </ul>
   </nav>
   {% endblock sidebar_links %}
