@@ -1,12 +1,13 @@
 {
-  description = "Kaeforest umu";
+  description = "Kaeforest";
 
   inputs = {
+    nixpkgs.url = "nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
     pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
   };
   outputs = { self, nixpkgs, flake-utils, pre-commit-hooks }:
-    flake-utils.lib.eachDefaultSystem (system:
+    flake-utils.lib.eachDefaultSystem [ "x86_64-linux" "arm64-darwin" ] (system:
     let
       pkgs = import nixpkgs { inherit system; };
       src = ./.;

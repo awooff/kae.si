@@ -3,52 +3,35 @@ with pkgs;
 
 let
   node = pkgs.callPackage ./nix/node.nix { };
+  nodejsVersion = lib.fileContents ./.nvmrc;
+
+  nodejs = node {
+    enableNpm = true;
+    version = nodejsVersion;
+    sha256 = "1a0zj505nhpfcj19qvjy2hvc5a7gadykv51y0rc6032qhzzsgca2";
+  };
 
   srcNoTarget = dir:
     builtins.filterSource
     (path: type: type != "directory" || builtins.baseNameOf path != "target")
     dir;
 
-  naersk = pkgs.callPackage sources.naersk {
-    rustc = rust;
-    cargo = rust;
-  };
-  dhallpkgs = import sources.easy-dhall-nix { inherit pkgs; };
   src = srcNoTarget ./.;
 
-  xesite = naersk.buildPackage {
-    inherit src;
-    doCheck = true;
-    buildInputs = [ pkg-config openssl git ];
-    remapPathPrefix = true;
-  };
-
-  config = stdenv.mkDerivation {
-    pname = "xesite-config";
+in
+  stdenv.mkDerivation {
+    pname = "kaeforest-config";
     version = "HEAD";
-    buildInputs = [ dhallpkgs.dhall-simple ];
 
     phases = "installPhase";
 
+    buildPhase = ''
+      cd ${src}
+      npm install
+    '';
+
     installPhase = ''
       cd ${src}
-      dhall resolve < ${src}/config.dhall >> $out
+      npm run build
     '';
-  };
-
-in pkgs.stdenv.mkDerivation {
-  inherit (xesite) name;
-  inherit src;
-  phases = "installPhase";
-
-  installPhase = ''
-    mkdir -p $out $out/bin
-    cp -rf ${config} $out/config.dhall
-    cp -rf $src/blog $out/blog
-    cp -rf $src/css $out/css
-    cp -rf $src/gallery $out/gallery
-    cp -rf $src/static $out/static
-    cp -rf $src/talks $out/talks
-    cp -rf ${xesite}/bin/xesite $out/bin/xesite
-  '';
-}
+  }
