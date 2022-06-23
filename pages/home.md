@@ -1,4 +1,5 @@
 ---
+title: Home
 layout: layouts/home.njk
 ---
 
@@ -18,3 +19,4 @@ Or my programming & web development on my [gitlab](<https://gitlab.com/kaelta>)
 {% endfor %}
 
 You <3
+

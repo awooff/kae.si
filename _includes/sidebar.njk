@@ -1,6 +1,14 @@
+<style>
+@media (prefers-color-scheme: light) {
+  #logo {color: black}
+}
+@media (prefers-color-scheme: dark) {
+  #logo {color: white}
+}
+</style>
 <div class="sidebar">
   {% block sidebar_title %}
-  <img id="logo" src="/static/icons/gemini-life.png"/>
+  <img id="logo" src="/static/icons/gemini-life.svg"/>
   <div class="title">
     <h5>{{description}}</h5>
     <p> 🦌️ 💜 🖤 🎶 🎸 </p>
