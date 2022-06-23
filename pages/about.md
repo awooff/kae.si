@@ -1,5 +1,4 @@
 ---
-layout: layouts/home.njk
 title: About
 description: About the wonderful Kae
 ---
