@@ -18,6 +18,9 @@
   justify-content space-around
   align-content center
   /* Now for the two main components */
+  #logo {
+    width 26%
+  }
   .title {
     width 100%
     margin auto
@@ -72,7 +75,10 @@
           }
         }
         &:before {
-          content ""
+          content "// "
+        }
+        &:after {
+          content none
         }
       }
     }

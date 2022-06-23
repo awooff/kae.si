@@ -9,6 +9,7 @@ const markdownIt = require('markdown-it');
 const markdownItEmoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItReplaceLink = require('markdown-it-replace-link');
+const pluginTOC = require('eleventy-plugin-toc');
 
 const fs = require('fs');
 
@@ -87,6 +88,9 @@ module.exports = evc => {
     name: 'art', // The serverless function name from your permalink object
     functionsDir: './netlify/functions/',
   });
+
+  // Generate a table of contents u.u
+  evc.addPlugin(pluginTOC);
 
   /* Foambubble wiki links */
   evc.addTransform('wiki-links', (content, outputPath) => {
@@ -209,6 +213,7 @@ module.exports = evc => {
   evc.addPassthroughCopy('static/content');
   evc.addPassthroughCopy('static/img');
   evc.addPassthroughCopy('static/fonts');
+  evc.addPassthroughCopy('static/icons');
   evc.addPassthroughCopy('.well-known');
 
   return {

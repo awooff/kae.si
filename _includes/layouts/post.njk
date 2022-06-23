@@ -11,6 +11,11 @@ templateClass: tmpl-post
     {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {%- endfor %}
+    <br/>
+    <aside>
+      {{content | toc | safe}}
+    </aside>
+    <br/>
     <section class="markdown_content">
       {{ content | markdown | safe }}
     </section>
