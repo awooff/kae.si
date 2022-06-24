@@ -25,28 +25,29 @@
   <div class="site_info">
     <div>
       <div class="row">
-      <img src="/static/img/sigil.gif"/>
-      <div class="column">
-        <script>
-        window.onload = function(){
-          const date = new Date().getFullYear();
-          document.getElementById('year').innerHTML = date;
-        }
-        </script>
-        <h6> Kaeforest &copy; <span id="year"/> </h6>
-        <small> All at the behest of Kae. </small>
-        <small> Site crafted with <a href="https://foambubble.github.io">[[foam]]</a> and 11ty. </small>
-        <small> Copyright is a spook. 👻 oooh spooky~ </small>
+        <img src="/static/icons/wyrm-black.png"/>
+        <div class="column">
+          <script>
+          window.onload = () => {
+            const date = new Date().getFullYear();
+            document.getElementById('year').innerHTML = date;
+          }
+          </script>
+          <h6> Kaeforest &copy; <span id="year"/> </h6>
+          <small> All at the behest of Kae. </small>
+          <small> Site crafted with <a href="https://foambubble.github.io">[[foam]]</a> and 11ty. </small>
+          <small> Copyright is a spook. 👻 oooh spooky~ </small>
+        </div>
+        </div>
       </div>
+      <div class="row">
+        <ul class="links">
+          <a href="https://gitlab.com/kaelta/kaeforest">src code</a>
+          <a href="https://twitter.com/@kaelta"> twt </a>
+          <a href="https://instagram.com/kaelta.v"> ig </a>
+          <a href="https://write.as/mothra"> write.as </a>
+        </ul>
       </div>
-    </div>
-    <div class="row">
-      <ul class="links">
-        <a href="https://gitlab.com/kaelta/kaeforest">src code</a>
-        <a href="https://twitter.com/@kaelta"> twt </a>
-        <a href="https://instagram.com/kaelta.v"> ig </a>
-        <a href="https://write.as/mothra"> write.as </a>
-      </ul>
     </div>
   </div>
 </footer>

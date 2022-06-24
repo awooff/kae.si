@@ -1,12 +1,14 @@
-p>a
-  links($accent)
-  color $accent
-  line-height 1.2
-  word-spacing 2px
-  &:before
-    color dimgray
-    content '{'
-  &:after
-    color dimgray
-    content '}'
+a
+  links(rose)
+  color rose
+  font-family display_font
+  text-decoration none
+  -ease-transition(color)
+  &:hover
+    text-decoration underline
+    color sky
+  &[href]
+  links(rose)
+    &:visited
+      color charcoal
 
