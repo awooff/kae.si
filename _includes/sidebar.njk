@@ -1,11 +1,11 @@
-<style>
+<style scoped>
 @media (prefers-color-scheme: light) {
   #logo {
     filter: invert(0%) sepia(95%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(105%);
   }
 }
 @media (prefers-color-scheme: dark) {
-  #logo {color: white;}
+  #logo {filter: invert(0%) sepia(95%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(105%);}
 }
 </style>
 <div class="sidebar">
@@ -19,11 +19,24 @@
   {% endblock sidebar_title %}
   {% block sidebar_links %}
   <nav class="nav">
-    <ul class="links">
+    <ul class="links tabs">
       {% for link in collections.nav %}
-        <li{% if page.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href={{link.url}}>{{link.data.title}}</a></li>
+        <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link">
+          <a href={{link.url}}>
+            {{link.data.title}}
+          </a>
+        </li>
       {% endfor %}
-      <li{% if page.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Pages</a></li>
+      <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Pages</a></li>
+    </ul>
+    <ul class="tags">
+      {% for link in collections.tags %}
+        <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__tag">
+          <a href={{link.url}}>
+            {{link.data.title}}
+          </a>
+        </li>
+      {% endfor %}
     </ul>
   </nav>
   {% endblock sidebar_links %}

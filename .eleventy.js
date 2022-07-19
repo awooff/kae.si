@@ -216,6 +216,7 @@ module.exports = evc => {
   evc.addPassthroughCopy('static/icons');
   evc.addPassthroughCopy('static/media');
   evc.addPassthroughCopy('.well-known');
+  evc.addPassthroughCopy({'stylus/vendor/css': 'css/'});
 
   return {
     markdownTemplateEngine: 'njk',

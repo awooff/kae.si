@@ -7,7 +7,7 @@
     {
         "name": "Mastodon",
         "user": "@kae",
-        "url": "https://solarpunks.social/@kae"
+        "url": "https://koyu.space/@kae"
     },
     {
         "name": "Keybase",
@@ -20,8 +20,18 @@
         "url": "https://gitlab.com/kaelta"
     },
     {
-        "name": "Write.as",
+        "name": "txti",
+        "user": "@kaelta",
+        "url": "https://txti.es/kaelta"
+    },
+    {
+        "name": "YouTube",
+        "user": "@Jxnosila",
+        "url": "https://www.youtube.com/channel/UCcCb6_GkrR9GBYhvVQw5ubA"
+    },
+    {
+        "name": "Tumblr",
         "user": "@namothra",
-        "url": "https://write.as/namothra"
+        "url": "https://t.kae.si"
     }
 ]

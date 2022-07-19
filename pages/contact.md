@@ -8,18 +8,18 @@ order: 4
 
 `curl https://kae.si/static/content/key.asc`
 
-Then either contact us via <a href="mailto:{{site.author.email}}">our confidential email</a> or <a href="mailto:bowen.cass17@gmail.com">our professional email</a>
+And our address is ~ <a href="mailto:{{site.author.email}}">here!</a>
 
 ## Socials
 
 {% for link in links %}
 
-<a href="{{link.url}}"> {{link.name}} - {{link.user}} </a>
+<a class='link' href="{{link.url}}"> {{link.name}} - {{link.user}} </a>
 
 {% endfor %}
 
 ## Discord / IRC
 
-kaelta ☉#7683
+Jxnosila.#4086
 
 kori@lainchan.org#6677

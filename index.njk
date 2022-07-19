@@ -28,14 +28,14 @@ body {
 }
 
 wallpaper {
- background-image: url("/static/img/tunnel.jpg");
+ background-image: url("/static/img/texture.jpg");
   filter: brightness(40%);
- background-size: cover;
- display: block;
- position: fixed;
- height: 100%;
- width: 100%;
- transition: all 2000ms
+  background-size: cover;
+  display: block;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  transition: all 2000ms
 }
 
 menu {
@@ -51,7 +51,7 @@ menu #elith__logo {
  transition: all 4000ms;
 }
 
-# elith__footer {
+#elith__footer {
  position: absolute;
  z-index: 100;
  bottom: 15px;
@@ -59,7 +59,7 @@ menu #elith__logo {
  transition: all 4000ms
 }
 
-# elith__footer img {
+#elith__footer img {
  width: 30px;
  margin-left: 0px;
 }
@@ -86,13 +86,13 @@ div a {
 {% block header %}
 <wallpaper id="bg"></wallpaper>
 <menu>
-  <a id="elith__logo" href="/home">
-    <img style="width: 160px; text: white;" src="/static/icons/2ndgemini-life.svg"/>
+  <a id="elith__logo" style="display: flex; justify-content: center; align-items: center;" href="/home">
+    <img style="width: 190px; align-self: center;" src="/static/icons/wyrm.svg"/>
   </a>
 </menu>
 <div id="elith__footer">
   <a target="_blank" href="https://kae.si">
-    <img style="width: 90px;" src="/static/icons/wyrm.svg"/>
+    <img style="width: 90px;" src="/static/icons/2ndgemini-life.svg"/>
   </a>
   <a target="_blank" href="https://kae.si">
     <img style="width: 90px;" src="/static/icons/spiral.svg"/>
