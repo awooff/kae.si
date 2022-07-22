@@ -1,0 +1,16 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+{% include 'header.njk' %}
+
+<main>
+  <article>
+    <section class="markdown_content">
+      {{ content | markdown | safe }}
+    </section>
+  </article>
+</main>
+
+{% include 'footer.njk' %}

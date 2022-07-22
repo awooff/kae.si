@@ -1,8 +1,11 @@
 <header class="navbar">
   <nav class="nav">
-    <h4 class="nav-item"> 소피 {{title}} </h4>
-    <a class="nav-item" href="/pages/about"> about </a>
-    <a class="nav-item" href="/pages/contact"> contact </a>
-    <a class="nav-item" href="/pages/archive"> archive </a>
+    <h4 class="nav-item"> 소피
+      <a href="/home"> {{title}}</a>
+     </h4>
+    {% for tag in collections.tagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {% endfor %}
   </nav>
 </header>

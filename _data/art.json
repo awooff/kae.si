@@ -41,5 +41,12 @@
         "date": "2022-05-15",
         "motifs": ["eyes", "perception", "beauty"],
         "url": "/static/content/art/mothers_eye.jpg"
+    },
+    {
+        "name": "Negative Space Kitty",
+        "description": "Tag done of a negative space cat in Waterloo.",
+        "date": "2022-07-13",
+        "motifs": ["graffiti", "beauty"],
+        "url": "/static/content/art/negative_kitty.jpg"
     }
 ]

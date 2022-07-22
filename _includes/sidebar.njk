@@ -4,7 +4,7 @@
     filter: invert(0%) sepia(95%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(105%);
   }
 }
-@media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: dark) {
   #logo {filter: invert(0%) sepia(95%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(105%);}
 }
 </style>
@@ -27,16 +27,8 @@
           </a>
         </li>
       {% endfor %}
-      <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Pages</a></li>
-    </ul>
-    <ul class="tags">
-      {% for link in collections.tags %}
-        <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__tag">
-          <a href={{link.url}}>
-            {{link.data.title}}
-          </a>
-        </li>
-      {% endfor %}
+      <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/art">Art</a></li>
+      <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Meta</a></li>
     </ul>
   </nav>
   {% endblock sidebar_links %}

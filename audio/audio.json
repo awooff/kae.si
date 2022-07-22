@@ -1,4 +1,4 @@
 {
-  "layout": "layouts/post.njk",
-  "tags": "audio"
+  "layout": "layouts/base.njk",
+  "tags": ["nav", "audio"]
 }
