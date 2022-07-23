@@ -20,8 +20,8 @@ const handler = async event => {
   });
 
   try {
-    // Returns the HTML for the Eleventy template that matches to the URL
-    // Can use with `eleventyConfig.dataFilterSelectors` to put data cascade data into `page.data` here.
+      // Returns the HTML for the Eleventy template that matches to the URL
+      // Can use with `eleventyConfig.dataFilterSelectors` to put data cascade data into `page.data` here.
     let [page] = await elev.getOutput();
     let html = page.content;
 

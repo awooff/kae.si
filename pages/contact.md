@@ -22,4 +22,4 @@ And our address is ~ <a href="mailto:{{site.author.email}}">here!</a>
 
 Jxnosila.#4086
 
-kori@lainchan.org#6677
+Kae@irc.kae.si#6677
