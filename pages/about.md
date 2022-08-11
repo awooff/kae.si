@@ -5,7 +5,7 @@ description: About the wonderful Kae
 
 > Any prounouned plural system /// newfound vessel. If lost, please return to Apollo.
 
-![About Icon](/static/img/about_icon.png)
+![About Icon](/static/icons/about_icon.png)
 
 Kae is the so-called "producer" known as *h. x. r. †* (xhaart). Making noisy soundscapes since early 2022. They make experimental ambient / breakcore / hardcore electronic music heavily influenced by *Jungle* and *Breakcore*.
 
