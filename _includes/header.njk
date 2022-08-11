@@ -1,11 +1,25 @@
 <header class="navbar">
   <nav class="nav">
     <h4 class="title">
-      안식처 <a href="/home"> {{title}} </a>
+      <img src="/static/icons/kaex.png" style="max-width: 180px;"/> <a href="/home"> {{title}} </a>
     </h4>
+    <nav class="nav">
+      <ul class="links tabs">
+        {% for link in collections.nav %}
+          <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link">
+            <a href={{link.url}}>
+              {{link.data.title}}
+            </a>
+          </li>
+        {% endfor %}
+        <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Meta</a></li>
+      </ul>
+    </nav>
+    {% endblock sidebar_links %}
     {% for tag in collections.tagList %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
+    {% block sidebar_links %}
   </nav>
 </header>
