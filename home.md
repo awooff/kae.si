@@ -7,7 +7,7 @@ layout: layouts/home.njk
   Hi, this is Kaelta.
 </h1>
 
-![Twink breakfast](/static/img/twinkbreakfast.png)
+![Twink breakfast](/static/img/unleash_hell.png)
 
 See my work on my [bandcamp](<https://xhaart.bandcamp.com>)
 Or my programming & web development on my [gitlab](<https://gitlab.com/kaelta>)

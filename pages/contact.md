@@ -10,6 +10,8 @@ order: 4
 
 And our address is ~ <a href="mailto:{{site.author.email}}">here!</a>
 
+m (at) kae (dot) si
+
 ## Socials
 
 {% for link in links %}

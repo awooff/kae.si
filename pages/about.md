@@ -5,6 +5,8 @@ description: About the wonderful Kae
 
 > Any prounouned plural system /// newfound vessel. If lost, please return to Apollo.
 
+![About Icon](/static/img/about_icon.png)
+
 Kae is the so-called "producer" known as *h. x. r. †* (xhaart). Making noisy soundscapes since early 2022. They make experimental ambient / breakcore / hardcore electronic music heavily influenced by *Jungle* and *Breakcore*.
 
 <br/>
@@ -12,6 +14,7 @@ Kae is the so-called "producer" known as *h. x. r. †* (xhaart). Making noisy s
 <https://xhaart.bandcamp.com>
 
 <br/>
+
 
 They are forming an underground art collective known as [[__*Elith*__]], which aims to spread art, symbols of hope & music to the gentrified city of London, to alleviate the misery of being alive - for themselves, and for others.
 In doing so, others who resonate with the ideals - personified into religious deities; __Juno__, __Apollo__, __Gaia__, __Venus__, each representing __Strength__, __Love__, __Earth__ & __The Mother__ respectively.

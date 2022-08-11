@@ -8,7 +8,7 @@ tags: ["nav"]
 
 Here you'll find a collection of my notes on development that I've learned over the years, & hopefully you'll find some of it useful.
 
----
+![Zankyou no Terror programming gif](/static/img/fcntl_code.gif)
 
 {% for post in collections.dev | filterTagList | reverse %}
   <a href={{post.url}}> {{post.data.title}} </a> - <cite> {{post.data.description}} </cite>

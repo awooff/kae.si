@@ -12,6 +12,7 @@
   {% block sidebar_title %}
     <!-- <img id="logo" src="/static/icons/gemini-life.svg"/> -->
   <div class="title">
+    <img src="/static/icons/kaex.png"/>
     <h5>{{description}}</h5>
     <p> 🦌️ 💜 🖤 🎶 🎸 </p>
   </div>
@@ -26,9 +27,9 @@
           </a>
         </li>
       {% endfor %}
-      <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/art">Art</a></li>
       <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Meta</a></li>
     </ul>
   </nav>
   {% endblock sidebar_links %}
 </div>
+

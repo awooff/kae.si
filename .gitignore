@@ -12,3 +12,4 @@ netlify/functions/art/**
 # Secret stuff
 .env*
 !.env.example
+.DS_Store

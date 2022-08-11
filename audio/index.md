@@ -1,14 +1,17 @@
 ---
-title: Audio
-description: Gallery of Kae's sketches
+title: Xhaart
+description: Selected audio works & production
 permalink: /audio/
-layout: layouts/wiki.njk
 tags: ["nav", "audio"]
 ---
 
-![Rapture Gig @ ACM](/static/content/img/rapture_gig.jpg)
-{ Rapture Gig @ Boileroom, ACM }
-
-## xhaart
+## h.x.r.†
 
 ...explores modernized avenues of British rave, gabber, garage and drum & bass music.
+
+![Ouroboros](/static/img/vx_underground.jpg)
+
+{% for track in music %}
+  <h4> {{track.title}} </h4>
+  {{track.content | safe}}
+{% endfor %}

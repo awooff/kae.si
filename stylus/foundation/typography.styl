@@ -16,6 +16,9 @@ th
   margin .45rem auto .45rem 0
 p
   margin .85rem 0
+  line-height 1
+  padding-top 4px
+  padding-bottom 4px
 
 // Cute hack we found for scaling header tags programatically~
 for i in (1..6)
@@ -60,14 +63,6 @@ strong
     content none
 
 // https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
--blockquote-theme()
-  @media (prefers-color-scheme light)
-    background #f9f9f9
-    color fogra39
-  @media (prefers-color-scheme dark)
-    background background-primary
-    color text_primary
-
 blockquote
   -blockquote-theme()
   background #f9f9f9
@@ -156,3 +151,16 @@ article>section>p
 ::selection
   background midbluegreen
   
+.glow
+  -webkit-animation glow 1s ease-in-out infinite alternate
+  -moz-animation glow 1s ease-in-out infinite alternate
+  animation glow 1s ease-in-out infinite alternate
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
