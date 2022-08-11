@@ -3,6 +3,7 @@
     <h4 class="title">
       <img src="/static/icons/kaex.png" style="max-width: 180px;"/> <a href="/home"> {{title}} </a>
     </h4>
+    {% block sidebar_links %}
     <nav class="nav">
       <ul class="links tabs">
         {% for link in collections.nav %}
@@ -20,6 +21,5 @@
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
-    {% block sidebar_links %}
   </nav>
 </header>

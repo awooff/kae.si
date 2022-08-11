@@ -14,9 +14,7 @@ table
   font-family display_font
   td
     -table-value(1.2em)
-    color white
-    @media (prefers-color-scheme light)
-      color charcoal
+    color charcoal
     for iter in (0..6)
       &:nth-child({iter})
         -theme(fogra29)

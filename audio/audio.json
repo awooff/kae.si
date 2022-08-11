@@ -1,4 +1,4 @@
 {
-  "layout": "layouts/home.njk",
+  "layout": "layouts/wiki.njk",
   "tags": ["nav", "audio"]
 }
