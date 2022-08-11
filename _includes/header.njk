@@ -1,8 +1,8 @@
 <header class="navbar">
   <nav class="nav">
-    <h4 class="nav-item"> 소피
-      <a href="/home"> {{title}}</a>
-     </h4>
+    <h4 class="title">
+      안식처 <a href="/home"> {{title}} </a>
+    </h4>
     {% for tag in collections.tagList %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>

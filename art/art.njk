@@ -24,18 +24,17 @@ permalink: /tags/{{art}}/
   }
 </style>
 
-<div class="art__section">
+<div class="art__section cdp-wrap" id="art">
   <h2> Page is a WIP. </h2>
-    <figure class="flex art__container">
-      <img class="art__image" src="{{piece.url}}" alt="{{piece.description | truncate(258)}}"/>
+    <figure class="flex art__container cdp-element">
+      <img class="art__image ph" src="{{piece.url}}" data-src="{{piece.url}}" alt="{{piece.description | truncate(258)}}"/>
       <figcaption> 
-        <cite><p>{{piece.influence}}</p></cite> 
         <details>
           {% block details %}
           <summary>
             <span>
               <p>{{piece.name}}</p>
-              <p>{{piece.date}}</p>
+              <cite>{{piece.date}}</cite>
             </span>
           </summary>
           <p>{{piece.description | safe }}</p>

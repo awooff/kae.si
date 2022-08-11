@@ -1,11 +1,11 @@
 {
     "title": "Kaeforest",
-    "description": "Blog & portfolio of our Kae.",
+    "description": "Wiki of personal notes, research and work archives.",
     "url": "https://kae.si",
     "language": "en",
     "author": {
-        "name": "Kaelta",
-        "email": "kaelta.cass@disr.it"
+        "name": "m (at) kae (dot) si",
+        "email": "m@kae.si"
     },
     "feed": {
         "subtitle": "Thoughts & ramblings of Kae",

@@ -7,16 +7,19 @@
 
 .sidebar {
   display flex
-  flex-direction column
-  text-align center
+  flex-direction row
   height 100%
   order 0
-  margin-left 1rem
-  margin-right 1rem
-  text-align center
+  margin 2rem
+  text-align left
   align-items center
   justify-content space-around
   align-content center
+  border-bottom solid 2px fogra29
+  @media only screen and (max-width breakpoints.md) {
+    flex-direction column
+    text-align center
+  }
   /* Now for the two main components */
   #logo {
     width 26%
@@ -24,8 +27,11 @@
   .title {
     width 100%
     margin auto
-    text-align center
+    text-align left
     align-items center
+    @media only screen and (max-width breakpoints.md) {
+      text-align center
+    }
     .icon {
       img {
         @media only screen and (max-width breakpoints.sm) {
@@ -35,9 +41,6 @@
         width max(9vw, 260px)
       }
     }
-    hr {
-      color grullo
-    }
   }
   /* For the links on the side / bottom */
   .nav {
@@ -45,7 +48,7 @@
     align-content center
     width 100%
     display flex
-    align-items center
+    align-items left
     flex-direction row
     justify-content space-around
     .links {
@@ -74,9 +77,6 @@
           &:hover {
             color midbluegreen
           }
-        }
-        &:before {
-          content "// "
         }
         &:after {
           content none

@@ -113,14 +113,35 @@ hr
   margin 1em 0
 
 p,
-.tmpl-post li {
-  line-height: 1.45;
-}
+.tmpl-post li
+  line-height: 1.45
 
 small
   font-family display_font
   font-display small-caps
   line-height 1.2
+
+details>summary
+  display flex
+  flex-direction row
+  padding 2px 
+  font-size 18px
+  &span:before
+    content "{"
+  &span:after
+    content "}"
+  &span>cite
+    font-size 16px
+  &:before
+    content " ᐳ "
+    padding-right 8px 
+    padding-top 8px 
+    &[open]
+      content "#"
+
+details[open]
+  &>summary:before
+    content " ᐯ "
 
 article>section>p
   font-family sans_font
@@ -131,3 +152,7 @@ article>section>p
       content "[["
     &:after
       content "]]"
+
+::selection
+  background midbluegreen
+  

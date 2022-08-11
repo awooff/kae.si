@@ -1,0 +1,40 @@
+---
+title: Gallery
+description: Gallery of Kae's photos
+permalink: /photos/
+layout: "layouts/home.njk"
+tags: nav
+---
+
+{# Going to want some page-specific styles for ordering the images next to one another. #}
+<style lang="css" scoped>
+  .art__section {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<div class="art__section">
+  <h2> Page is a WIP. </h2>
+  <h4> Currently there are {{art | length}} pieces by Kae. </h4>
+  {% for piece in art | reverse %}
+    <figure class="flex art__container">
+      <img class="art__image" src="{{piece.url}}" alt="{{piece.description | truncate(258)}}"/>
+      <figcaption> 
+        <cite><p>{{piece.influence}}</p></cite> 
+        <details>
+          {% block details %}
+          <summary>
+            <span>
+              <p>{{piece.name}}</p>
+              <p>{{piece.date}}</p>
+            </span>
+          </summary>
+          <span class="row">{%- for motif in art.motifs %} <i>{{motif}}</i> {%- endfor %}</span>
+          <p>{{piece.description | safe }}</p>
+          {% endblock details %}
+        </details>
+      </figcaption>
+    </figure>
+  {% endfor %}
+</div>

@@ -3,7 +3,9 @@ title: Home
 layout: layouts/home.njk
 ---
 
-# Hi, this is Kaelta.
+<h1 class="title">
+  Hi, this is Kaelta.
+</h1>
 
 ![Twink breakfast](/static/img/twinkbreakfast.png)
 
