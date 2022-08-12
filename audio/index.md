@@ -2,7 +2,7 @@
 title: Xhaart
 description: Selected audio works & production
 permalink: /audio/
-tags: ["nav", "audio"]
+tags: ['nav']
 ---
 
 ## h.x.r.†
@@ -14,4 +14,8 @@ tags: ["nav", "audio"]
 {% for track in music %}
   <h4> {{track.title}} </h4>
   {{track.content | safe}}
+{% endfor %}
+
+{% for post in collections.audio %}
+  <a href={{post.url}}> {{post.data.title}} </a> - <o> {{post.data.description}} </o>
 {% endfor %}
