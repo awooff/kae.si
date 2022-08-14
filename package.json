@@ -47,6 +47,7 @@
     "@netlify/functions": "^1.0.0",
     "axios": "^0.27.2",
     "dotenv": "^16.0.0",
-    "eleventy-plugin-toc": "^1.1.5"
+    "eleventy-plugin-toc": "^1.1.5",
+    "markdown-it-math": "^4.1.1"
   }
 }
