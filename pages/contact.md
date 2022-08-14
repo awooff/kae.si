@@ -2,6 +2,7 @@
 title: Contact
 description: Where to find us
 order: 4
+layout: layouts/home.njk
 ---
 
 ## Email

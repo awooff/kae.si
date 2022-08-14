@@ -9,7 +9,7 @@ li
 td
 tr
 th
-  font-family sans_font
+  font-family sans_font, Heuristica, serif 
   font-size text_scale_size(3)
   line-height 1.6
   letter-spacing .9
@@ -23,8 +23,8 @@ p
 // Cute hack we found for scaling header tags programatically~
 for i in (1..6)
   h{i}
-    text_scale_size (7 - i)
-    font-family display_font
+    text_scale_size (6 - i)
+    font-family mono_font
 
 small
   text_scale_size(-1)
@@ -44,10 +44,10 @@ p>a
   text-decoration underline
   &:before
     color dimgray
-    content '['
+    content '{'
   &:after
     color dimgray
-    content ']'
+    content '}'
 
 p>code
   border 1px grullo dashed
@@ -68,7 +68,7 @@ blockquote
   background #f9f9f9
   border-left 10px solid #ccc
   margin 1.5em 10px
-  padding 0.5em 10px
+  padding 0.5em 5px
   quotes "\201C""\201D""\2018""\2019"
   p
     font-style italic
@@ -139,14 +139,14 @@ details[open]
     content " ᐯ "
 
 article>section>p
-  font-family sans_font
+  font 16px serif_font
   letter-spacing 1.6
   line-height 1.6
   >a
     &:before
-      content "[["
+      content "["
     &:after
-      content "]]"
+      content "]"
 
 ::selection
   background midbluegreen
@@ -156,11 +156,8 @@ article>section>p
   -moz-animation glow 1s ease-in-out infinite alternate
   animation glow 1s ease-in-out infinite alternate
 
-@-webkit-keyframes glow {
-  from {
+@-webkit-keyframes glow
+  from
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  to {
+  to
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
-}

@@ -1,6 +1,7 @@
 ---
 title: About
 description: The occular wiki & content engine.
+layout: layouts/home.njk
 ---
 
 > Any prounouned plural system /// newfound vessel. If lost, please return to Apollo.
