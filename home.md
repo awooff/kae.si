@@ -3,16 +3,11 @@ title: Home
 layout: layouts/home.njk
 ---
 
-<h1 class="title">
-  Hi, this is Kaelta.
-</h1>
+## Kaeforest
 
-![Twink breakfast](/static/img/unleash_hell.png)
-
-See my work on my [bandcamp](<https://xhaart.bandcamp.com>)
-Or my programming & web development on my [gitlab](<https://gitlab.com/kaelta>)
-
-{# ![hihi :>](./img/juuzo.jpg) #}
+<img style='
+max-width: 250px;'
+src='/static/icons/about_icon.png'/>
 
 ## Friends
 

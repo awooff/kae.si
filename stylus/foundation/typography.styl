@@ -9,14 +9,11 @@ li
 td
 tr
 th
-  font-family sans_font, Heuristica, serif 
-  font-size text_scale_size(3)
+  font 16px serif_font
   line-height 1.6
-  letter-spacing .9
   margin .45rem auto .45rem 0
 p
   margin .85rem 0
-  line-height 1
   padding-top 4px
   padding-bottom 4px
 
@@ -44,10 +41,10 @@ p>a
   text-decoration underline
   &:before
     color dimgray
-    content '{'
+    content "{"
   &:after
     color dimgray
-    content '}'
+    content "}"
 
 p>code
   border 1px grullo dashed
@@ -138,16 +135,18 @@ details[open]
   &>summary:before
     content " ᐯ "
 
-article>section>p
-  font 16px serif_font
-  letter-spacing 1.6
-  line-height 1.6
-  >a
-    &:before
-      content "["
-    &:after
-      content "]"
-
+article
+  margin 2.5vw
+  >section>p
+    font 14px [sans_font]
+    letter-spacing -.5px
+    word-spacing -13px
+    >a
+      &:before
+        content "["
+      &:after
+        content "]"
+  
 ::selection
   background midbluegreen
   
