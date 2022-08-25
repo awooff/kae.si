@@ -1,18 +1,43 @@
 <footer>
   <div class="top">
     <div class="content">
-    {%- if collections.posts or collections.dev or collections.audio%}
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-      {%- if nextPost or previousPost %}
-        <div>
-        <ul>
-          {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-          {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-        </ul>
-        </div>
+      {# This is so ugly I'm so soryy #}
+      {% if collections.posts %}
+        {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+        {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+        {%- if nextPost or previousPost %}
+          <div>
+          <ul>
+            {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+            {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+          </ul>
+          </div>
         {%- endif %}
-      {%- endif %}
+      {% endif %}
+      {% if collections.dev %}
+        {%- set nextPost = collections.dev | getNextCollectionItem(page) %}
+        {%- set previousPost = collections.dev | getPreviousCollectionItem(page) %}
+        {%- if nextPost or previousPost %}
+          <div>
+          <ul>
+            {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+            {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+          </ul>
+          </div>
+        {%- endif %}
+      {% endif %}
+      {% if collections.audio %}
+        {%- set nextPost = collections.audio | getNextCollectionItem(page) %}
+        {%- set previousPost = collections.audio | getPreviousCollectionItem(page) %}
+        {%- if nextPost or previousPost %}
+          <div>
+          <ul>
+            {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+            {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
+          </ul>
+          </div>
+        {%- endif %}
+      {% endif %}
     </div>
     <div class="content">
       {%- if updated_at %}
@@ -44,9 +69,7 @@
         <ul class="links">
           <a href="https://gitlab.com/kaelta/kaeforest">src code</a>
           <a href="https://twitter.com/@kaelta"> twt </a>
-          <a href="https://webring.xxiivv.com/kaeforest" target="_blank">
-            webring <img style="stroke-width: 1px;" src="https://xxiivv.com/media/vectors/webring.svg" alt="XXIIVV webring"/>
-          </a>
+          <a href="https://webring.xxiivv.com/kaeforest" target="_blank"> webring </a>
           <a href="https://write.as/mothra"> write.as </a>
         </ul>
       </div>

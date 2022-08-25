@@ -9,7 +9,7 @@ li
 td
 tr
 th
-  font 16px serif_font
+  font-family serif_font
   line-height 1.6
   margin .45rem auto .45rem 0
 p
@@ -32,10 +32,6 @@ pre
 time
   font-family mono_font
   font-weight 100
-
-img
-  min-width 60%
-  max-width 88%
 
 p>a
   links($accent)
@@ -139,15 +135,21 @@ details[open]
 
 article
   margin 2.5vw
-  &>section>p
-    font-family sans_font
-    letter-spacing -.5px
-    word-spacing -13px
-    >a
-      &:before
-        content "["
-      &:after
-        content "]"
+  h1
+      @media only screen and (max-width breakpoints.lg)
+        font-size 20px
+  &>section
+    img
+      min-width 320px
+    &>p
+      font-family sans_font
+      letter-spacing -.5px
+      word-spacing -13px
+      >a
+        &:before
+          content "["
+        &:after
+          content "]"
   
 ::selection
   background midbluegreen
