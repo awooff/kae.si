@@ -1,6 +1,3 @@
 {
-    "layout": "layouts/wiki.njk",
-    "tags": [
-        "audio"
-    ]
+    "layout": "layouts/wiki.njk"
 }

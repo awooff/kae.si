@@ -13,3 +13,7 @@ netlify/functions/art/**
 .env*
 !.env.example
 .DS_Store
+
+# Trash
+.obsidian
+.trash
