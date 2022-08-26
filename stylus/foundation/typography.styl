@@ -20,7 +20,7 @@ p
 // Cute hack we found for scaling header tags programatically~
 for i in (1..6)
   h{i}
-    text_scale_size (7 - i)
+    text_scale_size (5.5 - i)
     font-family mono_font
 
 small
@@ -136,15 +136,12 @@ details[open]
 article
   margin 2.5vw
   h1
-      @media only screen and (max-width breakpoints.lg)
-        font-size 20px
+    @media only screen and (max-width breakpoints.lg)
+      font-size 24px
   &>section
     img
       min-width 320px
     &>p
-      font-family sans_font
-      letter-spacing -.5px
-      word-spacing -13px
       >a
         &:before
           content "["
