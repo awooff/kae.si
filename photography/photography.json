@@ -1,6 +1,0 @@
-{
-    "title": "Photography",
-    "description": "Some of Kae's photography work.",
-    "layout": "layouts/home.njk",
-    "tags": "nav"
-}

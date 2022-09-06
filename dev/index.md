@@ -1,10 +1,9 @@
 ---
 title: Dev
+description: A collection of info for software development
 layout: layouts/wiki.njk
 tags: ["nav"]
 ---
-
-### A collection of info for software development
 
 ![Zankyou no Terror programming gif](/static/img/fcntl_code.gif)
 

@@ -89,6 +89,15 @@ ol>li
   &:before
     content none
 
+ul>li:not(.sidebar__link)
+  list-style-type "  –  "
+  position relative
+  list-style-position inside
+  for $i in 1..5
+    &>ul,li:nth-child({$i})
+      right -20px
+      list-style-position inside
+
 hr
   display block
   border-top 1px solid rgba(245, 229, 229, 0.575)
@@ -144,9 +153,9 @@ article
     &>p
       >a
         &:before
-          content "["
+          content "[["
         &:after
-          content "]"
+          content "]]"
   
 ::selection
   background midbluegreen
