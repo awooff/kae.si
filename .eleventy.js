@@ -15,11 +15,6 @@ const pluginTOC = require('eleventy-plugin-toc');
 const fs = require('fs');
 
 const handler = async event => {
-	const elev = new EleventyServerless('serverless', {
-		path: event.path, // required, the URL path
-		query: event.queryStringParameters, // optional
-	});
-
 	try {
 		// Returns the HTML for the Eleventy template that matches to the URL
 		// Can use with `eleventyConfig.dataFilterSelectors` to put data cascade data into `page.data` here.
