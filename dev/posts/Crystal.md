@@ -47,10 +47,8 @@ abstract class Engine
   end
 
   abstract def run
-  end
 
   abstract def stop
-  end
 end
 
 class RustEngine : Engine
