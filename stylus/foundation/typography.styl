@@ -33,9 +33,6 @@ time
   font-family mono_font
   font-weight 100
 
-p>a
-  font-family serif_font
-
 p>code
   border 1px grullo dashed
   font-style italic
@@ -71,22 +68,24 @@ blockquote
 em
   font-style italic
 
-ol>li
-  list-style-type upper-roman
-  list-style-position inside
+ol
+  padding-left 0
   &>li
-    list-style-type lower-roman
-    &>li
-      list-style-type lower-alpha
-  &:before
-    content none
+    list-style-type upper-roman
+    list-style-position inside
+    &>ol>li
+      list-style-type lower-roman
+      &>li
+        list-style-type lower-alpha
+    &:before
+      content none
 
 ul>li:not(.sidebar__link)
   list-style-type "  –  "
   position relative
   for $i in 1..5
     &>ul,li:nth-child({$i})
-      right -0.2rem
+      right -0.1rem
       list-style-position inside
 
 hr
@@ -141,6 +140,11 @@ article
   &>section
     img
       min-width 320px
+    a[target="_blank"]
+      &:before
+        content "[["
+      &:after
+        content "]]"
 
 ::selection
   background midbluegreen
