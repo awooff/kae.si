@@ -17,13 +17,16 @@ eleventyExcludeFromNavigavtion: true
 max-width: 250px;'
 src='/static/icons/about_icon.png'/>
 
-<h2> Friends </h2>
+## A few notes
+
+##### See all notes [here.](/tags/)
+
+{% for entry in collections.posts | filterTagList | reverse | head(-8) %}
+  { {{entry.data.date}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
+{% endfor %}
+
+## Friends
 
 {% for friend in friends %}
   <a href={{friend.url}}>{{friend.name}}</a>
-{% endfor %}
-
-<h2> A few notes </h2>
-{% for entry in collections.posts | filterTagList | reverse | head(-8) %}
-  { {{entry.data.date}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
 {% endfor %}
