@@ -9,38 +9,35 @@ description: Wiki & logging system
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={{ page.url }}/>
-    <link rel="icon" type="image/x-icon" href="/static/img/kaex_white.png">
+    <link rel="canonical" href={{page.url}}/>
+    <link rel="icon" type="image/png" href="/static/icons/awa.png">
 
     <title>{{ title }}</title>
     {# All them metas. #}
-    <meta name="description" content="{{ description }}">
-    <meta name="generator" content="{{ eleventy.generator }}">
+    <meta name="description" content="{{description}}">
+    <meta name="generator" content="{{eleventy.generator}}">
 
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ title }}">
-    <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ title }}">
+    <link rel="alternate" href="{{metadata.feed.path | url}}" type="application/atom+xml" title="{{title}}">
+    <link rel="alternate" href="{{metadata.jsonfeed.path | url}}" type="application/json" title="{{title}}">
 
-    <meta property="og:title" content="{{ title or renderData.title  }}"/>
-    <meta property="og:description" content="{{ description or renderData.description }}"/>
-    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:title" content="{{title or renderData.title}}"/>
+    <meta property="og:description" content="{{description or renderData.description}}"/>
+    <meta property="og:url" content="{{page.url}}" />
     <meta property="og:type" content="article" />
 
     {# Now for twitter. #}
-    <meta name="twitter:title" content="{{ title or renderData.title }}"/>
-    <meta name="twitter:description" content="{{ description or renderData.description }}"/>
+    <meta name="twitter:title" content="{{title or renderData.title}}"/>
+    <meta name="twitter:description" content="{{description or renderData.description}}"/>
     <meta name="twitter:author" content="@kaelta_"/>
 
     <meta name="theme-color" content="#a04668"/>
-    <link rel="stylesheet" href="/css/brutalist.min.css"/>
-    {# <link rel="stylesheet" href="/css/blueprintgrid.min.css"/> #}
-    <link rel="stylesheet" href="/css/blueprintgrid_polygrids.min.css"/>
     <link rel="stylesheet" href="/css/index.css"/>
 
     <title>{{ title }}</title>
-    {# 
-    Now for our stylsheets! As minified CSS!
+    {# Now for our stylsheets! As minified CSS! #}
+    {#
     {% set css %}
-    {% include '/css/index.styl' %}
+    {% include 'index.css' %}
     {% endset %}
     <style>
       {{css | postcss | safe}}
