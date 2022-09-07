@@ -14,31 +14,8 @@
           </div>
         {%- endif %}
       {% endif %}
-      {% if collections.dev %}
-        {%- set nextPost = collections.dev | getNextCollectionItem(page) %}
-        {%- set previousPost = collections.dev | getPreviousCollectionItem(page) %}
-        {%- if nextPost or previousPost %}
-          <div>
-          <ul>
-            {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-            {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-          </ul>
-          </div>
-        {%- endif %}
-      {% endif %}
-      {% if collections.audio %}
-        {%- set nextPost = collections.audio | getNextCollectionItem(page) %}
-        {%- set previousPost = collections.audio | getPreviousCollectionItem(page) %}
-        {%- if nextPost or previousPost %}
-          <div>
-          <ul>
-            {%- if nextPost %}<li>Next :: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
-            {%- if previousPost %}<li>Previous :: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
-          </ul>
-          </div>
-        {%- endif %}
-      {% endif %}
     </div>
+   </div>
     <div class="content">
       {%- if updated_at %}
         <span class="post-date">updated at: {{ updated_at }}</span>
@@ -64,15 +41,7 @@
           <small> Copyright is a spook. 👻 oooh spooky~ </small>
         </div>
       </div>
-      </div>
-      <div class="row">
-        <a href="https://webring.xxiivv.com/#xxiivv" target="_blank" rel="noopener noreferrer">
-          <img src="https://webring.xxiivv.com/icon.black.svg" style="min-height: 100%;min-width: 120px; max-width: 180px;" alt="XXIIVV webring"/>
-        </a>
-        <a href="/elith" target="_blank" rel="noopener noreferrer">
-          <img src="/static/icons/gemini-life.png" style="min-height: 100%; min-width: 120px; max-width: 180px;" alt="XXIIVV webring"/>
-        </a>
-      </div>
+    </div>
       <div class="row">
         <ul class="links">
           <a href="https://gitlab.com/kaelta/kaeforest">src code</a>
@@ -80,6 +49,14 @@
           <a href="https://webring.xxiivv.com/kaeforest" target="_blank"> webring </a>
           <a href="https://write.as/mothra"> write.as </a>
         </ul>
+      </div>
+      <div class="row">
+        <a href="https://webring.xxiivv.com/#xxiivv" target="_blank" rel="noopener noreferrer">
+          <img src="https://webring.xxiivv.com/icon.black.svg" style="min-height: 100%; min-width: 90px; max-width: 180px;" alt="XXIIVV webring"/>
+        </a>
+        <a href="/elith" target="_blank" rel="noopener noreferrer">
+          <img src="/static/icons/gemini-life.png" style="min-height: 100%; min-width: 90px; max-width: 180px;" alt="XXIIVV webring"/>
+        </a>
       </div>
     </div>
   </div>

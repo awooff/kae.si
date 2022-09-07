@@ -6,7 +6,9 @@ layout: layouts/home.njk
 
 > Any prounouned plural system /// newfound vessel. If lost, please return to Apollo.
 
-![About Icon](/static/icons/about_icon.png)
+<img style="min-width: 180px; max-width: 16%;" alt="Icon of Elith" src="/static/icons/about_icon.png"/>
+<br/>
+<br/>
 
 ## Kaeforest is a wiki & content engine for Elith.
 

@@ -34,15 +34,7 @@ time
   font-weight 100
 
 p>a
-  links($accent)
-  color $accent
-  line-height 1.2
-  word-spacing 2px
-  text-decoration underline
-  &:before
-    content "["
-  &:after
-    content "]"
+  font-family serif_font
 
 p>code
   border 1px grullo dashed
@@ -92,10 +84,9 @@ ol>li
 ul>li:not(.sidebar__link)
   list-style-type "  –  "
   position relative
-  list-style-position inside
   for $i in 1..5
     &>ul,li:nth-child({$i})
-      right -20px
+      right -0.2rem
       list-style-position inside
 
 hr
@@ -150,13 +141,7 @@ article
   &>section
     img
       min-width 320px
-    &>p
-      >a
-        &:before
-          content "[["
-        &:after
-          content "]]"
-  
+
 ::selection
   background midbluegreen
   

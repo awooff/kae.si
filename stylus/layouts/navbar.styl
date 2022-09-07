@@ -2,17 +2,26 @@ header {
   border-bottom 1px solid grullo
   margin-bottom 12px
   .nav {
-    padding 8px
-  }
-  .title {
     display flex
     flex-direction row
-    align-items center
-    a {
-      align-self center
+    align-content center
+    @media only screen and (max-width breakpoints.lg) {
+      flex-direction column
     }
-  }
-  .navbar {
-    padding-bottom 1rem
+    &__title {
+      display flex
+      flex-direction row
+      align-items center
+    }
+    &__links {
+      display flex
+      flex-direction row
+      flex-wrap wrap
+      align-items center
+      justify-content center
+      &>.sidebar__link {
+        padding 8px
+      }
+    }
   }
 }

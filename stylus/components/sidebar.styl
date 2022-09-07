@@ -1,62 +1,35 @@
--spacing(scale) {
-  margin-top 1.65 * scale
-  margin-bottom 1.65 * scale
-  padding-top 1.65 * scale
-  padding-bottom 1.65 * scale
-}
-
 .sidebar {
   display flex
   flex-direction row
-  height 100%
   order 0
-  margin 2rem
+  margin 2em
   text-align center
-  align-items center
-  justify-content space-around
-  align-content center
+  justify-content space-between
   border-bottom solid 2px fogra29
-  @media only screen and (max-width breakpoints.md) {
+  @media only screen and (max-width breakpoints.lg) {
     flex-direction column
   }
   /* Now for the two main components */
-  #logo {
-    width 26%
-  }
   .title {
-    width 100%
-    margin auto
-    text-align center
-    align-items center
-    @media only screen and (max-width breakpoints.md) {
-      text-align center
-    }
-    .icon {
-      img {
-        @media only screen and (max-width breakpoints.sm) {
-          display none
-        }
-        padding .5ch
-        width max(9vw, 460px)
-      }
+    max-width 460px
+    flex-wrap wrap
+    #icon {
+      min-width 240px
     }
   }
   /* For the links on the side / bottom */
   .nav {
     margin auto
-    align-content center
     width 100%
     display flex
-    align-items left
     flex-direction row
-    justify-content space-around
+    flex-wrap wrap
     .links {
-      margin auto
       display flex
       flex-direction row
-      border 2px grullo
+      flex-wrap wrap
+      padding-left 0
       li {
-        -spacing(2)
         @media only screen and (max-width breakpoints.md) {
           border-bottom none
         }
@@ -66,7 +39,6 @@
           }
         }
         margin .65rem
-        padding 0.2em
         &>a[href] {
           color sky
           -ease-transition(color)
