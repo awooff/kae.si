@@ -2,6 +2,7 @@
 title: About
 description: The occular wiki & content engine.
 layout: layouts/home.njk
+tags: nav
 ---
 
 > Any prounouned plural system /// newfound vessel. If lost, please return to Apollo.
@@ -22,6 +23,10 @@ __Our aim is to change this.__
 
 By providing a __wiki__ for [[art]](/art), [[music]](/audio), [[synthesis]](/audio/posts/synthesis) & visual media, Kaeforest aims to enable *hackers*, *activists*, *artists* & *musicians* alike to learn, discover & create artwork within the framework of these ideals, to spread the symbols of hope & peace that the public consciousness lacks.
 
-You can read about our [[philosophy]](/elith) here.
+## Resources
+
+We have an [[irc]](./irc) server for you to join, should you feel like saying hello :)
+
+Alternative methods of contact are listed [here](./contact)
 
 And if you feel like you agree with it or want to be a part, a variety of icons/symbology have been created for you to spread.

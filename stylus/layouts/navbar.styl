@@ -1,29 +1,28 @@
-header {
+header
   border-bottom 1px solid grullo
   margin-bottom 12px
-  .nav {
+  .nav
     display flex
-    flex-direction row
-    align-content center
-    justify-content space-between
-    @media only screen and (max-width breakpoints.lg) {
+    @media only screen and (max-width breakpoints.lg)
       flex-direction column
-    }
-    &__title {
+    &__title
       display flex
       flex-direction row
       align-items center
-    }
-    &__links {
+    &__links
+      overflow scroll
+      scroll-snap-type y mandatory
       display flex
       padding-left 0
       flex-direction row
-      flex-wrap wrap
-      align-items center
-      justify-content center
-      &>.sidebar__link {
+      &>.sidebar__link
         padding 8px
-      }
-    }
-  }
-}
+    &__taglist
+      overflow-x scroll
+      overflow-y hidden
+      scroll-snap-type y mandatory
+      scroll-behavior smooth
+      &__button
+        scroll-snap-align start
+        margin-bottom 10px
+        object-fit cover

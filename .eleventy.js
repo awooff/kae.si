@@ -1,7 +1,6 @@
 const {DateTime: DT} = require('luxon');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const {EleventyServerlessBundlerPlugin} = require('@11ty/eleventy');
 const directoryOutputPlugin = require('@11ty/eleventy-plugin-directory-output');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const Image = require('@11ty/eleventy-img');
@@ -13,28 +12,6 @@ const markdownItReplaceLink = require('markdown-it-replace-link');
 const pluginTOC = require('eleventy-plugin-toc');
 
 const fs = require('fs');
-
-const handler = async event => {
-	try {
-		// Returns the HTML for the Eleventy template that matches to the URL
-		// Can use with `eleventyConfig.dataFilterSelectors` to put data cascade data into `page.data` here.
-		let [page] = await elev.getOutput();
-		let html = page.content;
-
-		return {
-			statusCode: 200,
-			body: html,
-		};
-	} catch (err) {
-		return {
-			statusCode: 500,
-			body: JSON.stringify({error: err.message}),
-		};
-	}
-};
-
-const {builder} = require('@netlify/functions');
-exports.handler = builder(handler);
 
 // Create a shortcode for `sharp` optimized images.
 async function imageShortcode(
@@ -83,10 +60,6 @@ module.exports = evc => {
 			benchmark: true,
 		},
 		warningFileSize: 400 * 1000,
-	});
-	evc.addPlugin(EleventyServerlessBundlerPlugin, {
-		name: 'art', // The serverless function name from your permalink object
-		functionsDir: './netlify/functions/',
 	});
 
 	// Generate a table of contents u.u

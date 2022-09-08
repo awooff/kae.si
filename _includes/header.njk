@@ -15,10 +15,10 @@
       <li{% if link.url == post.url %} aria-current="page"{% endif %} class="sidebar__link"><a href="/pages/page-list">Meta</a></li>
     </ul>
   </nav>
-  <nav class="taglist">
+  <nav class="nav__taglist">
     {% for tag in collections.tagList %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      <a href="{{ tagUrl | url }}" class="nav__taglist__button post-tag">{{ tag }}</a>
     {% endfor %}
   </nav>
 </header>
