@@ -3,7 +3,7 @@ title: Project Titan
 description: |
   Project Titan is a story-driven game developed for the
   Macintosh II system
-date: '2022-09-07'
+date: 2022-09-07
 ---
 
 ![Intial Project's scrapbook](/static/img/Fa-uHw7WYAARG2U.jpg)

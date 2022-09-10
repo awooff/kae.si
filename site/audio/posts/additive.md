@@ -2,7 +2,7 @@
 title: Additive Synthesis
 description: |
   Additive Synthesis is the foundation of modern sound design.
-date: '2022-08-25'
+date: 2022-08-25
 ---
 
 <https://en.wikipedia.org/wiki/Additive_synthesis>

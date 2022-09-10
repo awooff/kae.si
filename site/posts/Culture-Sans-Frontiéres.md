@@ -2,7 +2,7 @@
 title: Witchcraft of the digital age
 description: Manipulating the sphere of the public unconscious, and how to twist the information dystopia to your will.
 tags: ['writeup', 'sociology']
-date: '2022-08-05'
+date: 2022-08-05
 ---
 
 ![Alt Image](/static/img/surrealcity.jpg)

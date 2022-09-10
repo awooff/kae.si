@@ -3,7 +3,7 @@ title: Crystal Programming Language
 description: |
   Crystal is a statically-typed general purpose ruby-family
   language for the modern age.
-date: '2022-09-06'
+date: 2022-09-06
 ---
 
 Crystal heavily utilises the famously clean & pragmatic syntax of Ruby, extended with a strict static type system, simplying & improving the experience of OOP in the ruby paradigm.

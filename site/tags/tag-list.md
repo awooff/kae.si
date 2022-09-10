@@ -5,7 +5,7 @@ layout: layouts/home.njk
 permalink: /tags/
 ---
 
-<h2> All topics. </h2>
+## All topics.
 
 <div style="display: flex;">
 {% for tag in collections.tagList %}
@@ -14,10 +14,8 @@ permalink: /tags/
 {% endfor %}
 </div>
 
-<h2> All notes on Kaeforest. </h2>
+## All notes on Kaeforest.
+
 {% for entry in collections.posts | filterTagList | reverse  %}
-  { {{entry.data.date}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
+  { {{entry.data.date | readableDate}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
 {% endfor %}
-
-
-

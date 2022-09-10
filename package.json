@@ -15,8 +15,8 @@
     "url": "https://kae.si/"
   },
   "scripts": {
-    "watch:stylus": "stylus -w -o _site/css ./stylus/",
-    "build:stylus": "stylus -c -o _site/css ./stylus/",
+    "watch:stylus": "stylus -w -o _www/css ./stylus/",
+    "build:stylus": "stylus -c -o _www/css ./stylus/",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all build:stylus --parallel watch:*",

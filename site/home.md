@@ -21,8 +21,8 @@ src='/static/icons/about_icon.png'/>
 
 ##### See all notes [here.](/tags/)
 
-{% for entry in collections.posts | filterTagList | reverse | head(-8) %}
-  { {{entry.data.date}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
+{% for entry in collections.posts | filterTagList | reverse | head(5) %}
+  { {{entry.data.date | readableDate}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
 {% endfor %}
 
 ## Friends

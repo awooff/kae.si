@@ -1,6 +1,6 @@
 ---
-title: Xhaart
-description: Selected audio works & production
+title: Audio
+description: Selected audio works & production.
 permalink: /audio/
 tags: ['nav']
 ---

@@ -24,7 +24,7 @@ async function imageShortcode(
 		widths: [300, 600, 900],
 		formats: ['avif', 'jpeg'],
 		urlPath: '/static/img/',
-		outputPath: './_site/static/img',
+		outputPath: './_www/static/img',
 		filenameFormat: (id, src, width, format, options) => {
 			const extension = path.extname(src);
 			const name = path.basename(src, extension);
@@ -171,7 +171,7 @@ module.exports = evc => {
 		ghostMode: false,
 		callbacks: {
 			ready: (err, browserSync) => {
-				const content_404 = fs.readFileSync('_site/404.html');
+				const content_404 = fs.readFileSync('_www/404.html');
 
 				browserSync.addMiddleware('*', (req, res) => {
 					// Provides the 404 content without redirect.
@@ -195,10 +195,10 @@ module.exports = evc => {
 		markdownTemplateEngine: 'njk',
 		pathPrefix: '/',
 		dir: {
-			input: '.',
-			includes: '_includes',
-			data: '_data',
-			output: '_site',
+			input: 'site',
+			includes: '/_includes',
+			data: '/_data',
+			output: '_www',
 		},
 	};
 };

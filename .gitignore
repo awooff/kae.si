@@ -1,13 +1,11 @@
 node_modules/
 _site/
+_www/
 package-lock.json
 
 # Netlify generated stuff
 .netlify/
 netlify/edge_functions/_generated
-
-netlify/functions/art/**
-!netlify/functions/art/index.js
 
 # Secret stuff
 .env*

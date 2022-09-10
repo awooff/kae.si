@@ -1,8 +1,6 @@
 Kaeforest - Elith
 =================
 
-[![Nix U.U](https://builtwithnix.org/badge.svg)](https://builtwithnix.org)
-
 All will soon realise these two are intertwined.
 
 ## Don't use this template or code.
@@ -19,4 +17,3 @@ If you really want to have a site, make your own; go learn [11ty](https://11ty.d
 & make something better than this.
 All staticgens are horrible, don't be lazy.
 Put in the effort & you'll be able to create smth 100x nicer that what we have.
-
