@@ -1,4 +1,4 @@
-Kaeforest - Elith
+Kaeforest
 =================
 
 All will soon realise these two are intertwined.
