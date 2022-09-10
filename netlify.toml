@@ -1,5 +1,5 @@
 [build]
-publish = "_site"
+publish = "_www"
 
 [[edge_functions]]
 function = "eleventy_edge"
