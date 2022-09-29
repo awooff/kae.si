@@ -2,7 +2,7 @@
 title: Project Titan
 description: |
   Project Titan is a story-driven game developed for the
-  Macintosh II system
+  Macintosh II system.
 date: 2022-09-07
 ---
 
@@ -20,13 +20,12 @@ After the destruction of earth during the final *Battle of Ganymede*, Hirana are
 
 With her fighter on its final legs, & oxygen supply almost fully depleted, Hirana is forced to let a part of the void spirit subsume her, just to keep her alive long enough to find her lover, and unit commander, who holds the keys to the *Vault of Souls* in the city of [[__R'akkateon__]](./Rakkaeton) on Earth.
 
-And as you make your way back through to the remains of earth, pieces of bodies and buildings are left scattered throughout space which only become more tightly grouped together and the space you traverse through becomes a beautiful abstract art piece as your mind tries to make sense of the horror you're in
-With the void spirit slowly eating away at your soul
-Your ship starts to grow with the void infestation until it becomes an unrecognisable abomination
-Growing stronger as it defeats the newfound guardians of saturn
-And as it grows stronger your mind slips further as you're in constant war with the very thing keeping you alive until your sanity starts to slip completely, your ship broken and then finally
+And as you make your way back through to the remains of earth, pieces of bodies and buildings are left scattered throughout space which only become more tightly grouped together and the space you traverse through becomes a beautiful abstract art piece as your mind tries to make sense of the horror you're in, with the void spirit slowly eating away at your soul, your ship starts to grow with the void infestation until it becomes an unrecognisable abomination, growing stronger as it defeats the newfound guardians of Saturn.
+As it grows stronger your mind slips further as you're in constant war with the very thing keeping you alive until your sanity starts to slip completely, your ship broken and then finally - you find your lover and former commander sitting utop a pile of broken space debris, human organs & bones, with the newly formed shattered ring forming a halo above their heads.
 
 ## Entities
+
+The world of Project Titan is home to a vast array of entities, sprawling from
 
 ![Void spirit entity](/static/content/art/voidspirit.jpg)
 

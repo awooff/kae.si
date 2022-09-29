@@ -10,6 +10,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const markdownItMath = require('markdown-it-math');
 const markdownItReplaceLink = require('markdown-it-replace-link');
 const pluginTOC = require('eleventy-plugin-toc');
+const markdownItFootnote = require('markdown-it-footnote');
 
 const fs = require('fs');
 
@@ -72,6 +73,7 @@ module.exports = evc => {
 			const output = content.replace(/(\[+(\<a(.*?)\<\/a\>)\]+)/g, '$2');
 			return output;
 		}
+
 		return content;
 	});
 
@@ -157,8 +159,21 @@ module.exports = evc => {
 			}),
 			slugify: evc.getFilter('slug'),
 		})
+		.use(md => {
+			// Recognize Mediawiki links ([[text]])
+			md.linkify.add('[[', {
+				validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+				normalize: match => {
+					const parts = match.raw.slice(2, -2).split('|');
+					parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, '');
+					match.text = (parts[1] || parts[0]).trim();
+					match.url = `/notes/${parts[0].trim()}/`;
+				},
+			});
+		})
 		.use(markdownItEmoji) // Our deer emojis **must** work!
 		.use(markdownItReplaceLink)
+		.use(markdownItFootnote)
 		.use(markdownItMath);
 
 	evc.setLibrary('md', markdownLibrary);

@@ -105,16 +105,21 @@ For example, in the use of creating a html template:
 
 {% raw %}
 ```crystal
-macro list_item(title, link)
-  def {{title.id}}
-    {{content}}
+macro iteration(name, max_limit)
+  def {{name}}
+    iter = 0
+    breakpoint = iter / rand({{max_limit}})
+    loop do
+      iter += 1
+      break if iter == {{max_limit}}
+      break if iter == breakpoint
+    end
+    return iter
   end
 end
 
-<%- @names.each do |name| -%>
-  <%= list_item :self, name %>!
-<%- end -%>
-
+iteration below_1200, 1200
+puts below_1200
 ```
 {% endraw %}
 
