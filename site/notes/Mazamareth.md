@@ -1,6 +1,8 @@
 ---
 title: Mazamareth
-description: Mazamareth is a worldbuilding project exploring humanity's dialectics in the growth of civilizations.
+description: |
+  Mazamareth is a worldbuilding project exploring humanity's dialectics in the growth of civilizations.
+date: 01-10-2022
 ---
 
 The world of Mazamareth is birthed from the [[Nomad]] that holds the story of Project Titan.
@@ -11,11 +13,11 @@ It is a world that tells the tale of humanity's [[hubris]] in having the level o
 The Nomad essentially serves as the Polaris of Mazamareth, the divine spark of [[Civilizations]] that lays the foundation for new life.
 In its new kindling is felt thru the universe and it takes on this humanoid form, fashioning itself a cloak and staff,
 with void in place of a face, with nothing but its bloodied insignia as its only detail, its echoes travel felt by the
-ancient hermetic tablet bearing the sigil of the cross within the diamond, screaming out for its children after feeling the presence of the nomad
+ancient [[hermetic]] tablet bearing the sigil of the cross within the diamond, screaming out for its children after feeling the presence of the nomad
 in its desperation it cries its bloodied tears throughout until it reaches the void
 reaching its forgotten city
 
-In essence, what Mazamareth asks is; "What is the ultimate hubris of humanity even when we learn from the mistakes of so many others?"
+In essence, what Mazamareth asks is; "What is the ultimate [[hubris]] of humanity even when we learn from the mistakes of so many others?"
 
 And so lies the gateway to the lessons of kingdoms of divinity and entropy alike, civilizations that hold tales of their failures, teachings and discoveries. How this influenced their architecture, language, shared perception of what they deemed as reality, whether they lived within the construct of time; saw themselves in equal regard & power to the Nomad, or became a byproduct of forces larger than themselves-
 Mazamareth is a critique on humanity's perception of its self & what its drive ultimately becomes; its own hubris as byproduct furthers the constant iteration the Nomad truly sees.

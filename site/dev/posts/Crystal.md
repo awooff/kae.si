@@ -15,6 +15,7 @@ Much like rust, it has a fair amount of type safety built-in; the common case of
 __Everything__ in crystal is an object. Base types, classes, functions, everything.
 This is why we can have strong *type casting* such as:
 
+{% raw %}
 ```crystal
 my_num = Int32.new(256)
 pp my_num # => 256: Int32
@@ -33,6 +34,7 @@ string = IO::Memory.new "hihi!" # In crystal, calling functions with parens is o
 io.pos # => 0
 io.gets 2 # => "hi"
 ```
+{% endraw %}
 
 We can extend this logic into more high-level components by creating our *own* classes, in crystal known as `abstract` classes.
 These are classes that essentially define the structure & data that all subsequent classes __must__ have.
@@ -40,6 +42,8 @@ These are classes that essentially define the structure & data that all subseque
 In a real-world context, this may be useful when instantiating several types of the same object. However, it is __not__ recommended to use abstract classes as base blueprints for other objects/classes, which will be covered a bit later.
 
 A *good* example of using `abstract` data types is shown here;
+
+{% raw %}
 ```crystal
 abstract class Engine
   def initialize(@name : String, @version : String)
@@ -68,6 +72,7 @@ class RustEngine : Engine
   end
 end
 ```
+{% endraw %}
 
 ### Avoid encapsulation
 
@@ -132,5 +137,6 @@ To set up a crystal project, the easiest way to do this is also with `shards`, b
 
 This suite can be accessed & used by writing test cases within the `spec` folder of your newly generated project.
 
+---
 1. [Crystal language reference](<https://crystal-lang.org/reference/1.5/syntax_and_semantics/index.html>)
 2. [Crystal API specification](<https://crystal-lang.org/api/1.5.0/index.html>)
