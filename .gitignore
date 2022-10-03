@@ -1,7 +1,7 @@
 node_modules/
 _site/
 _www/
-package-lock.json
+
 
 # Netlify generated stuff
 .netlify/

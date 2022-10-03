@@ -1,11 +1,12 @@
-# Mazamareth
+---
+title: Mazamareth
+description: Mazamareth is a worldbuilding project exploring humanity's dialectics in the growth of civilizations.
+---
 
-The world of Mazamareth is birthed from the [[Nomad]].
+The world of Mazamareth is birthed from the [[Nomad]] that holds the story of Project Titan.
 Mazamareth is a universe that holds the story of Project Titan, a story heavily grounded within Hindu mythology about the hubris of humanity & its desire to constantly rewrite its own wrongs in building the foundation for idyllic state of being and pursuit of idyllic relations with self & other civilizations & peoples.
 
 It is a world that tells the tale of humanity's [[hubris]] in having the level of cognizance to recognize the failures of other races & [[Civilizations]].
-
-Mazamareth is a universe that holds the story of Project Titan, a story heavily grounded within Hindu mythology about the [[hubris]] of humanity & its desire to constantly rewrite its own wrongs in building the foundation for idyllic state of being and pursuit of worship & understanding of the universe, the spread of the divine light, and learning from the mistakes of other civilizations & races who fell from the light, that being the light of the Nomad.
 
 The Nomad essentially serves as the Polaris of Mazamareth, the divine spark of [[Civilizations]] that lays the foundation for new life.
 In its new kindling is felt thru the universe and it takes on this humanoid form, fashioning itself a cloak and staff,

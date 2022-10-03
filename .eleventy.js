@@ -11,7 +11,6 @@ const markdownItMath = require('markdown-it-math');
 const markdownItReplaceLink = require('markdown-it-replace-link');
 const pluginTOC = require('eleventy-plugin-toc');
 const markdownItFootnote = require('markdown-it-footnote');
-
 const fs = require('fs');
 
 // Create a shortcode for `sharp` optimized images.
