@@ -1,6 +1,7 @@
 ---
 title: Forgotten City
 description: The ancient tomb of the Mother on R'aekkaton
+date: 2022-09-30
 ---
 
 An ancient tomb littered with the vestiges of broken [[vessels]] and livestock long dead.

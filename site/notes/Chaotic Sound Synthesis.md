@@ -1,4 +1,8 @@
-# Chaotic Sound Synthesis is a discovery of historical methods of creating sound through the machine
+---
+title: Chaotic Sound Synthesis
+description: Chaotic Sound Synthesis is a discovery of historical methods of creating sound through the machine
+date: 2022-09-31
+---
 
 <https://libgen.rs/scimag/10.2307%2F3680960>
 

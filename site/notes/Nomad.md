@@ -1,6 +1,8 @@
 ---
 title: Nomad
 description: The nomad is the traveling star, receiving the blessings from the hermetic & nomadic tribes.
+date: 2022-09-29
+tags: 'mazamareth'
 ---
 
 ![The Nomad](/static/img/nomad.JPG)

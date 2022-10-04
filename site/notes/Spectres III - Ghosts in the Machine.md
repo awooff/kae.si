@@ -1,4 +1,9 @@
-# Spectres III - Fantômes dans la Machine
+---
+title: Spectres III - Fantômes dans la Machine
+description: A framework for understanding the ideas behind synthesis and its invocation of the human emotion.
+date: 2022-08-30
+tags: 'audio'
+---
 
 ![Spectres](Spectres.svg)
 

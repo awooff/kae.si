@@ -16,6 +16,6 @@ permalink: /tags/
 
 ## All notes on Kaeforest.
 
-{% for entry in collections.posts | filterTagList | reverse  %}
-  { {{entry.data.date | readableDate}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
+{% for entry in collections.notes | filterTagList | reverse  %}
+  { {{entry.data.date | readableDate}} } - <a href="{{entry.url}}"> {{entry.data.title}} </a>
 {% endfor %}

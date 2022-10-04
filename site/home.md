@@ -6,12 +6,8 @@ eleventyExcludeFromNavigavtion: true
 
 <h2> Meta </h2>
 
-<p>
-  Welcome to Kaeforest, a wiki engine for notes on
-  <a href="/audio">music</a>,
-  <a href="/dev">software development</a>,
-  and <a href="/language">language</a>.
-<p>
+Welcome to Kaeforest, a wiki engine for notes on [audio](/audio), [software development](/notes/dev/) and [[language]].
+
 
 <img style='
 max-width: 250px;'

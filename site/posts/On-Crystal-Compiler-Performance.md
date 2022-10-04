@@ -4,6 +4,7 @@ description: Taking a deeper look into the compiler optimizations in Crystal
 date: 2022-05-04
 tags:
   - programming
+  - dev
 ---
 
 We f*** love crystal. ✧\*。ヾ(｡>﹏<｡)ﾉﾞ✧\*。 :syringe:

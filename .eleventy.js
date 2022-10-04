@@ -111,7 +111,8 @@ module.exports = evc => {
 
 	const filterTagList = tags => {
 		return (tags || []).filter(
-			tag => ['all', 'nav', 'pages', 'post', 'posts'].indexOf(tag) === -1,
+			tag =>
+				['all', 'nav', 'notes', 'pages', 'post', 'posts'].indexOf(tag) === -1,
 		);
 	};
 	evc.addFilter('filterTagList', filterTagList);
