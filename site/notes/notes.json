@@ -1,3 +1,4 @@
 {
-    "layout": "layouts/wiki.njk"
+    "layout": "layouts/wiki.njk",
+    "tags": "notes"
 }
