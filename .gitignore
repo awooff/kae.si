@@ -15,3 +15,6 @@ netlify/edge_functions/_generated
 # Trash
 .obsidian
 .trash
+
+# Nix stuffz.
+.direnv
