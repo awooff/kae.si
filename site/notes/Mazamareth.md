@@ -3,6 +3,7 @@ title: Mazamareth
 description: |
   Mazamareth is a worldbuilding project exploring humanity's dialectics in the growth of civilizations.
 date: 2022-10-01
+tags: 'mazamareth'
 ---
 
 The world of Mazamareth is birthed from the [[Nomad]] that holds the story of Project Titan.
