@@ -17,7 +17,7 @@ Mazamareth is a universe that holds the story of Project Titan, a story heavily 
 
 It is a world that tells the tale of humanity's [[hubris]] in having the level of cognizance to recognize the failures of other races & [[Civilizations]].
 
-The Nomad essentially serves as the Polaris of Mazamareth, the divine spark of [[Civilizations]] that lays the foundation for new life. The rekindling is felt throughout the universe and it takes on this humanoid form, fashioning itself a cloak and staff, with void in place of a face, with nothing but its bloodied insignia as its only detail, its echoes travel felt by the ancient [[hermetic]] tablet bearing the sigil of the cross within the diamond, screaming out for its children after feeling the presence of the [[Nomad]]. In its desperation it cries its bloodied tears throughout until it reaches the void, reaching its forgotten city.
+The Nomad essentially serves as the Polaris of Mazamareth, the divine spark of [[Civilizations]] that lays the foundation for new life. The rekindling is felt throughout the universe and it takes on this humanoid form, fashioning itself a cloak and staff, with void in place of a face, with nothing but its bloodied insignia as its only detail, its echoes travel felt by the ancient [[hermetic]] tablet bearing the sigil of the cross within the diamond, screaming out for its children after feeling the presence of the [[Nomad]]. In its desperation it cries its bloodied tears throughout until it reaches the void, reaching its [[Forgotten_City]].
 
 In essence, what Mazamareth asks is; "What is the ultimate [[hubris]] of humanity even when we learn from the mistakes of so many others?"
 
