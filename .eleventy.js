@@ -8,6 +8,7 @@ const markdownIt = require('markdown-it');
 const markdownItEmoji = require('markdown-it-emoji');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItMath = require('markdown-it-math');
+const markdownItUnderline = require('markdown-it-ins');
 const markdownItReplaceLink = require('markdown-it-replace-link');
 const pluginTOC = require('eleventy-plugin-toc');
 const markdownItFootnote = require('markdown-it-footnote');
@@ -174,6 +175,7 @@ module.exports = evc => {
 		.use(markdownItEmoji) // Our deer emojis **must** work!
 		.use(markdownItReplaceLink)
 		.use(markdownItFootnote)
+		.use(markdownItUnderline)
 		.use(markdownItMath);
 
 	evc.setLibrary('md', markdownLibrary);
