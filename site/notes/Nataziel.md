@@ -1,6 +1,7 @@
 ---
 title: Nataziel
-description: Nataziel is the holy city within the planet Dianash.
+description: |
+  Nataziel is the holy city within the planet Dianash.
 date: 2022-10-13
 tags: 'mazamareth'
 ---

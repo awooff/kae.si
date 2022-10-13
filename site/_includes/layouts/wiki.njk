@@ -12,22 +12,7 @@ templateClass: tmpl-post
       {{ content | markdown | safe }}
       <p>Go <a href=javascript:void(0) onClick="window.history.back()"> back </a></p>
     </section>
-    <hr>
-    <p class="backlinks-title larger">Backlinks</p>
-    {% if backlinks.length > 0 %}
-      <ul class="backlinks-container">
-        {% for link in backlinks %}
-          <li class="backlink">
-            <a href="{{link.title}}" class="backlink__link">{{link.title}}</a>
-            <div class="backlink__preview" role="none">
-              {{link.preview | markdown }}
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-    {% else %}
-      <p class="backlinks-default">No backlinks found.</p>
-    {% endif %}
+    {% include 'backlinks.njk' %}
   </article>
 </main>
 
