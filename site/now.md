@@ -11,7 +11,8 @@ tags: ["nav"]
 We're currently;
 
 - Living in the United Kingdom
-- In university, studying music production
+- Working with [0x0z](<https://0x0z.agency>) pioneering web3
+- ~~In university, studying music production~~
 - Learning new & experimental languages & writing systems, such as;
   - [[Japanese]], learning [[Hiragana]].
   - [[Lietal]], an experimental synthetic language.

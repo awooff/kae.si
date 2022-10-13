@@ -1,11 +1,11 @@
 ---
 title: Crystal Programming Language
-description: Crystal is a statically-typed general purpose ruby-family 0language for the modern age
+description: Crystal is a statically-typed general purpose ruby-family language for the modern age
 date: 2022-09-06
 tags: 'dev'
 ---
 
-Crystal he1avily utilises the famously clean & pragmatic syntax of Ruby, extended with a strict static type system, simplying & improving the experience of OOP in the ruby paradigm.
+Crystal heavily utilises the famously clean & pragmatic syntax of Ruby, extended with a strict static type system, simplying & improving the experience of OOP in the ruby paradigm.[^1]
 
 Much like rust, it has a fair amount of type safety built-in; the common case of the billion dollar mistake is simply not possible within the language due to null reference checking embedded into the compiler, as all types can be checked for being nil-able.
 
@@ -56,18 +56,18 @@ end
 
 class RustEngine : Engine
   def initialize(@name = "CTEngine", @version = "0.1.0")
-    @memthread = Fiber.new
+    memthread = Fiber.new
   end
 
   def run
     spawn name: @name do
-      @memthread.timeout 12.seconds
+      memthread.timeout 12.seconds
     end
   end
 
   def stop
     # Halt the engine execution by stopping a fiber.
-    @memthread.yield
+    memthread.yield
   end
 end
 ```
@@ -129,13 +129,13 @@ puts below_1200
 
 ## Package management
 
-Crystal also has a modern package management system, known as `shards`, which are modules, binaries & libraries for the language.
+Crystal also has a modern package management system, known as `shards`, which are modules, binaries & libraries for the language.[^2]
 
 To set up a crystal project, the easiest way to do this is also with `shards`, by running:
 `shards init --app`, or with `--lib` to generate a library package with crystal's in-built test suite.
 
 This suite can be accessed & used by writing test cases within the `spec` folder of your newly generated project.
 
----
-1. [Crystal language reference](<https://crystal-lang.org/reference/1.5/syntax_and_semantics/index.html>)
-2. [Crystal API specification](<https://crystal-lang.org/api/1.5.0/index.html>)
+
+[^1]: Take a look at the [Crystal language reference](<https://crystal-lang.org/reference/1.5/syntax_and_semantics/index.html>) for a complete overview of the language.
+[^2]: [Crystal API specification](<https://crystal-lang.org/api/1.5.0/index.html>)

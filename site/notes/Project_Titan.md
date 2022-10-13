@@ -9,8 +9,6 @@ tags:
   - dev
 ---
 
-![Intial Project's scrapbook](/static/img/Fa-uHw7WYAARG2U.jpg)
-
 ## Story
 
 Set in the distant future, a war has broken out between the __Colonial Forces of Saturn__, and the revolutionary forces of the __Jupiter Revival Sect__ separatists.
