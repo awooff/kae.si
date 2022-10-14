@@ -21,4 +21,4 @@ The Nomad essentially serves as the [[Polaris]][^1] of Mazamareth, the divine sp
 Mazamareth is a critique on humanity's perception of its self & what its drive ultimately becomes; its own hubris as byproduct furthers the constant iteration the [[Nomad]] truly sees.
 
 
-[^1]: <https://en.wikipedia.org/wiki/Polaris>
+[^1]: Polaris is traditionally the North Star, which is said to be a guiding light for many, including being a sailor's source of navigation at night. <https://en.wikipedia.org/wiki/Polaris>
