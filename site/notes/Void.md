@@ -10,3 +10,5 @@ tags: 'mazamareth'
 The void is the entropic manifestation of stasis, the enemy which many [[Civilizations]], including that of [[Nataziel]] and the [[Mother]] are wishing to fight against.
 
 They are often regarded as the heralds of false prophets, spiting the light of the [[Nomad]], chastising it as an unjust force in a world which only wishes to rest.
+
+As those who wish none other than

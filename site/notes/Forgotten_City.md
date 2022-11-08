@@ -11,7 +11,7 @@ During its peak it held home to the [[Mother]]'s children, one of the advanced [
 
 They once worked towards building a spiritual nest to study the [[Void]] that is contained below in the planet's chasms, studying its culture, language and desires in hopes of finding its place of origin.
 
-During the coming of the new age, the empire did not survive its own curiosity, and became subsumed by its enemies out of its own arrogance in the inherent desire to study all, despite the mother's wishes.
+During the coming of the new age, the empire did not survive its own curiosity, and became subsumed by its enemies out of its own arrogance in the inherent desire to study all, despite the mother's wishes
 
 To preserve her children, the [[Mother]] took to sculpting their vessels out of clay from the sands of their planet.
 

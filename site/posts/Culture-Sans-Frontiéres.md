@@ -15,9 +15,11 @@ date: 2022-08-05
 
 ## Merging the souls of the wired
 
-The profound influence the [[wired]](/terms/wired) has had upon the [[collective unconscious]](/terms/collective_unconscious), by proxy has also homogenized the cultural landscape, primarily in what we consider to be the "western" sphere.
+The profound influence the [[wired]] has had upon the [[collective unconscious]], by proxy has also homogenized the cultural landscape, primarily in what we consider to be the "western" sphere.
 
-"Truth" has altered the way in which it is imparted into us, rather than eradicated. In essence, truth's effect is more akin to a shared delusion; as opposed to an idea that has been decided by those with more societal authority than us. Whereas rife skepticism within public sphere is now commonplace, this begs the question of who will be the one who decides to share their truth to appeal to, the now much less receptive mind?
+"Truth" has altered the way in which it is imparted into us, rather than eradicated. In the midst of the current societal zeitgeist, the principal of "Truth"'s (as it currently stands) effect is more akin to a shared delusion; as opposed to an idea that has been decided by those with more societal authority than us. Whereas rife skepticism within public sphere is now commonplace, this begs the question of who will be the one who decides to share their truth to appeal to, the now much less receptive mind?
+
+What is left in its shadow is now nothing more, or less than propagated half-truths now left destitute within its own hubris. And this *can* be manipulated.
 
 ## Lay the seed
 
