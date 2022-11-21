@@ -11,7 +11,6 @@ tags: ["nav"]
 We're currently;
 
 - Living in the United Kingdom
-- Working with [0x0z](<https://0x0z.agency>) pioneering web3
 - ~~In university, studying music production~~
 - Learning new & experimental languages & writing systems, such as;
   - [[Japanese]], learning [[Hiragana]].
