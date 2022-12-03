@@ -13,3 +13,4 @@ Despite the purpose of their discoveries & writings never becoming truly clear; 
 Finally, their essence & writings will be harvested by the Dimerpha, their use expired, and their lessons learned.
 
 ![Dimerpha Icon](/static/icons/Dimerpha.svg)
+Symbol of the Dimperha.
