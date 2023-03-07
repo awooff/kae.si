@@ -1,0 +1,628 @@
+Info 0    [02:26:12.272] Starting TS Server
+Info 1    [02:26:12.273] Version: 4.8.4
+Info 2    [02:26:12.273] Arguments: /Users/Cass/.nvm/versions/node/v18.13.0/bin/node /Users/Cass/Kaeforest/node_modules/typescript/lib/tsserver.js --logFile /Users/Cass/Kaeforest/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/qr/dc1h8y9x5l55pldh8vvzq0w40000gn/T/a62cc06532f1b0fff3a20b3e9e4e0050/tscancellation*
+Info 3    [02:26:12.273] Platform: darwin NodeVersion: 18 CaseSensitive: false
+Info 4    [02:26:12.273] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [02:26:12.287] Format host information updated
+Info 6    [02:26:12.291] Search path: /Users/Cass/Kaeforest
+Info 7    [02:26:12.292] For info: /Users/Cass/Kaeforest/.eleventy.js :: No config files found.
+Info 8    [02:26:12.293] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [02:26:13.333] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1039.3843750059605ms
+Info 10   [02:26:13.333] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [02:26:13.333] 	Files (382)
+
+Info 12   [02:26:13.333] -----------------------------------------------
+Info 13   [02:26:13.341] AutoImportProviderProject: found 3 root files in 3 dependencies in 5.647250026464462 ms
+Info 14   [02:26:13.342] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 15   [02:26:13.371] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 29.201916992664337ms
+Info 16   [02:26:13.371] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 17   [02:26:13.371] 	Files (110)
+
+Info 18   [02:26:13.371] -----------------------------------------------
+Info 19   [02:26:13.390] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 20   [02:26:13.390] Elapsed:: 0.15337499976158142ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 21   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 22   [02:26:13.391] Elapsed:: 0.008249998092651367ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 23   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 24   [02:26:13.391] Elapsed:: 0.11170798540115356ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 25   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 26   [02:26:13.391] Elapsed:: 0.012124985456466675ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 27   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry/index.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 28   [02:26:13.391] Elapsed:: 0.08495798707008362ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry/index.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 29   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 30   [02:26:13.391] Elapsed:: 0.12162500619888306ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/types-registry/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 31   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 32   [02:26:13.391] Elapsed:: 0.0051670074462890625ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 33   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9/index.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 34   [02:26:13.391] Elapsed:: 0.004082977771759033ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9/index.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 35   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 36   [02:26:13.391] Elapsed:: 0.008332997560501099ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 37   [02:26:13.391] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 38   [02:26:13.391] Elapsed:: 0.004583984613418579ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/.types-registry-4WTJ9xs9 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 39   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 40   [02:26:15.307] Elapsed:: 0.05812501907348633ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 41   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 42   [02:26:15.307] Elapsed:: 0.100832998752594ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 43   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 44   [02:26:15.307] Elapsed:: 0.025999993085861206ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 45   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 46   [02:26:15.307] Elapsed:: 0.07908299565315247ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 47   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 48   [02:26:15.307] Elapsed:: 0.016833990812301636ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 49   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 50   [02:26:15.307] Elapsed:: 0.01245802640914917ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 51   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 52   [02:26:15.307] Elapsed:: 0.013291984796524048ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 53   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 54   [02:26:15.307] Elapsed:: 0.009000003337860107ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 55   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 56   [02:26:15.307] Elapsed:: 0.07854098081588745ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 57   [02:26:15.307] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 58   [02:26:15.307] Elapsed:: 0.016166985034942627ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 59   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/components :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 60   [02:26:15.359] Elapsed:: 0.02837499976158142ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/components :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 61   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 62   [02:26:15.359] Elapsed:: 0.007375001907348633ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 63   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 64   [02:26:15.359] Elapsed:: 0.005124986171722412ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 65   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 66   [02:26:15.359] Elapsed:: 0.004500001668930054ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 67   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 68   [02:26:15.359] Elapsed:: 0.00720900297164917ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 69   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/doc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 70   [02:26:15.359] Elapsed:: 0.06737500429153442ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/doc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 71   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/components/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 72   [02:26:15.359] Elapsed:: 0.017000019550323486ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/components/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 73   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/components.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 74   [02:26:15.359] Elapsed:: 0.01241600513458252ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/components.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 75   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 76   [02:26:15.359] Elapsed:: 0.07804098725318909ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 77   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 78   [02:26:15.359] Elapsed:: 0.012791991233825684ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 79   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 80   [02:26:15.359] Elapsed:: 0.010333001613616943ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 81   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 82   [02:26:15.359] Elapsed:: 0.009624987840652466ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prismjs/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 83   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-angular.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 84   [02:26:15.359] Elapsed:: 0.011709004640579224ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-angular.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 85   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-babel.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 86   [02:26:15.359] Elapsed:: 0.012082993984222412ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-babel.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 87   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-espree.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 88   [02:26:15.359] Elapsed:: 0.016874998807907104ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-espree.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 89   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-flow.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 90   [02:26:15.359] Elapsed:: 0.010417014360427856ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-flow.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 91   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-glimmer.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 92   [02:26:15.359] Elapsed:: 0.009750008583068848ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-glimmer.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 93   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-graphql.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 94   [02:26:15.359] Elapsed:: 0.009332984685897827ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-graphql.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 95   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-html.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 96   [02:26:15.359] Elapsed:: 0.009415984153747559ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-html.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 97   [02:26:15.359] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-meriyah.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 98   [02:26:15.360] Elapsed:: 0.07924997806549072ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-meriyah.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 99   [02:26:15.360] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-markdown.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 100  [02:26:15.360] Elapsed:: 0.012915998697280884ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-markdown.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 101  [02:26:15.360] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-postcss.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 102  [02:26:15.360] Elapsed:: 0.00991600751876831ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-postcss.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 103  [02:26:15.360] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-typescript.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 104  [02:26:15.360] Elapsed:: 0.009458005428314209ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-typescript.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 105  [02:26:15.360] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-yaml.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 106  [02:26:15.360] Elapsed:: 0.009124994277954102ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/parser-yaml.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 107  [02:26:15.360] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/standalone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 108  [02:26:15.360] Elapsed:: 0.008541017770767212ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/prettier/standalone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 109  [02:26:15.495] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 110  [02:26:15.495] Elapsed:: 0.02875000238418579ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 111  [02:26:15.495] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 112  [02:26:15.495] Elapsed:: 0.007082998752593994ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 113  [02:26:15.495] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 114  [02:26:15.495] Elapsed:: 0.03770798444747925ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 115  [02:26:15.495] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 116  [02:26:15.495] Elapsed:: 0.013833016157150269ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/strip-color/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 117  [02:26:15.940] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 118  [02:26:15.940] Elapsed:: 0.033333003520965576ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 119  [02:26:15.940] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 120  [02:26:15.940] Elapsed:: 0.04729202389717102ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 121  [02:26:15.940] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 122  [02:26:15.940] Elapsed:: 0.00720900297164917ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 123  [02:26:15.940] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 124  [02:26:15.940] Elapsed:: 0.01629197597503662ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/ascii2mathml/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 125  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 126  [02:26:15.991] Elapsed:: 0.03491699695587158ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 127  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 128  [02:26:15.991] Elapsed:: 0.00733301043510437ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 129  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 130  [02:26:15.991] Elapsed:: 0.0065000057220458984ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 131  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 132  [02:26:15.991] Elapsed:: 0.03970801830291748ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 133  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 134  [02:26:15.991] Elapsed:: 0.01695898175239563ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 135  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/datetime.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 136  [02:26:15.991] Elapsed:: 0.012916982173919678ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/datetime.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 137  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/info.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 138  [02:26:15.991] Elapsed:: 0.010708004236221313ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/info.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 139  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/duration.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 140  [02:26:15.991] Elapsed:: 0.01020801067352295ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/duration.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 141  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/interval.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 142  [02:26:15.991] Elapsed:: 0.00979200005531311ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/interval.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 143  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/luxon.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 144  [02:26:15.991] Elapsed:: 0.009709000587463379ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/luxon.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 145  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/misc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 146  [02:26:15.991] Elapsed:: 0.010749995708465576ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/misc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 147  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/settings.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 148  [02:26:15.991] Elapsed:: 0.01087498664855957ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/settings.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 149  [02:26:15.991] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/zone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 150  [02:26:15.991] Elapsed:: 0.009624987840652466ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/src/zone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 151  [02:26:16.343] FileWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/package.json 1:: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 152  [02:26:16.343] Elapsed:: 0.10874998569488525ms FileWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/package.json 1:: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/luxon/package.json 2000 undefined Project: /dev/null/inferredProject1* WatchType: File location affecting resolution
+Info 153  [02:26:16.505] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 154  [02:26:16.506] Elapsed:: 0.029332995414733887ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 155  [02:26:16.506] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 156  [02:26:16.506] Elapsed:: 0.007791012525558472ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 157  [02:26:16.506] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 158  [02:26:16.506] Elapsed:: 0.050292015075683594ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 159  [02:26:16.506] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 160  [02:26:16.506] Elapsed:: 0.015666991472244263ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/markdown-it-footnote/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 161  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 162  [02:26:16.558] Elapsed:: 0.02179098129272461ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 163  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 164  [02:26:16.558] Elapsed:: 0.005624979734420776ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 165  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 166  [02:26:16.558] Elapsed:: 0.03020799160003662ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 167  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 168  [02:26:16.558] Elapsed:: 0.005208998918533325ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/LICENSE :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 169  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 170  [02:26:16.558] Elapsed:: 0.015124976634979248ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 171  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 172  [02:26:16.558] Elapsed:: 0.004666000604629517ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/README.md :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 173  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/doc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 174  [02:26:16.558] Elapsed:: 0.011915981769561768ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/doc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 175  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 176  [02:26:16.558] Elapsed:: 0.01416701078414917ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/index.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 177  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-babel.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 178  [02:26:16.558] Elapsed:: 0.011790990829467773ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-babel.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 179  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 180  [02:26:16.558] Elapsed:: 0.010000020265579224ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/package.json :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 181  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-angular.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 182  [02:26:16.558] Elapsed:: 0.009167015552520752ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-angular.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 183  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-glimmer.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 184  [02:26:16.558] Elapsed:: 0.0086669921875ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-glimmer.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 185  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-espree.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 186  [02:26:16.558] Elapsed:: 0.009582996368408203ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-espree.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 187  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-graphql.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 188  [02:26:16.558] Elapsed:: 0.00916600227355957ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-graphql.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 189  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-flow.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 190  [02:26:16.558] Elapsed:: 0.008125007152557373ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-flow.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 191  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-html.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 192  [02:26:16.558] Elapsed:: 0.008749991655349731ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-html.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 193  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-markdown.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 194  [02:26:16.558] Elapsed:: 0.008917003870010376ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-markdown.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 195  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-meriyah.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 196  [02:26:16.558] Elapsed:: 0.008249998092651367ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-meriyah.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 197  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-postcss.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 198  [02:26:16.558] Elapsed:: 0.008041977882385254ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-postcss.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 199  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-typescript.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 200  [02:26:16.558] Elapsed:: 0.008583992719650269ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-typescript.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 201  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/standalone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 202  [02:26:16.558] Elapsed:: 0.00829198956489563ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/standalone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 203  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-yaml.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 204  [02:26:16.558] Elapsed:: 0.009333997964859009ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU/parser-yaml.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 205  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 206  [02:26:16.558] Elapsed:: 0.007333993911743164ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.prettier-Ll5d7JWU :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 207  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/datetime.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 208  [02:26:16.558] Elapsed:: 0.008500009775161743ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/datetime.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 209  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/duration.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 210  [02:26:16.558] Elapsed:: 0.00808301568031311ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/duration.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 211  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/info.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 212  [02:26:16.558] Elapsed:: 0.009499996900558472ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/info.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 213  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/interval.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 214  [02:26:16.558] Elapsed:: 0.007582992315292358ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/interval.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 215  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/luxon.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 216  [02:26:16.558] Elapsed:: 0.008249998092651367ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/luxon.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 217  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/zone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 218  [02:26:16.558] Elapsed:: 0.007625013589859009ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/zone.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 219  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/settings.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 220  [02:26:16.558] Elapsed:: 0.008208006620407104ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/settings.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 221  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/misc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 222  [02:26:16.558] Elapsed:: 0.008459001779556274ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src/misc.d.ts :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 223  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 224  [02:26:16.558] Elapsed:: 0.0032080113887786865ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3/src :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 225  [02:26:16.558] DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 226  [02:26:16.558] Elapsed:: 0.005459010601043701ms DirectoryWatcher:: Triggered with /Users/Cass/Library/Caches/typescript/4.8/node_modules/@types/.luxon-xe13nav3 :: WatchInfo: /Users/Cass/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 227  [02:26:16.811] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 228  [02:26:16.909] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 97.9699999988079ms
+Info 229  [02:26:16.909] Project '/dev/null/inferredProject1*' (Inferred)
+Info 230  [02:26:16.909] 	Files (414)
+
+Info 231  [02:26:16.909] -----------------------------------------------
+Info 232  [02:26:16.909] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 233  [02:26:16.909] 	Files (110)
+
+Info 234  [02:26:16.909] -----------------------------------------------
+Info 235  [02:26:17.268] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 236  [02:26:17.304] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 35.97504198551178ms
+Info 237  [02:26:17.304] Project '/dev/null/inferredProject1*' (Inferred)
+Info 238  [02:26:17.304] 	Files (414)
+
+Info 239  [02:26:17.304] -----------------------------------------------
+Info 240  [02:26:17.304] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 241  [02:26:17.304] 	Files (110)
+
+Info 242  [02:26:17.304] -----------------------------------------------
+Info 243  [02:26:19.518] Before ensureProjectForOpenFiles:
+Info 244  [02:26:19.519] After ensureProjectForOpenFiles:
+Info 245  [02:26:19.519] got projects updated in background, updating diagnostics for /Users/Cass/Kaeforest/.eleventy.js
+Info 246  [02:26:48.851] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 247  [02:26:48.881] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 29.83841699361801ms
+Info 248  [02:26:48.881] Different program with same set of files
+Info 249  [02:26:48.894] getCompletionData: Get current token: 0.01962500810623169
+Info 250  [02:26:48.894] getCompletionData: Is inside comment: 0.0027080178260803223
+Info 251  [02:26:48.894] getCompletionData: Get previous token: 0.0725419819355011
+Info 252  [02:26:48.895] getCompletionsAtPosition: isCompletionListBlocker: 0.29579198360443115
+Info 253  [02:26:48.895] Returning an empty list because completion was requested in an invalid position.
+Info 254  [02:26:48.896] getCompletionData: Get current token: 0.014624983072280884
+Info 255  [02:26:48.896] getCompletionData: Is inside comment: 0.0018750131130218506
+Info 256  [02:26:48.896] getCompletionData: Get previous token: 0.05791598558425903
+Info 257  [02:26:48.896] getCompletionsAtPosition: isCompletionListBlocker: 0.001667022705078125
+Info 258  [02:26:48.896] Returning an empty list because completion was requested in an invalid position.
+Info 259  [02:26:48.901] getCompletionData: Get current token: 0.01487499475479126
+Info 260  [02:26:48.901] getCompletionData: Is inside comment: 0.002208024263381958
+Info 261  [02:26:48.901] getCompletionData: Get previous token: 0.05737501382827759
+Info 262  [02:26:48.901] getCompletionsAtPosition: isCompletionListBlocker: 0.0016250014305114746
+Info 263  [02:26:48.901] Returning an empty list because completion was requested in an invalid position.
+Info 264  [02:26:48.902] getCompletionData: Get current token: 0.014250010251998901
+Info 265  [02:26:48.902] getCompletionData: Is inside comment: 0.0015000104904174805
+Info 266  [02:26:48.902] getCompletionData: Get previous token: 0.0524580180644989
+Info 267  [02:26:48.902] getCompletionsAtPosition: isCompletionListBlocker: 0.0012499988079071045
+Info 268  [02:26:48.902] Returning an empty list because completion was requested in an invalid position.
+Info 269  [02:26:50.090] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 270  [02:26:50.120] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 29.143709003925323ms
+Info 271  [02:26:50.120] Different program with same set of files
+Info 272  [02:26:50.120] getCompletionData: Get current token: 0.016166001558303833
+Info 273  [02:26:50.120] getCompletionData: Is inside comment: 0.003416985273361206
+Info 274  [02:26:50.120] getCompletionData: Get previous token: 0.0661659836769104
+Info 275  [02:26:50.120] getCompletionsAtPosition: isCompletionListBlocker: 0.002875000238418579
+Info 276  [02:26:50.120] Returning an empty list because completion was requested in an invalid position.
+Info 277  [02:26:50.122] getCompletionData: Get current token: 0.01854097843170166
+Info 278  [02:26:50.122] getCompletionData: Is inside comment: 0.002499997615814209
+Info 279  [02:26:50.122] getCompletionData: Get previous token: 0.06983301043510437
+Info 280  [02:26:50.122] getCompletionsAtPosition: isCompletionListBlocker: 0.0021660029888153076
+Info 281  [02:26:50.122] Returning an empty list because completion was requested in an invalid position.
+Info 282  [02:26:50.123] getCompletionData: Get current token: 0.01670899987220764
+Info 283  [02:26:50.123] getCompletionData: Is inside comment: 0.0021669864654541016
+Info 284  [02:26:50.123] getCompletionData: Get previous token: 0.06470900774002075
+Info 285  [02:26:50.123] getCompletionsAtPosition: isCompletionListBlocker: 0.0017910003662109375
+Info 286  [02:26:50.123] Returning an empty list because completion was requested in an invalid position.
+Info 287  [02:26:50.124] getCompletionData: Get current token: 0.01604202389717102
+Info 288  [02:26:50.124] getCompletionData: Is inside comment: 0.0017920136451721191
+Info 289  [02:26:50.124] getCompletionData: Get previous token: 0.07820799946784973
+Info 290  [02:26:50.124] getCompletionsAtPosition: isCompletionListBlocker: 0.0013749897480010986
+Info 291  [02:26:50.124] Returning an empty list because completion was requested in an invalid position.
+Info 292  [02:26:50.152] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 293  [02:26:50.197] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 44.48308300971985ms
+Info 294  [02:26:50.197] Different program with same set of files
+Info 295  [02:26:50.197] getCompletionData: Get current token: 0.01124998927116394
+Info 296  [02:26:50.197] getCompletionData: Is inside comment: 0.0018329918384552002
+Info 297  [02:26:50.197] getCompletionData: Get previous token: 0.06366601586341858
+Info 298  [02:26:50.197] getCompletionsAtPosition: isCompletionListBlocker: 0.003165990114212036
+Info 299  [02:26:50.197] Returning an empty list because completion was requested in an invalid position.
+Info 300  [02:26:50.201] getCompletionData: Get current token: 0.01129201054573059
+Info 301  [02:26:50.201] getCompletionData: Is inside comment: 0.002083003520965576
+Info 302  [02:26:50.201] getCompletionData: Get previous token: 0.04537501931190491
+Info 303  [02:26:50.201] getCompletionsAtPosition: isCompletionListBlocker: 0.0035839974880218506
+Info 304  [02:26:50.201] Returning an empty list because completion was requested in an invalid position.
+Info 305  [02:26:50.202] getCompletionData: Get current token: 0.011332988739013672
+Info 306  [02:26:50.202] getCompletionData: Is inside comment: 0.004541993141174316
+Info 307  [02:26:50.202] getCompletionData: Get previous token: 0.04558399319648743
+Info 308  [02:26:50.202] getCompletionsAtPosition: isCompletionListBlocker: 0.003500014543533325
+Info 309  [02:26:50.202] Returning an empty list because completion was requested in an invalid position.
+Info 310  [02:26:50.203] getCompletionData: Get current token: 0.010416984558105469
+Info 311  [02:26:50.203] getCompletionData: Is inside comment: 0.0015420019626617432
+Info 312  [02:26:50.203] getCompletionData: Get previous token: 0.04429200291633606
+Info 313  [02:26:50.203] getCompletionsAtPosition: isCompletionListBlocker: 0.001708000898361206
+Info 314  [02:26:50.203] Returning an empty list because completion was requested in an invalid position.
+Info 315  [02:26:50.264] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 316  [02:26:50.283] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 18.64870798587799ms
+Info 317  [02:26:50.283] Different program with same set of files
+Info 318  [02:26:50.283] getCompletionData: Get current token: 0.010625004768371582
+Info 319  [02:26:50.283] getCompletionData: Is inside comment: 0.001667022705078125
+Info 320  [02:26:50.283] getCompletionData: Get previous token: 0.045874983072280884
+Info 321  [02:26:50.283] getCompletionsAtPosition: isCompletionListBlocker: 0.0025410056114196777
+Info 322  [02:26:50.283] Returning an empty list because completion was requested in an invalid position.
+Info 323  [02:26:50.284] getCompletionData: Get current token: 0.010333001613616943
+Info 324  [02:26:50.284] getCompletionData: Is inside comment: 0.0014159977436065674
+Info 325  [02:26:50.284] getCompletionData: Get previous token: 0.043666988611221313
+Info 326  [02:26:50.284] getCompletionsAtPosition: isCompletionListBlocker: 0.001332998275756836
+Info 327  [02:26:50.284] Returning an empty list because completion was requested in an invalid position.
+Info 328  [02:26:50.285] getCompletionData: Get current token: 0.010832995176315308
+Info 329  [02:26:50.285] getCompletionData: Is inside comment: 0.0015839934349060059
+Info 330  [02:26:50.285] getCompletionData: Get previous token: 0.04520800709724426
+Info 331  [02:26:50.285] getCompletionsAtPosition: isCompletionListBlocker: 0.0012499988079071045
+Info 332  [02:26:50.285] Returning an empty list because completion was requested in an invalid position.
+Info 333  [02:26:50.304] getCompletionData: Get current token: 0.010791003704071045
+Info 334  [02:26:50.304] getCompletionData: Is inside comment: 0.0015420019626617432
+Info 335  [02:26:50.304] getCompletionData: Get previous token: 0.050040990114212036
+Info 336  [02:26:50.304] getCompletionsAtPosition: isCompletionListBlocker: 0.001166015863418579
+Info 337  [02:26:50.304] Returning an empty list because completion was requested in an invalid position.
+Info 338  [02:26:50.461] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 339  [02:26:50.478] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 17.222625017166138ms
+Info 340  [02:26:50.479] Different program with same set of files
+Info 341  [02:26:50.479] getCompletionData: Get current token: 0.010416984558105469
+Info 342  [02:26:50.479] getCompletionData: Is inside comment: 0.0013339817523956299
+Info 343  [02:26:50.479] getCompletionData: Get previous token: 0.08512499928474426
+Info 344  [02:26:50.479] getCompletionsAtPosition: isCompletionListBlocker: 0.002084016799926758
+Info 345  [02:26:50.479] Returning an empty list because completion was requested in an invalid position.
+Info 346  [02:26:50.480] getCompletionData: Get current token: 0.011375010013580322
+Info 347  [02:26:50.480] getCompletionData: Is inside comment: 0.0017919838428497314
+Info 348  [02:26:50.480] getCompletionData: Get previous token: 0.044915974140167236
+Info 349  [02:26:50.480] getCompletionsAtPosition: isCompletionListBlocker: 0.0014159977436065674
+Info 350  [02:26:50.480] Returning an empty list because completion was requested in an invalid position.
+Info 351  [02:26:50.481] getCompletionData: Get current token: 0.011083006858825684
+Info 352  [02:26:50.481] getCompletionData: Is inside comment: 0.0017919838428497314
+Info 353  [02:26:50.481] getCompletionData: Get previous token: 0.04249998927116394
+Info 354  [02:26:50.481] getCompletionsAtPosition: isCompletionListBlocker: 0.0020409822463989258
+Info 355  [02:26:50.481] Returning an empty list because completion was requested in an invalid position.
+Info 356  [02:26:50.505] getCompletionData: Get current token: 0.011124998331069946
+Info 357  [02:26:50.505] getCompletionData: Is inside comment: 0.0015000104904174805
+Info 358  [02:26:50.505] getCompletionData: Get previous token: 0.035833001136779785
+Info 359  [02:26:50.505] getCompletionsAtPosition: isCompletionListBlocker: 0.0022089779376983643
+Info 360  [02:26:50.505] Returning an empty list because completion was requested in an invalid position.
+Info 361  [02:26:51.470] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 362  [02:26:51.491] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 21.034457981586456ms
+Info 363  [02:26:51.491] Different program with same set of files
+Info 364  [02:26:51.492] getCompletionData: Get current token: 0.012749999761581421
+Info 365  [02:26:51.492] getCompletionData: Is inside comment: 0.0020409822463989258
+Info 366  [02:26:51.492] getCompletionData: Get previous token: 0.04387497901916504
+Info 367  [02:26:51.492] getCompletionsAtPosition: isCompletionListBlocker: 0.0550839900970459
+Info 368  [02:26:51.492] Returning an empty list because completion was requested in an invalid position.
+Info 369  [02:26:51.493] getCompletionData: Get current token: 0.012625008821487427
+Info 370  [02:26:51.493] getCompletionData: Is inside comment: 0.0017920136451721191
+Info 371  [02:26:51.493] getCompletionData: Get previous token: 0.04249998927116394
+Info 372  [02:26:51.493] getCompletionsAtPosition: isCompletionListBlocker: 0.0019590258598327637
+Info 373  [02:26:51.493] Returning an empty list because completion was requested in an invalid position.
+Info 374  [02:26:51.494] getCompletionData: Get current token: 0.012375026941299438
+Info 375  [02:26:51.494] getCompletionData: Is inside comment: 0.00145798921585083
+Info 376  [02:26:51.494] getCompletionData: Get previous token: 0.04141700267791748
+Info 377  [02:26:51.494] getCompletionsAtPosition: isCompletionListBlocker: 0.0015840232372283936
+Info 378  [02:26:51.494] Returning an empty list because completion was requested in an invalid position.
+Info 379  [02:26:51.501] getCompletionData: Get current token: 0.012499988079071045
+Info 380  [02:26:51.501] getCompletionData: Is inside comment: 0.0013749897480010986
+Info 381  [02:26:51.501] getCompletionData: Get previous token: 0.045625001192092896
+Info 382  [02:26:51.501] getCompletionsAtPosition: isCompletionListBlocker: 0.0014159977436065674
+Info 383  [02:26:51.501] Returning an empty list because completion was requested in an invalid position.
+Info 384  [02:26:51.626] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 385  [02:26:51.644] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 18.265917003154755ms
+Info 386  [02:26:51.644] Different program with same set of files
+Info 387  [02:26:51.644] getCompletionData: Get current token: 0.013375014066696167
+Info 388  [02:26:51.644] getCompletionData: Is inside comment: 0.0016250014305114746
+Info 389  [02:26:51.644] getCompletionData: Get previous token: 0.03408297896385193
+Info 390  [02:26:51.644] getCompletionsAtPosition: isCompletionListBlocker: 0.002750009298324585
+Info 391  [02:26:51.644] Returning an empty list because completion was requested in an invalid position.
+Info 392  [02:26:51.645] getCompletionData: Get current token: 0.013292014598846436
+Info 393  [02:26:51.646] getCompletionData: Is inside comment: 0.001958012580871582
+Info 394  [02:26:51.646] getCompletionData: Get previous token: 0.032166987657547
+Info 395  [02:26:51.646] getCompletionsAtPosition: isCompletionListBlocker: 0.0016669929027557373
+Info 396  [02:26:51.646] Returning an empty list because completion was requested in an invalid position.
+Info 397  [02:26:51.646] getCompletionData: Get current token: 0.011707991361618042
+Info 398  [02:26:51.646] getCompletionData: Is inside comment: 0.0015000104904174805
+Info 399  [02:26:51.646] getCompletionData: Get previous token: 0.028959006071090698
+Info 400  [02:26:51.646] getCompletionsAtPosition: isCompletionListBlocker: 0.0015409886837005615
+Info 401  [02:26:51.646] Returning an empty list because completion was requested in an invalid position.
+Info 402  [02:26:51.647] getCompletionData: Get current token: 0.01233401894569397
+Info 403  [02:26:51.647] getCompletionData: Is inside comment: 0.0015000104904174805
+Info 404  [02:26:51.647] getCompletionData: Get previous token: 0.02983301877975464
+Info 405  [02:26:51.647] getCompletionsAtPosition: isCompletionListBlocker: 0.0015839934349060059
+Info 406  [02:26:51.647] Returning an empty list because completion was requested in an invalid position.
+Info 407  [02:26:51.732] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 408  [02:26:51.750] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 17.17366600036621ms
+Info 409  [02:26:51.750] Different program with same set of files
+Info 410  [02:26:51.750] getCompletionData: Get current token: 0.011832982301712036
+Info 411  [02:26:51.750] getCompletionData: Is inside comment: 0.0015840232372283936
+Info 412  [02:26:51.750] getCompletionData: Get previous token: 0.02979201078414917
+Info 413  [02:26:51.750] getCompletionsAtPosition: isCompletionListBlocker: 0.005540996789932251
+Info 414  [02:26:51.750] Returning an empty list because completion was requested in an invalid position.
+Info 415  [02:26:51.777] getCompletionData: Get current token: 0.013875007629394531
+Info 416  [02:26:51.777] getCompletionData: Is inside comment: 0.0021669864654541016
+Info 417  [02:26:51.777] getCompletionData: Get previous token: 0.03266599774360657
+Info 418  [02:26:51.777] getCompletionsAtPosition: isCompletionListBlocker: 0.005459010601043701
+Info 419  [02:26:51.777] Returning an empty list because completion was requested in an invalid position.
+Info 420  [02:26:51.787] getCompletionData: Get current token: 0.012458980083465576
+Info 421  [02:26:51.787] getCompletionData: Is inside comment: 0.0017919838428497314
+Info 422  [02:26:51.787] getCompletionData: Get previous token: 0.030375003814697266
+Info 423  [02:26:51.787] getCompletionsAtPosition: isCompletionListBlocker: 0.0018330216407775879
+Info 424  [02:26:51.787] Returning an empty list because completion was requested in an invalid position.
+Info 425  [02:26:51.787] getCompletionData: Get current token: 0.011915981769561768
+Info 426  [02:26:51.787] getCompletionData: Is inside comment: 0.001417011022567749
+Info 427  [02:26:51.787] getCompletionData: Get previous token: 0.029666990041732788
+Info 428  [02:26:51.787] getCompletionsAtPosition: isCompletionListBlocker: 0.001166999340057373
+Info 429  [02:26:51.787] Returning an empty list because completion was requested in an invalid position.
+Info 430  [02:26:51.800] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 431  [02:26:51.816] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 16.30970898270607ms
+Info 432  [02:26:51.816] Different program with same set of files
+Info 433  [02:26:51.816] getCompletionData: Get current token: 0.011124998331069946
+Info 434  [02:26:51.816] getCompletionData: Is inside comment: 0.0017919838428497314
+Info 435  [02:26:51.816] getCompletionData: Get previous token: 0.028457999229431152
+Info 436  [02:26:51.816] getCompletionsAtPosition: isCompletionListBlocker: 0.0031670033931732178
+Info 437  [02:26:51.816] Returning an empty list because completion was requested in an invalid position.
+Info 438  [02:26:51.817] getCompletionData: Get current token: 0.0104999840259552
+Info 439  [02:26:51.817] getCompletionData: Is inside comment: 0.0012499988079071045
+Info 440  [02:26:51.817] getCompletionData: Get previous token: 0.045625001192092896
+Info 441  [02:26:51.817] getCompletionsAtPosition: isCompletionListBlocker: 0.0015420019626617432
+Info 442  [02:26:51.817] Returning an empty list because completion was requested in an invalid position.
+Info 443  [02:26:51.844] getCompletionData: Get current token: 0.011709004640579224
+Info 444  [02:26:51.844] getCompletionData: Is inside comment: 0.001667022705078125
+Info 445  [02:26:51.844] getCompletionData: Get previous token: 0.032166987657547
+Info 446  [02:26:51.844] getCompletionsAtPosition: isCompletionListBlocker: 0.0018750131130218506
+Info 447  [02:26:51.844] Returning an empty list because completion was requested in an invalid position.
+Info 448  [02:26:51.869] getCompletionData: Get current token: 0.04633399844169617
+Info 449  [02:26:51.869] getCompletionData: Is inside comment: 0.0014999806880950928
+Info 450  [02:26:51.869] getCompletionData: Get previous token: 0.03095802664756775
+Info 451  [02:26:51.869] getCompletionsAtPosition: isCompletionListBlocker: 0.0015420019626617432
+Info 452  [02:26:51.869] Returning an empty list because completion was requested in an invalid position.
+Info 453  [02:26:51.886] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 454  [02:26:51.902] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 16.013208001852036ms
+Info 455  [02:26:51.902] Different program with same set of files
+Info 456  [02:26:51.903] getCompletionData: Get current token: 0.009207993745803833
+Info 457  [02:26:51.903] getCompletionData: Is inside comment: 0.0015410184860229492
+Info 458  [02:26:51.903] getCompletionData: Get previous token: 0.028583019971847534
+Info 459  [02:26:51.903] getCompletionsAtPosition: isCompletionListBlocker: 0.002750009298324585
+Info 460  [02:26:51.903] Returning an empty list because completion was requested in an invalid position.
+Info 461  [02:26:51.904] getCompletionData: Get current token: 0.009375005960464478
+Info 462  [02:26:51.904] getCompletionData: Is inside comment: 0.0018749833106994629
+Info 463  [02:26:51.904] getCompletionData: Get previous token: 0.026792019605636597
+Info 464  [02:26:51.904] getCompletionsAtPosition: isCompletionListBlocker: 0.002916008234024048
+Info 465  [02:26:51.904] Returning an empty list because completion was requested in an invalid position.
+Info 466  [02:26:51.904] getCompletionData: Get current token: 0.009041011333465576
+Info 467  [02:26:51.904] getCompletionData: Is inside comment: 0.0015000104904174805
+Info 468  [02:26:51.904] getCompletionData: Get previous token: 0.02729099988937378
+Info 469  [02:26:51.904] getCompletionsAtPosition: isCompletionListBlocker: 0.00733301043510437
+Info 470  [02:26:51.904] Returning an empty list because completion was requested in an invalid position.
+Info 471  [02:26:51.905] getCompletionData: Get current token: 0.009166985750198364
+Info 472  [02:26:51.905] getCompletionData: Is inside comment: 0.001417011022567749
+Info 473  [02:26:51.905] getCompletionData: Get previous token: 0.027000010013580322
+Info 474  [02:26:51.905] getCompletionsAtPosition: isCompletionListBlocker: 0.0032500028610229492
+Info 475  [02:26:51.905] Returning an empty list because completion was requested in an invalid position.
+Info 476  [02:27:12.833] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 477  [02:27:12.866] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 31.640625ms
+Info 478  [02:27:12.866] Different program with same set of files
+Info 479  [02:27:12.867] getCompletionData: Get current token: 0.01524999737739563
+Info 480  [02:27:12.867] getCompletionData: Is inside comment: 0.0020410120487213135
+Info 481  [02:27:12.867] getCompletionData: Get previous token: 0.05141600966453552
+Info 482  [02:27:12.867] getCompletionsAtPosition: isCompletionListBlocker: 0.08966699242591858
+Info 483  [02:27:12.872] AutoImportProviderProject: found 1 root files in 1 dependencies in 0.5915410220623016 ms
+Info 484  [02:27:12.872] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 485  [02:27:12.874] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 1.4195420145988464ms
+Info 486  [02:27:12.874] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 487  [02:27:12.874] 	Files (1)
+
+Info 488  [02:27:12.874] -----------------------------------------------
+Info 489  [02:27:12.874] getExportInfoMap: cache miss or empty; calculating new results
+Info 490  [02:27:12.900] forEachExternalModuleToImportFrom autoImportProvider: 0.23541700839996338
+Info 491  [02:27:12.900] getExportInfoMap: done in 28.900667011737823 ms
+Info 492  [02:27:12.905] collectAutoImports: resolved 0 module specifiers, plus 8 ambient and 0 from cache
+Info 493  [02:27:12.905] collectAutoImports: response is complete
+Info 494  [02:27:12.905] collectAutoImports: 4.703542023897171
+Info 495  [02:27:12.905] getCompletionData: Semantic work: 38.27575001120567
+Info 496  [02:27:12.915] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 9.287542015314102
+Info 497  [02:27:13.384] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 498  [02:27:13.418] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 33.816707998514175ms
+Info 499  [02:27:13.418] Different program with same set of files
+Info 500  [02:27:16.427] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 501  [02:27:16.450] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 23.445167005062103ms
+Info 502  [02:27:16.450] Different program with same set of files
+Info 503  [02:27:16.451] getCompletionData: Get current token: 0.016166001558303833
+Info 504  [02:27:16.451] getCompletionData: Is inside comment: 0.002333015203475952
+Info 505  [02:27:16.451] getCompletionData: Get previous token: 0.09762498736381531
+Info 506  [02:27:16.451] getCompletionsAtPosition: isCompletionListBlocker: 0.0729999840259552
+Info 507  [02:27:16.453] getExportInfoMap: cache hit
+Info 508  [02:27:16.457] collectAutoImports: resolved 0 module specifiers, plus 8 ambient and 0 from cache
+Info 509  [02:27:16.457] collectAutoImports: response is complete
+Info 510  [02:27:16.457] collectAutoImports: 2.846457988023758
+Info 511  [02:27:16.457] getCompletionData: Semantic work: 5.831749975681305
+Info 512  [02:27:16.464] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.624833017587662
+Info 513  [02:27:17.076] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 514  [02:27:17.103] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 26.865000009536743ms
+Info 515  [02:27:17.103] Different program with same set of files
+Info 516  [02:27:22.225] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 517  [02:27:22.248] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 22.736624985933304ms
+Info 518  [02:27:22.248] Different program with same set of files
+Info 519  [02:27:22.249] getCompletionData: Get current token: 0.01675000786781311
+Info 520  [02:27:22.249] getCompletionData: Is inside comment: 0.0022909939289093018
+Info 521  [02:27:22.249] getCompletionData: Get previous token: 0.07091701030731201
+Info 522  [02:27:22.249] getCompletionsAtPosition: isCompletionListBlocker: 0.01129201054573059
+Info 523  [02:27:22.251] getExportInfoMap: cache hit
+Info 524  [02:27:22.254] collectAutoImports: resolved 0 module specifiers, plus 8 ambient and 0 from cache
+Info 525  [02:27:22.254] collectAutoImports: response is complete
+Info 526  [02:27:22.255] collectAutoImports: 2.419165998697281
+Info 527  [02:27:22.255] getCompletionData: Semantic work: 5.835332989692688
+Info 528  [02:27:22.262] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.215207993984222
+Info 529  [02:27:22.770] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 530  [02:27:22.794] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 23.23804199695587ms
+Info 531  [02:27:22.794] Different program with same set of files
+Info 532  [02:27:23.337] Format host information updated
+Info 533  [02:27:23.381] Format host information updated
+Info 534  [02:27:23.381] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 535  [02:27:23.398] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 16.76833400130272ms
+Info 536  [02:27:23.398] Different program with same set of files
+Info 537  [02:27:29.796] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 538  [02:27:29.841] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 45.38745799660683ms
+Info 539  [02:27:29.841] Different program with same set of files
+Info 540  [02:27:29.842] getCompletionData: Get current token: 0.01449999213218689
+Info 541  [02:27:29.842] getCompletionData: Is inside comment: 0.0021660029888153076
+Info 542  [02:27:29.842] getCompletionData: Get previous token: 0.08333301544189453
+Info 543  [02:27:29.842] getCompletionsAtPosition: isCompletionListBlocker: 0.004665970802307129
+Info 544  [02:27:29.842] Returning an empty list because completion was requested in an invalid position.
+Info 545  [02:27:29.844] getCompletionData: Get current token: 0.012958019971847534
+Info 546  [02:27:29.844] getCompletionData: Is inside comment: 0.0016669929027557373
+Info 547  [02:27:29.844] getCompletionData: Get previous token: 0.09620901942253113
+Info 548  [02:27:29.844] getCompletionsAtPosition: isCompletionListBlocker: 0.0018340051174163818
+Info 549  [02:27:29.844] Returning an empty list because completion was requested in an invalid position.
+Info 550  [02:27:29.845] getCompletionData: Get current token: 0.013041973114013672
+Info 551  [02:27:29.845] getCompletionData: Is inside comment: 0.002124994993209839
+Info 552  [02:27:29.845] getCompletionData: Get previous token: 0.09708300232887268
+Info 553  [02:27:29.845] getCompletionsAtPosition: isCompletionListBlocker: 0.0029170215129852295
+Info 554  [02:27:29.845] Returning an empty list because completion was requested in an invalid position.
+Info 555  [02:27:29.849] getCompletionData: Get current token: 0.012749999761581421
+Info 556  [02:27:29.849] getCompletionData: Is inside comment: 0.002124994993209839
+Info 557  [02:27:29.849] getCompletionData: Get previous token: 0.05191701650619507
+Info 558  [02:27:29.849] getCompletionsAtPosition: isCompletionListBlocker: 0.002666980028152466
+Info 559  [02:27:29.849] Returning an empty list because completion was requested in an invalid position.
+Info 560  [02:27:30.419] Format host information updated
+Info 561  [02:27:30.512] Format host information updated
+Info 562  [02:27:30.512] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 563  [02:27:30.532] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 20.591749995946884ms
+Info 564  [02:27:30.532] Different program with same set of files
+Info 565  [02:28:15.975] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 566  [02:28:16.009] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 32.872833997011185ms
+Info 567  [02:28:16.009] Different program with same set of files
+Info 568  [02:28:16.033] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 569  [02:28:16.053] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 19.78745800256729ms
+Info 570  [02:28:16.053] Different program with same set of files
+Info 571  [02:28:16.313] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 572  [02:28:16.334] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 20.915292024612427ms
+Info 573  [02:28:16.334] Different program with same set of files
+Info 574  [02:28:18.056] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 575  [02:28:18.075] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 18.966832995414734ms
+Info 576  [02:28:18.075] Different program with same set of files
+Info 577  [02:28:19.514] Format host information updated
+Info 578  [02:28:19.556] Format host information updated
+Info 579  [02:28:19.556] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 580  [02:28:19.574] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 17.594916999340057ms
+Info 581  [02:28:19.574] Different program with same set of files
+Info 582  [02:28:27.456] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 583  [02:28:27.481] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 24.208875000476837ms
+Info 584  [02:28:27.481] Different program with same set of files
+Info 585  [02:28:28.710] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 586  [02:28:28.728] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 18.164292007684708ms
+Info 587  [02:28:28.728] Different program with same set of files
+Info 588  [02:28:29.531] Format host information updated
+Info 589  [02:28:29.569] Format host information updated
+Info 590  [02:28:29.570] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 591  [02:28:29.588] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 18.89445799589157ms
+Info 592  [02:28:29.589] Different program with same set of files
+Info 593  [02:28:35.682] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 594  [02:28:35.706] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 22.186457991600037ms
+Info 595  [02:28:35.706] Different program with same set of files
+Info 596  [02:28:37.236] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 597  [02:28:37.255] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 19.150624990463257ms
+Info 598  [02:28:37.255] Different program with same set of files
+Info 599  [02:28:39.821] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 600  [02:28:39.851] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 30.069082975387573ms
+Info 601  [02:28:39.851] Different program with same set of files
+Info 602  [02:28:40.511] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 603  [02:28:40.541] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 29.8904590010643ms
+Info 604  [02:28:40.541] Different program with same set of files
+Info 605  [02:28:40.994] Format host information updated
+Info 606  [02:28:41.082] Format host information updated
+Info 607  [02:28:41.082] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 608  [02:28:41.101] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 18.364582985639572ms
+Info 609  [02:28:41.101] Different program with same set of files
+Info 610  [02:28:41.633] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 611  [02:28:41.654] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 20.242666989564896ms
+Info 612  [02:28:41.654] Different program with same set of files
+Info 613  [02:28:42.434] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 614  [02:28:42.448] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 14.44404199719429ms
+Info 615  [02:28:42.449] Different program with same set of files
+Info 616  [02:28:42.918] Format host information updated
+Info 617  [02:28:43.008] Format host information updated
+Info 618  [02:28:43.008] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 619  [02:28:43.025] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 16.79195898771286ms
+Info 620  [02:28:43.025] Different program with same set of files
