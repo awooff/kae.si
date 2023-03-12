@@ -7,4 +7,6 @@ tags:
   - language
 ---
 
-The japanese
+![Tokyo Cityscape](/static/img/Japan_bike.jpg)
+
+The japanese language is hard. I'll write this later.
