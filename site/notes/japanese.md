@@ -7,6 +7,6 @@ tags:
   - language
 ---
 
-![Tokyo Cityscape](/static/img/Japan_bike.jpg)
+![Tokyo Cityscape](/static/img/Hiragana.jpg)
 
 The japanese language is hard. I'll write this later.
