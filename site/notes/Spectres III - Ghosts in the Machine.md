@@ -5,7 +5,7 @@ date: 2022-08-30
 tags: 'audio'
 ---
 
-![Spectres](/static/content/img/Spectres.svg)
+![Spectres](/static/icons/Spectres.svg)
 
 In Spectres III - Ghosts in the Machine, we learn about the fundamentals of
 *why* music is the way it is today, understanding the human expectation within music,
