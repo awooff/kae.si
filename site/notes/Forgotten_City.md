@@ -2,6 +2,7 @@
 title: Forgotten City
 description: The ancient tomb of the Mother on R'aekkaton
 date: 2022-09-30
+tags: 'mazamareth'
 ---
 
 An ancient tomb littered with the vestiges of broken [[Vessels]] and livestock long dead.
@@ -24,6 +25,3 @@ in its centerpiece is the palace, a grandiose monolith fashioned from the tail b
 It screams in agony as the winds of the desert pass thru its body
 and its only population are people fashioned out of clay and horrifically decomposing livestock,
 
-[Mother]: Mother.md "Mother"
-[Civilizations]: Civilizations.md "Civilizations"
-[Void]: Void.md "Void"

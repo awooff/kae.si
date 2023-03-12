@@ -9,7 +9,7 @@ tags: 'audio'
 
 Additive synthesis works by composing sound through the combination of sine (or other) sound waves & files.
 Through this technique you can technically generate literally any sound imaginable,
-and even vocode the human voice.
+and even the vocoded human voice.
 
 Essentially, it works by analyzing the waveforms of any given sound file & using a [[Fourier Transform]]
 to plot an incoming linear signal into an oscillator graph composed of thousands of sine waves, in turn approximating the original source to a high degree of accuracy.
@@ -22,8 +22,6 @@ or a kick drum to create a more textured sound, as noted below;
   controls
   source="/static/media/additive_example.mp3"
 />
-
-What makes this such an interesting technique however,
 
 <iframe
   width="560"

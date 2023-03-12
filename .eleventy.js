@@ -192,7 +192,7 @@ module.exports = evc => {
 
         browserSync.addMiddleware('*', (_request, response) => {
           // Provides the 404 content without redirect.
-          resposne.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
+          response.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
           response.write(content_404);
           response.end();
         });

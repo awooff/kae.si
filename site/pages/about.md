@@ -1,6 +1,6 @@
 ---
 title: About
-description: The occular wiki & content engine.
+description: The ocular wiki & content engine.
 layout: layouts/home.njk
 ---
 
@@ -14,7 +14,7 @@ layout: layouts/home.njk
 
 [[Elith]](/elith); derived from Eleutherios[^1]; the greek work anagulous to [Dionysus](<https://en.wikipedia.org/wiki/Dionysus>), is the moniker given to the collection of philosophical beliefs & overall aims to its artistic movement.
 
-The main desire behind Elith is to express of artistic liberty amidst the dehumanising & abject city of London; to provide symbols & media to beget hope and joy, to dissolve one's misery of being alive.
+The main desire behind Elith is to express of artistic liberty amidst the dehumanizing & abject city of London; to provide symbols & media to beget hope and joy, to dissolve one's misery of being alive.
 
 For long, London has provided limited amounts of dedicated spaces for artists to thrive within their own communities, almost none of this is ever shown to the people, creating a distinct dichotomy between expressions of people against expressions of law & overarching power.
 

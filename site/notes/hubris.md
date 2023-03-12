@@ -6,4 +6,4 @@ tags: mazamareth
 ---
 
 A *hubris* is a singular trait leads to (what is normally) a person's downfall.
-Within the world of Mazamareth, the rise and fall of (almost) every civilisation was due to the hubris of one individual.
+Within the world of Mazamareth, the rise and fall of (almost) every civilization was due to the hubris of one individual.
