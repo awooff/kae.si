@@ -1,14 +1,20 @@
 ---
 title: Now
 description: |
-  "Now" pages are meant to give insight into the authors mind.
+  "Now" pages are designed to give insight into the author's mind.
 layout: layouts/home.njk
 tags: ["nav"]
 ---
 
 ![hi :>](/static/img/jupyglitch.png)
 
-We're currently;
+## M03 14 2023 -
+
+- Living in the United Kingdom
+- Working within 0x0zAgency as a web engineer
+- Took a gap year from University
+
+## 2022 -
 
 - Living in the United Kingdom
 - ~~In university, studying music production~~

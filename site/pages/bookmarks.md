@@ -1,7 +1,7 @@
 ---
 title: Bookmarks
 description: The bookmarks directory.
-date: 2022-11-23
+layout: layouts/home.njk
 ---
 
 ## Reading List

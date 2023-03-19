@@ -22,8 +22,6 @@ Like a late mathematician once spoke;
   { {{entry.data.date | readableDate}} } - <a href={{entry.url}}> {{entry.data.title}} </a>
 {% endfor %}
 
-## Friends
+## Contact
 
-{% for friend in friends %}
-  <a href={{friend.url}}>{{friend.name}}</a>
-{% endfor %}
+Get in touch with me [using this un-fancy contact page.](/pages/contact)

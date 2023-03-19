@@ -5,6 +5,7 @@ date: 2022-05-04
 tags:
   - programming
   - dev
+  - post
 ---
 
 We f*** love crystal. ✧\*。ヾ(｡>﹏<｡)ﾉﾞ✧\*。 :syringe:
@@ -56,11 +57,10 @@ shards build -s --no-codegen  17.63s user 1.62s system 98% cpu 19.505 total
 
 {% endraw %}
 
-So, we found the culprit. Noice.
+So, we found the culprit. Nice.
 
 Though, this is where we run into a bit of a problem, and where our opinion on writing this becomes completely invalid (mainly because we have never read a book about compilers) - when you pass code generation through to the compiler, it starts to become less & less dependent on how much code you can compile & link together, and more-so what your code generation algorithm consists of. But why?
 
----
 
 ## Code generation algorithms
 

@@ -1,7 +1,6 @@
 ---
 title: Contact
 description: Where to find us
-order: 4
 layout: layouts/home.njk
 ---
 
@@ -14,3 +13,7 @@ And our address is ~ <a href="mailto:{{site.author.email}}">here!</a>
 m (at) kae (dot) si
 
 ## Socials
+
+{% for link in links %}
+<a href={{link.url}}>{{link.user}} on {{link.name}}</a>
+{% endfor %}
