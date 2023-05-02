@@ -1,18 +1,13 @@
 [
     {
-        "name": "Twitter",
-        "user": "@komakae_",
-        "url": "https://twitter.com/@komakae_"
-    },
+    "name": "Misskey",
+    "user": "@koma@miruku.cafe",
+    "url": "https://miruku.cafe/@koma"
+},
     {
-        "name": "Mastodon",
-        "user": "@koma@koyu.space",
-        "url": "https://koyu.space/@koma"
-    },
-    {
-        "name": "GitLab",
-        "user": "@kaelta_",
-        "url": "https://gitlab.com/kaelta"
+    "name": "GitLab",
+    "user": "@kaelta_",
+    "url": "https://gitlab.com/kaelta"
     },
     {
         "name": "YouTube",

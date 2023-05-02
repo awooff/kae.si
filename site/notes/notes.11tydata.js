@@ -1,7 +1,7 @@
 const {titleCase} = require('title-case');
 
 // This regex finds all wikilinks in a string
-const wikilinkRegExp = /\[\[\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/g;
+const wikilinkRegExp = /\[\[\s?([^[\]|\n\r]+)(\|[^[\]|\n\r]+)?\s?]]/g;
 
 const caselessCompare = (a, b) => a.toLowerCase() === b.toLowerCase();
 
@@ -11,14 +11,14 @@ module.exports = {
 	type: 'note',
 	eleventyComputed: {
 		title: data => titleCase(data.title || data.page.fileSlug),
-		backlinks: data => {
+		backlinks(data) {
 			const notes = data.collections.notes;
 			const currentFileSlug = data.page.filePathStem.replace(
 				'/site/notes/',
 				'',
 			);
 
-			let backlinks = [];
+			const backlinks = [];
 
 			// Search the other notes for backlinks
 			for (const otherNote of notes) {
@@ -40,7 +40,7 @@ module.exports = {
 					outboundLinks.some(link => caselessCompare(link, currentFileSlug))
 				) {
 					// Construct preview for hovercards
-					let preview = noteContent.slice(0, 240);
+					const preview = noteContent.slice(0, 240);
 
 					backlinks.push({
 						url: otherNote.url,

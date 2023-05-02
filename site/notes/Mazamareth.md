@@ -13,7 +13,7 @@ tags: 'mazamareth'
 >An expansive, hollow city floating atop a planet's stormy surface, hollow and screaming, remnants of a civilization that once was; symbiotic brutalist mess with every fleshy tendril seeping into every facet of its works-
 
 The world of Mazamareth is birthed from the [[Nomad]] that holds the story of Project Titan.
-Mazamareth is a universe that holds the story of Project Titan, a story heavily grounded within Hindu mythology about the hubris of humanity & its desire to constantly rewrite its own wrongs in building the foundation for idyllic state of being and pursuit of idyllic relations with self & other civilizations & peoples.
+Mazamareth is a universe that holds the story of [[Project_Titan]], a story heavily grounded within Hindu mythology about the hubris of humanity & its desire to constantly rewrite its own wrongs in building the foundation for idyllic state of being and pursuit of idyllic relations with self & other civilizations & peoples.
 
 It is a world that tells the tale of humanity's [[hubris]] in having the level of cognizance to recognize the failures of other races & [[Civilizations]].
 

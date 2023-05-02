@@ -1,49 +1,41 @@
 [
     {
-        "name": "Some Sunset",
-        "description": "It's been so long since we drew this, can't remember what we were imagining. Divinity? Fear?\n Considering we were pre-transition it was most likely some idealised masculine concept anyway.",
-        "date": "2020-04-18",
-        "motifs": ["landscape", "nothing"],
-        "url": "/static/content/art/some_sunset.jpg"
-    },
-
-    {
-        "name": "The Oedipus",
-        "description": "It's been so long since we drew this, can't remember what we were imagining. Divinity? Fear?\n Considering we were pre-transition it was most likely some idealised masculine concept anyway.",
-        "date": "2020-04-18",
-        "motifs": ["antithesis", "character", "horns"],
-        "url": "/static/content/art/demonhead.jpg"
-    },
-    {
-        "name": "Eden",
+        "title": "Eden",
         "description": "The first art piece we've done in a 2-3 hour coke trip. \nOur hand simply was controlled by Jupiter, to tell her stories and express the foundation of our beliefs. Our genesis.",
         "date": "2022-03-28",
         "motifs": ["diamonds", "eyes", "loneliness", "beauty"],
         "url": "/static/content/art/eden.jpg"
     },
     {
-        "name": "The Father | Entity Studies",
+        "title": "The Oedipus",
+        "description": "It's been so long since we drew this, can't remember what we were imagining. Divinity? Fear?\n Considering we were pre-transition it was most likely some idealised masculine concept anyway.",
+        "date": "2020-04-18",
+        "motifs": ["antithesis", "character", "horns"],
+        "url": "/static/content/art/demonhead.jpg"
+    },
+    {
+        "title": "The Father | Entity Studies",
         "description": "The Father.",
         "date": "2022-04-18",
         "motifs": ["antithesis", "character", "horns"],
         "url": "/static/content/art/simple_masc_soul_study.jpg"
     },
     {
-        "name": "The Mother | Entity Studies",
+        "title": "The Mother | Entity Studies",
         "description": "The mother. Within her lay the worms burrowing through skin, carriers of the blood - life. The creation feeds off the worms, carried by them, sustained by them. The mother is drained. Her “eye” is a mirror in which can only be shown the self in multiplicity, the strata of self laid bare - in doing so she nurtures the creation’s evolution so they grow to serve and iterate; to spread the untrimmed - the worms of the mother unto others so others may be redeemed in the mothers light.\n She plants seeds - potentiality in which flowers; strata are birthed, the strata feed the worms, feeding the child. Her being is as that of a garden, one in which must be trimmed and tended to - nurtured to nurture others, and thus she serves within a means of which her final service is of that as a corpse of which we feed upon as vultures, tearing her pieces to shreds - bring back heaven to earth so we may redeem her, in doing so her agony is complete, the corpse laid to rest.",
         "date": "2022-05-15",
         "motifs": ["agony", "character", "perception", "eyes", "loneliness", "life", "beauty"],
         "url": "/static/content/art/mother_study_detailed.jpg"
     },
     {
-        "name": "The Mother's Eye | Entity Studies",
+        "title": "The Mother's Eye | Entity Studies",
         "description": "Basic study of her eye. The eye begets perception, the gateway in which we observe the beauty of multiplicity within creation - to seek patterns and emerge iteration unto which we further life & the evolution of man.",
         "date": "2022-05-15",
         "motifs": ["eyes", "perception", "beauty"],
         "url": "/static/content/art/mothers_eye.jpg"
     },
     {
-        "name": "Negative Space Kitty",
+        "title": "Negative Space Kitty",
         "description": "Tag done of a negative space cat in Waterloo.",
         "date": "2022-07-13",
         "motifs": ["graffiti", "beauty"],

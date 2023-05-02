@@ -10,7 +10,7 @@
     "url": "git://gitlab.com/kaelta/kaeforest.git"
   },
   "author": {
-    "name": "kaelta",
+    "name": "Koma",
     "email": "m@kae.si",
     "url": "https://kae.si/"
   },
@@ -22,7 +22,8 @@
     "start": "npm-run-all build:stylus --parallel watch:*",
     "build": "npm-run-all build:* --parallel",
     "debug": "DEBUG=* eleventy",
-    "lint": "xo --fix"
+    "lint": "xo --fix",
+    "test": "xo"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
@@ -37,8 +38,6 @@
     "markdown-it-emoji": "^2.0.2",
     "markdown-it-replace-link": "^1.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.6.1",
-    "prettier-config-xo": "^2.0.0",
     "stylus": "^0.57.0",
     "xo": "^0.48.0"
   },

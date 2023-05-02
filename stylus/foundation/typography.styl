@@ -16,6 +16,10 @@ p
   margin .85rem 0
   padding-top 4px
   padding-bottom 4px
+  >code
+    border 1px grullo dashed
+    font-style italic
+    font-family display_font
 
 // Cute hack we found for scaling header tags programatically~
 for i in (1..6)
@@ -29,14 +33,15 @@ small
 pre
   white-space wrap
 
+i
+  font-style italic
+  
+em
+  font-style bold
+
 time
   font-family mono_font
   font-weight 100
-
-p>code
-  border 1px grullo dashed
-  font-style italic
-  font-family display_font
 
 strong
   font-weight 600
@@ -79,7 +84,7 @@ ol
     &:before
       content none
 
-ul>li:not(.sidebar__link)
+ul >li:not(.sidebar__link)
   list-style-type "  –  "
 
 hr
@@ -104,7 +109,7 @@ small
   font-display small-caps
   line-height 1.2
 
-details>summary
+details >summary
   display flex
   flex-direction row
   padding 2px 
@@ -155,6 +160,6 @@ figcaption
 
 @-webkit-keyframes glow
   from
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   to
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
