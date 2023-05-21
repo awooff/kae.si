@@ -10,7 +10,7 @@ permalink: /tags/
 <div style="display: flex; overflow-x: scroll;">
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <button class=''>
+  <button>
     <a href={{tagUrl | url}}>[{{tag}}]</a>
   </button>
 {% endfor %}
