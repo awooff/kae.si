@@ -2,6 +2,7 @@
 title: Audio
 description: Selected audio works & production.
 permalink: /audio/
+date: 2022-04-12
 tags:
   - nav
   - pages
