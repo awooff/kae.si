@@ -1,54 +1,53 @@
 {
-  "name": "kaeforest",
-  "version": "1.1.0",
-  "description": "A wiki & mind garden.",
-  "license": "ISC",
-  "prettier": "prettier-config-xo",
-  "module": "node",
-  "repository": {
-    "type": "git",
-    "url": "git://gitlab.com/kaelta/kaeforest.git"
-  },
-  "author": {
-    "name": "Koma",
-    "email": "m@kae.si",
-    "url": "https://kae.si/"
-  },
-  "scripts": {
-    "watch:stylus": "stylus -w -o _www/css ./stylus/",
-    "build:stylus": "stylus -c -o _www/css ./stylus/",
-    "watch:eleventy": "eleventy --serve",
-    "build:eleventy": "eleventy",
-    "start": "npm-run-all build:stylus --parallel watch:*",
-    "build": "npm-run-all build:* --parallel",
-    "debug": "DEBUG=* eleventy",
-    "lint": "xo --fix",
-    "test": "xo"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-img": "^2.0.0",
-    "@11ty/eleventy-navigation": "^0.3.2",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
-    "autoprefixer": "^10.4.5",
-    "luxon": "^2.3.1",
-    "markdown-it": "^12.3.2",
-    "markdown-it-anchor": "^8.6.2",
-    "markdown-it-emoji": "^2.0.2",
-    "markdown-it-replace-link": "^1.1.0",
-    "npm-run-all": "^4.1.5",
-    "stylus": "^0.57.0",
-    "xo": "^0.48.0"
-  },
-  "dependencies": {
-    "@11ty/eleventy-plugin-directory-output": "^1.0.1",
-    "axios": "^0.27.2",
-    "dotenv": "^16.0.0",
-    "eleventy-plugin-toc": "^1.1.5",
-    "markdown-it-footnote": "^3.0.3",
-    "markdown-it-ins": "^3.0.1",
-    "markdown-it-math": "^4.1.1",
-    "title-case": "^3.0.3"
-  }
+    "name": "kaeforest",
+    "version": "1.1.0",
+    "description": "A wiki & mind garden.",
+    "license": "ISC",
+    "module": "node",
+    "repository": {
+        "type": "git",
+        "url": "git://gitlab.com/kaelta/kaeforest.git"
+    },
+    "author": {
+        "name": "Koma",
+        "email": "m@kae.si",
+        "url": "https://kae.si/"
+    },
+    "scripts": {
+        "watch:stylus": "stylus -w -o _www/css ./stylus/",
+        "build:stylus": "stylus -c -o _www/css ./stylus/",
+        "watch:eleventy": "eleventy --serve",
+        "build:eleventy": "eleventy",
+        "start": "npm-run-all build:stylus --parallel watch:*",
+        "build": "npm-run-all build:* --parallel",
+        "debug": "DEBUG=* eleventy",
+        "lint": "xo --fix",
+        "test": "xo"
+    },
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.0",
+        "@11ty/eleventy-img": "^2.0.0",
+        "@11ty/eleventy-navigation": "^0.3.2",
+        "@11ty/eleventy-plugin-rss": "^1.1.2",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+        "autoprefixer": "^10.4.5",
+        "luxon": "^2.3.1",
+        "markdown-it": "^12.3.2",
+        "markdown-it-anchor": "^8.6.2",
+        "markdown-it-emoji": "^2.0.2",
+        "markdown-it-replace-link": "^1.1.0",
+        "npm-run-all": "^4.1.5",
+        "stylus": "^0.57.0",
+        "xo": "^0.48.0"
+    },
+    "dependencies": {
+        "@11ty/eleventy-plugin-directory-output": "^1.0.1",
+        "axios": "^0.27.2",
+        "dotenv": "^16.0.0",
+        "eleventy-plugin-toc": "^1.1.5",
+        "markdown-it-footnote": "^3.0.3",
+        "markdown-it-ins": "^3.0.1",
+        "markdown-it-math": "^4.1.1",
+        "title-case": "^3.0.3"
+    }
 }

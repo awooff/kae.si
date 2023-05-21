@@ -1,8 +1,4 @@
 -button(accent)
-  @media (prefers-color-scheme dark)
-    color sky
-    border-color blush
-  color accent
   background-color accent
   border-radius 6px
   box-shadow 2px
@@ -24,9 +20,10 @@
   text-decoration none
 
 button
-  -button(grullo)
+  -button(white)
   &.success
     -button(charcoal)
+    color white
   &.fail
     -button(rose)
   &.alert
