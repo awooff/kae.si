@@ -21,13 +21,13 @@ After seeing the dysfunctional state of the core worlds; empires vying for contr
 To fuel the strife of rebel armies, disgruntled politicians and underequipped militaries, they would send in agents acting as independant traders; at first, selling to individual soldiers, to regiments, to entire companies, hoping to gain the attention of the army general while avoiding the detection of the main planet's government.
 This tactic allowed them to turn the events of political conflicts to their favour - in many cases, positioning themselves in seats of power within these worlds, further solidifying themselves as worthy tradesmen within the core worlds.
 
-After investing heavily into military technology, they would eventually be contracted to create the first Titans by the [[CFS]], in order to create a synthetic being to interface with [[Void]] essence, and control it.
+After investing heavily into military technology, they would eventually be contracted to create the first [[Titans]] by the [[CFS]], in order to create a synthetic being to interface with [[Void]] essence, and control it.
 To develop such a technology would be no easy feat. It took the Mantes decades of research in conjunction with their newly betrothed business partners, becoming quite close with many oligarchs and aristocrats within the [[CFS]].
 
 Spies within the [[JRS]] would soon catch wind of their plans; seeing their colonial masters construct a project that would surely become their demise, and would be one of the many factors to secretly build their underground resistance force.
 
-This would eventually become one of the many events leading to [[Project_Titan]].
+This would eventually become one of the many events leading to the circumstances that befell [[Project_Titan]].
 
 ## Habitat(s) ##
 
-In the East; a sprawling, spiralling kingdom residing upon now, ashen, fortified acacia, their houses situated as though they were thrones built upon the withered corpse of Gaia.
+In the East; a sprawling, spiralling kingdom residing upon now, ashen, fortified acacia, their residence situated as thrones built upon the withered corpse of Gaia.
