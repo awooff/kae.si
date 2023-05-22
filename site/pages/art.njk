@@ -1,0 +1,25 @@
+---
+title: Art
+description: Art under the KaeX moniker.
+eleventyNavigation:
+  key: Art
+  order: 2
+tags: nav
+---
+
+{% for piece in art %}
+  <figure>
+    <img 
+      src={{ piece.url }}
+      alt={{ piece.description }}
+      width="332px"
+      object-fit="cover"
+    />
+    <figcaption>
+      <cite>
+        <em><i>{{ piece.title }}</i></em> -
+      </cite>
+      {{ piece.description }}
+    </figcaption>
+  </figure>
+{% endfor %}
