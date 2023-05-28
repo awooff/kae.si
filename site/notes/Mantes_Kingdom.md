@@ -2,6 +2,7 @@
 title: Mantes Kingodm
 description: Der Undertag der Mantes.
 date: 2023-05-21
+tags: mazamareth
 ---
 
 > Upon a sea of black, yea we pranced into the chasms of the cold Abyss. Whether a new world awaited the merry dwellers of wandering monuments, or the undoing of our selves, we knew not. Hitherto we had suffered at the hands of our greatest foes; those damned altruistic curates; belay us further our sins - nay, holy divination, nay the relentless force of glistening purple in black, or rebel order. "Plutus! Spare these children your will - their impertinence shrouded by veils of your delusion, they know not what they venture to."
